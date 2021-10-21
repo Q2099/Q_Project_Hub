@@ -46,12 +46,12 @@
 }
 
 @media(max-width: 480px){
-.flexbox-75{width: calc(100%);}
-.flexbox-50{width: calc(100%);}
-.flexbox-33{width: calc(100%);}
-.flexbox-25{width: calc(100%);}
-.flexbox-20{width: calc(100%);}
-.flexbox-12{width: calc(100%);}
+.fbx-75{width: calc(100%);}
+.fbx-50{width: calc(100%);}
+.fbx-33{width: calc(100%);}
+.fbx-25{width: calc(100%);}
+.fbx-20{width: calc(100%);}
+.fbx-12{width: calc(100%);}
 
 .m-reverse-col{flex-direction: column-reverse;}
 .m-reverse-row{flex-direction: row-reverse;} 

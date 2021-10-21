@@ -39,6 +39,7 @@
 .fbx-20{width: calc(50% - 20px);}
 .fbx-12{width: calc(20% - 20px);}
 
+ .t-break-all{width: calc(100%);} 
 .text-right{text-align:center;}
 .text-left{text-align:center;}  
 .t-reverse-col{flex-direction: column-reverse;}

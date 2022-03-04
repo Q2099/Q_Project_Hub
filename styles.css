@@ -2,11 +2,12 @@
 .flexbox{display: flex;flex-wrap: wrap;width: 100%;padding: 10px;}
 .fbx-100{width: calc(100% - 20px);padding: 0 5px;}
 .fbx-75{width: calc(75% - 20px);padding: 0 5px;}
-.fbx-50{width: calc(50% - 20px);padding: 0 5px;}
-.fbx-33{width: calc(33.333% - 20px);padding: 0 5px;}
-.fbx-25{width: calc(25% - 20px);padding: 0 5px;}
-.fbx-20{width: calc(20% - 20px);padding: 0 5px;}
-.fbx-12{width: calc(12.5% - 20px);padding: 0 5px;}
+.fbx-50{width: calc(50% - 20px);padding: 0 5px;} /*2 column*/
+.fbx-33{width: calc(33.333% - 20px);padding: 0 5px;} /*3 column*/
+.fbx-25{width: calc(25% - 20px);padding: 0 5px;} /*4 column*/
+.fbx-20{width: calc(20% - 20px);padding: 0 5px;}/*5 column*/
+.fbx-16{width: calc(16.667% - 20px);padding: 0 5px;}/*6 column*/
+.fbx-12{width: calc(12.5% - 20px);padding: 0 5px;}/*8 column*/
 
 /*BOX ALIGNMENTS*/
 .h-box-left{ justify-content:flex-start;}
@@ -37,6 +38,7 @@
 .fbx-33{width: calc(50% - 20px);}  
 .fbx-25{width: calc(50% - 20px);}
 .fbx-20{width: calc(50% - 20px);}
+.fbx-16{width: calc(33.333% - 20px);}  
 .fbx-12{width: calc(20% - 20px);}
 
 
@@ -54,9 +56,14 @@
 .fbx-33{width: calc(100%);}
 .fbx-25{width: calc(100%);}
 .fbx-20{width: calc(100%);}
+.fbx-16{width: calc(50% - 20px);}  
 .fbx-12{width: calc(100%);}
 
 /*MOBILE SPECIFIC STYLES*/  
 .m-reverse-col{flex-direction: column-reverse;}
 .m-reverse-row{flex-direction: row-reverse;} 
+}
+
+@media(max-width: 320px){
+  .fbx-16{width: calc(100%);} 
 }

@@ -60,15 +60,69 @@
 /*PC.DE*/
 @font-face {
   font-family: "PC.DE";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/pc debold.ttf")
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/PC_DE-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PC.DE";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/pc de-bold.ttf")
     format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 /*Nightlife*/
+@font-face {
+  font-family: "Nightlife";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Nightlife-Light.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nightlife";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Nightlife-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nightlife";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Nightlife-Bold.ttf")
+    format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
 
 /*Passion One*/
+@font-face {
+  font-family: "Passion One";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/PassionOne-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Passion One";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/PassionOne-Bold.ttf")
+    format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Passion One";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/PassionOne-Black.ttf")
+    format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
 
 /*OTHERS*/
 
@@ -83,6 +137,25 @@
 }
 
 /*Font Classes*/
+.Arvo {
+  font-family: "Arvo" !important;
+}
+
+.passion-one {
+  font-family: "Helvetic Neue" !important;
+}
+
+.pc_de {
+  font-family: "PC.DE" !important;
+}
+
+.Nightlife {
+  font-family: "Nightlife" !important;
+}
+
+.passion-one {
+  font-family: "Passion One" !important;
+}
 
 .inversionz {
   font-family: "Inversionz Unboxed" !important;

@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Inversionz Unboxed";
+  src: url("https://github.com/Q2099/Q_Project_Hub/blob/a45d1a863bfe2db8b0c152112b157fd85bd2c662/Inversionz%20Unboxed.ttf");
+}
+
+.inversionz {
+  font-family: "Inversionz Unboxed" !important;
+}
+
+@font-face {
+  font-family: "No Continue";
+  src: url("https://github.com/Q2099/Q_Project_Hub/blob/00aafa4a6bda3040882cc8530395d5fbc035c620/gomarice_no_continue.ttf");
+}
+
+.no_continue {
+  font-family: "No Continue" !important;
+}

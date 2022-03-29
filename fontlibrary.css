@@ -1,15 +1,91 @@
+/*Font Queries*/
+
+/*ARVO*/
+@font-face {
+  font-family: "Arvo";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Arvo-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Arvo";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Arvo-Bold.ttf")
+    format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/*HELVETICA NEUE*/
+@font-face {
+  font-family: "Helvetic Neue";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Helvetica Neue Thin.ttf")
+    format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetic Neue";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Helvetica Neue light.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetic Neue";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Helvetica Neue Medium.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetic Neue";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Helvetica Neue Bold")
+    format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetic Neue";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Helvetica Neue BlackCond.ttf")
+    format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+/*PC.DE*/
+@font-face {
+  font-family: "PC.DE";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/pc debold.ttf")
+    format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/*Nightlife*/
+
+/*Passion One*/
+
+/*OTHERS*/
+
 @font-face {
   font-family: "Inversionz Unboxed";
   src: url("https://q2099.github.io/Q_Project_Hub/fonts/Inversionz%20Unboxed.ttf");
 }
 
-.inversionz {
-  font-family: "Inversionz Unboxed" !important;
-}
-
 @font-face {
   font-family: "No Continue";
   src: url("https://q2099.github.io/Q_Project_Hub/fonts/gomarice_no_continue.ttf");
+}
+
+/*Font Classes*/
+
+.inversionz {
+  font-family: "Inversionz Unboxed" !important;
 }
 
 .no_continue {

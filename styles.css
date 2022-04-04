@@ -2,6 +2,7 @@
 .flexbox{display: flex;flex-wrap: wrap;width: 100%;padding: 10px;}
 .fbx-100{width: calc(100% - 20px);padding: 0 5px;}
 .fbx-75{width: calc(75% - 20px);padding: 0 5px;}
+.fbx-66{width: calc(66.667% - 20px);padding: 0 5px;}
 .fbx-50{width: calc(50% - 20px);padding: 0 5px;} /*2 column*/
 .fbx-33{width: calc(33.333% - 20px);padding: 0 5px;} /*3 column*/
 .fbx-25{width: calc(25% - 20px);padding: 0 5px;} /*4 column*/
@@ -35,6 +36,7 @@
 @media(max-width: 768px){
 .fbx-75{width: calc(50% - 20px);}
 .fbx-50{width: calc(100%);}
+.fbx-66{width: calc(50% - 20px);}   
 .fbx-33{width: calc(50% - 20px);}  
 .fbx-25{width: calc(50% - 20px);}
 .fbx-20{width: calc(50% - 20px);}
@@ -53,6 +55,7 @@
 @media(max-width: 480px){
 .fbx-75{width: calc(100%);}
 .fbx-50{width: calc(100%);}
+.fbx-66{width: calc(100%);}
 .fbx-33{width: calc(100%);}
 .fbx-25{width: calc(100%);}
 .fbx-20{width: calc(100%);}

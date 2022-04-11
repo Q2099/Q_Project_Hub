@@ -88,7 +88,7 @@
 
 /*HELVETICA NEUE*/
 @font-face {
-  font-family: "Helvetic Neue";
+  font-family: "Helvetica Neue";
   src: url("https://q2099.github.io/Q_Project_Hub/fonts/Helvetica Neue Thin.ttf")
     format("truetype");
   font-weight: 200;
@@ -96,7 +96,7 @@
 }
 
 @font-face {
-  font-family: "Helvetic Neue";
+  font-family: "Helvetica Neue";
   src: url("https://q2099.github.io/Q_Project_Hub/fonts/Helvetica Neue light.ttf")
     format("truetype");
   font-weight: 300;
@@ -104,7 +104,7 @@
 }
 
 @font-face {
-  font-family: "Helvetic Neue";
+  font-family: "Helvetica Neue";
   src: url("https://q2099.github.io/Q_Project_Hub/fonts/Helvetica Neue Medium.ttf")
     format("truetype");
   font-weight: normal;
@@ -112,7 +112,7 @@
 }
 
 @font-face {
-  font-family: "Helvetic Neue";
+  font-family: "Helvetica Neue";
   src: url("https://q2099.github.io/Q_Project_Hub/fonts/Helvetica Neue Bold")
     format("truetype");
   font-weight: bold;
@@ -120,7 +120,7 @@
 }
 
 @font-face {
-  font-family: "Helvetic Neue";
+  font-family: "Helvetica Neue";
   src: url("https://q2099.github.io/Q_Project_Hub/fonts/Helvetica Neue BlackCond.ttf")
     format("truetype");
   font-weight: 900;
@@ -202,7 +202,7 @@
 
 @font-face {
   font-family: "No Continue";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/gomarice_no_continue.ttf");
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/cc580921102c8296b5f2f65ec23903848c4493f0/fonts/gomarice_no_continue.ttf");
 }
 
 /*Font Classes*/

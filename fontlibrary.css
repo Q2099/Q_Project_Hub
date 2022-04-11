@@ -20,7 +20,7 @@
 /*BEBAS NEUE*/
 
 @font-face {
-  font-family: "Bebas";
+  font-family: "Bebas Neue Pro";
   src: url("https://q2099.github.io/Q_Project_Hub/fonts/BebasNeuePro-Thin.ttf") format("truetype");
   font-weight: 100;
   font-style: normal;
@@ -234,6 +234,6 @@
   font-family: "No Continue" !important;
 }
 
-.bebas {
-  font-family: "Bebas" !important;
+.bebas_neue {
+  font-family: "Bebas Neue Pro" !important;
 }

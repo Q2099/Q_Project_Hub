@@ -21,67 +21,67 @@
 
 @font-face {
   font-family: "Bebas Neue Pro";
-  src: url("BebasNeuePro-Thin.ttf") format("truetype");
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/BebasNeuePro-Thin.ttf") format("truetype");
   font-weight: 100;
   font-style: normal;
 }
 @font-face {
   font-family: "Bebas Neue Pro";
-  src:url("BebasNeuePro-ThinItalic.ttf") format("truetype");
+  src:url("https://q2099.github.io/Q_Project_Hub/fonts/BebasNeuePro-ThinItalic.ttf") format("truetype");
   font-weight: 100;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Bebas Neue Pro";
-  src: url("BebasNeuePro-Book.ttf") format("truetype");
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/BebasNeuePro-Book.ttf") format("truetype");
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Bebas Neue Pro";
-  src: url("BebasNeuePro-BookItalic.ttf") format("truetype");
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/BebasNeuePro-BookItalic.ttf") format("truetype");
   font-weight: 200;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Bebas Neue Pro";
-  src: url("BebasNeuePro-Light.ttf") format("truetype");
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/BebasNeuePro-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "Bebas Neue Pro";
-  src: url("BebasNeuePro-LightItalic.ttf") format("truetype");
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/BebasNeuePro-LightItalic.ttf") format("truetype");
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Bebas Neue Pro";
-  src: url("BebasNeuePro-Italic.ttf") format("truetype");
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/BebasNeuePro-Italic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic;
 }
 @font-face {
   font-family: "Bebas Neue Pro";
-  src: url("BebasNeuePro-Regular.ttf") format("truetype");
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/BebasNeuePro-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Bebas Neue Pro";
-  src: url("BebasNeuePro-Bold.ttf") format("truetype");
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/BebasNeuePro-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Bebas Neue Pro";
-  src: url("BebasNeuePro-BoldItalic.ttf") format("truetype");
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/BebasNeuePro-BoldItalic.ttf") format("truetype");
   font-weight: bold;
   font-style: italic;
 }

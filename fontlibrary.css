@@ -11,7 +11,7 @@
 
 @font-face {
   font-family: "Arvo";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Arvo-Bold.ttf")
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/cc580921102c8296b5f2f65ec23903848c4493f0/fonts/Arvo-Bold.ttf")
     format("truetype");
   font-weight: bold;
   font-style: normal;
@@ -89,7 +89,7 @@
 /*HELVETICA NEUE*/
 @font-face {
   font-family: "Helvetica Neue";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Helvetica Neue Thin.ttf")
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/cc580921102c8296b5f2f65ec23903848c4493f0/fonts/HelveticaNeue Thin.ttf")
     format("truetype");
   font-weight: 200;
   font-style: normal;
@@ -97,7 +97,7 @@
 
 @font-face {
   font-family: "Helvetica Neue";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Helvetica Neue light.ttf")
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/cc580921102c8296b5f2f65ec23903848c4493f0/fonts/HelveticaNeue Light.ttf")
     format("truetype");
   font-weight: 300;
   font-style: normal;
@@ -105,7 +105,7 @@
 
 @font-face {
   font-family: "Helvetica Neue";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Helvetica Neue Medium.ttf")
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/cc580921102c8296b5f2f65ec23903848c4493f0/fonts/HelveticaNeue Medium.ttf")
     format("truetype");
   font-weight: normal;
   font-style: normal;
@@ -113,7 +113,7 @@
 
 @font-face {
   font-family: "Helvetica Neue";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Helvetica Neue Bold")
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/cc580921102c8296b5f2f65ec23903848c4493f0/fonts/Helvetica Neu Bold.ttf")
     format("truetype");
   font-weight: bold;
   font-style: normal;
@@ -121,7 +121,7 @@
 
 @font-face {
   font-family: "Helvetica Neue";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Helvetica Neue BlackCond.ttf")
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/cc580921102c8296b5f2f65ec23903848c4493f0/fonts/HelveticaNeue BlackCond.ttf")
     format("truetype");
   font-weight: 900;
   font-style: normal;
@@ -129,7 +129,7 @@
 /*PC.DE*/
 @font-face {
   font-family: "PC.DE";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/PC_DE-Regular.ttf")
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/a8af9f52439d350233bdbe909a02596c8847f121/fonts/PC_DE-Regular.ttf")
     format("truetype");
   font-weight: normal;
   font-style: normal;
@@ -137,7 +137,7 @@
 
 @font-face {
   font-family: "PC.DE";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/pc de-bold.ttf")
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/cc580921102c8296b5f2f65ec23903848c4493f0/fonts/pc de-bold.ttf")
     format("truetype");
   font-weight: bold;
   font-style: normal;
@@ -146,7 +146,7 @@
 /*Nightlife*/
 @font-face {
   font-family: "Nightlife";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Nightlife-Light.ttf")
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/cc580921102c8296b5f2f65ec23903848c4493f0/fonts/Nightlife-Light.ttf")
     format("truetype");
   font-weight: 300;
   font-style: normal;
@@ -154,7 +154,7 @@
 
 @font-face {
   font-family: "Nightlife";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Nightlife-Regular.ttf")
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/cc580921102c8296b5f2f65ec23903848c4493f0/fonts/Nightlife-Regular.ttf")
     format("truetype");
   font-weight: normal;
   font-style: normal;
@@ -162,7 +162,7 @@
 
 @font-face {
   font-family: "Nightlife";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Nightlife-Bold.ttf")
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/cc580921102c8296b5f2f65ec23903848c4493f0/fonts/Nightlife-Bold.ttf")
     format("truetype");
   font-weight: 700;
   font-style: normal;
@@ -171,7 +171,7 @@
 /*Passion One*/
 @font-face {
   font-family: "Passion One";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/PassionOne-Regular.ttf")
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/cc580921102c8296b5f2f65ec23903848c4493f0/fonts/PassionOne-Regular.ttf")
     format("truetype");
   font-weight: normal;
   font-style: normal;
@@ -179,7 +179,7 @@
 
 @font-face {
   font-family: "Passion One";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/PassionOne-Bold.ttf")
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/cc580921102c8296b5f2f65ec23903848c4493f0/fonts/PassionOne-Bold.ttf")
     format("truetype");
   font-weight: bold;
   font-style: normal;
@@ -187,7 +187,7 @@
 
 @font-face {
   font-family: "Passion One";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/PassionOne-Black.ttf")
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/cc580921102c8296b5f2f65ec23903848c4493f0/fonts/PassionOne-Bold.ttf")
     format("truetype");
   font-weight: 900;
   font-style: normal;
@@ -197,7 +197,7 @@
 
 @font-face {
   font-family: "Inversionz Unboxed";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Inversionz%20Unboxed.ttf");
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/cc580921102c8296b5f2f65ec23903848c4493f0/fonts/Inversionz Unboxed.ttf");
 }
 
 @font-face {

@@ -54,7 +54,7 @@
 .t-reverse-row{flex-direction: row-reverse;}  
 }
 
-@media(max-width: 480px){
+@media(max-width: 550px){
 .fbx-84{width: calc(100%);}
 .fbx-75{width: calc(100%);}
 .fbx-50{width: calc(100%);}

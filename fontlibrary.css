@@ -197,132 +197,68 @@
 
 @font-face {
   font-family: "Heroic Condensed";
-  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/c4ce57d9dc991b2382aee33e816d72ab660ad580/fonts/Heroic%20Condensed%20Thin.ttf")
-    format("truetype");
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/c4ce57d9dc991b2382aee33e816d72ab660ad580/fonts/Heroic%20Condensed%20Thin.ttf") format("truetype");
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Heroic Condensed";
-  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/c4ce57d9dc991b2382aee33e816d72ab660ad580/fonts/Heroic%20Condensed%20Thin%20Oblique.ttf")
-    format("truetype");
-  font-weight: 100;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Heroic Condensed";
-  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/c4ce57d9dc991b2382aee33e816d72ab660ad580/fonts/Heroic%20Condensed%20Light.ttf")
-    format("truetype");
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/c4ce57d9dc991b2382aee33e816d72ab660ad580/fonts/Heroic%20Condensed%20Light.ttf") format("truetype");
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Heroic Condensed";
-  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/c4ce57d9dc991b2382aee33e816d72ab660ad580/fonts/Heroic%20Condensed%20Light%20Oblique.ttf")
-    format("truetype");
-  font-weight: 200;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Heroic Condensed";
-  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/c4ce57d9dc991b2382aee33e816d72ab660ad580/fonts/Heroic%20Condensed%20Book.ttf")
-    format("truetype");
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/c4ce57d9dc991b2382aee33e816d72ab660ad580/fonts/Heroic%20Condensed%20Book.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 
-@font-face {
-  font-family: "Heroic Condensed";
-  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/c4ce57d9dc991b2382aee33e816d72ab660ad580/fonts/Heroic%20Condensed%20Book%20Oblique.ttf")
-    format("truetype");
-  font-weight: 300;
-  font-style: italic;
-}
 
 @font-face {
   font-family: "Heroic Condensed";
-  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/c4ce57d9dc991b2382aee33e816d72ab660ad580/fonts/Heroic%20Condensed%20Regular.ttf)
-    format("truetype");
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/c4ce57d9dc991b2382aee33e816d72ab660ad580/fonts/Heroic%20Condensed%20Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
-@font-face {
-  font-family: "Heroic Condensed";
-  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/c4ce57d9dc991b2382aee33e816d72ab660ad580/fonts/Heroic%20Condensed%20Regular%20Oblique.ttf")
-    format("truetype");
-  font-weight: normal;
-  font-style: italic;
-}
 
 
 @font-face {
   font-family: "Heroic Condensed";
-  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/e6d512fd7dfacf134b0ab224dd436f6d9e04bd93/fonts/Heroic%20Condensed%20Medium.ttf")
-    format("truetype");
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/e6d512fd7dfacf134b0ab224dd436f6d9e04bd93/fonts/Heroic%20Condensed%20Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 
-@font-face {
-  font-family: "Heroic Condensed";
-  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/c4ce57d9dc991b2382aee33e816d72ab660ad580/fonts/Heroic%20Condensed%20Medium%20Oblique.ttf")
-    format("truetype");
-  font-weight: 500;
-  font-style: italic;
-}
+
 
 @font-face {
   font-family: "Heroic Condensed";
-  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/e6d512fd7dfacf134b0ab224dd436f6d9e04bd93/fonts/Heroic%20Condensed%20Bold.ttf")
-    format("truetype");
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/e6d512fd7dfacf134b0ab224dd436f6d9e04bd93/fonts/Heroic%20Condensed%20Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
-@font-face {
-  font-family: "Heroic Condensed";
-  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/c4ce57d9dc991b2382aee33e816d72ab660ad580/fonts/Heroic%20Condensed%20Bold%20Oblique.ttf")
-    format("truetype");
-  font-weight: bold;
-  font-style: italic;
-}
+
 
 @font-face {
   font-family: "Heroic Condensed";
-  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/afe03726e3966b8f7514c6127351f6cf9e104106/fonts/Heroic%20Condensed%20Heavy.ttf")
-    format("truetype");
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/afe03726e3966b8f7514c6127351f6cf9e104106/fonts/Heroic%20Condensed%20Heavy.ttf") format("truetype");
   font-weight: 800;
   font-style: normal;
 }
 
-@font-face {
-  font-family: "Heroic Condensed";
-  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/c4ce57d9dc991b2382aee33e816d72ab660ad580/fonts/Heroic%20Condensed%20Heavy%20Oblique.ttf")
-    format("truetype");
-  font-weight: 800;
-  font-style: italic;
-}
 
 @font-face {
   font-family: "Heroic Condensed";
-  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/74a3c75fa4d1cc9876ce56ee88c442f7fd7ee1e0/fonts/Heroic%20Condensed%20Black.ttf")
-    format("truetype");
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/74a3c75fa4d1cc9876ce56ee88c442f7fd7ee1e0/fonts/Heroic%20Condensed%20Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
 
-@font-face {
-  font-family: "Heroic Condensed";
-  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/74a3c75fa4d1cc9876ce56ee88c442f7fd7ee1e0/fonts/Heroic%20Condensed%20Black%20Oblique.ttf")
-    format("truetype");
-  font-weight: 900;
-  font-style: italic;
-}
 
 /*OTHERS*/
 

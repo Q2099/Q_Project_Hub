@@ -254,7 +254,7 @@
 
 @font-face {
   font-family: "Heroic Condensed";
-  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/74a3c75fa4d1cc9876ce56ee88c442f7fd7ee1e0/fonts/Heroic%20Condensed%20Black.ttf") format("truetype");
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/74a3c75fa4d1cc9876ce56ee88c442f7fd7ee1e0/fonts/Heroic Condensed Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
@@ -278,7 +278,7 @@
 }
 
 .helvetica_neue {
-  font-family: "Helvetic Neue" !important;
+  font-family: "Helvetica Neue" !important;
 }
 
 .pc_de {

@@ -168,6 +168,23 @@
   font-style: normal;
 }
 
+/*Ananda*/
+
+@font-face {
+  font-family: "Ananda";
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/19e96834b8928952b2d52cea9175b845c18dfc7f/fonts/Ananda%20Personal%20Use.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ananda";
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/19e96834b8928952b2d52cea9175b845c18dfc7f/fonts/Ananda%20Black%20Personal%20Use.ttf")
+    format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
 
 /*GOTHAM*/
 

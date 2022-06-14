@@ -222,6 +222,14 @@
 
 @font-face {
   font-family: "Gotham";
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/3c9c4d7bad7894da642238548efe1a61e7eb2ef8/fonts/Gotham%20Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham";
   src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/3c9c4d7bad7894da642238548efe1a61e7eb2ef8/fonts/Gotham%20Medium.ttf")
     format("truetype");
   font-weight: 500;

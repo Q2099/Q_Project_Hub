@@ -19,9 +19,9 @@
 .h-even{ justify-content:space-evenly;}
 .h-between{ justify-content:space-between;}
 
-.v-box-top{ align-items:flex-start;}
-.v-box-middle{ align-items:center;}
-.v-box-bottom{ align-items:flex-end;}
+.v-top{ align-items:flex-start;}
+.v-middle{ align-items:center;}
+.v-bottom{ align-items:flex-end;}
 
 
 

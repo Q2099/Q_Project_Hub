@@ -12,12 +12,12 @@
 .fbx-12{width: calc(12.5% - 10px);padding: 0 5px;}/*8 column*/
 
 /*BOX ALIGNMENTS*/
-.h-box-left{ justify-content:flex-start;}
-.h-box-center{ justify-content:center;}
-.h-box-right{ justify-content:flex-end;}
-.h-box-around{ justify-content:space-around;}
-.h-box-even{ justify-content:space-evenly;}
-.h-box-between{ justify-content:space-between;}
+.h-left{ justify-content:flex-start;}
+.h-center{ justify-content:center;}
+.h-right{ justify-content:flex-end;}
+.h-around{ justify-content:space-around;}
+.h-even{ justify-content:space-evenly;}
+.h-between{ justify-content:space-between;}
 
 .v-box-top{ align-items:flex-start;}
 .v-box-middle{ align-items:center;}

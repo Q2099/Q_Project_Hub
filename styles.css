@@ -62,12 +62,15 @@
 .fbx-12{width: calc(50% - 10px);}
 }
 
+@media(max-width: 680px){
+.fbx-66{width: calc(100%);}
+.fbx-33{width: calc(100%);}
+}
+
 @media(max-width: 550px){
 .fbx-84{width: calc(100%);}
 .fbx-75{width: calc(100%);}
 .fbx-50{width: calc(100%);}
-.fbx-66{width: calc(100%);}
-.fbx-33{width: calc(100%);}
 .fbx-25{width: calc(100%);}
 .fbx-20{width: calc(100%);}
 .fbx-16{width: calc(50% - 20px);}  

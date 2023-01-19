@@ -10,6 +10,7 @@
 .fbx-20{width: calc(20% - 10px);padding: 0 5px;}/*5 column*/
 .fbx-16{width: calc(16.667% - 10px);padding: 0 5px;}/*6 column*/
 .fbx-12{width: calc(12.5% - 10px);padding: 0 5px;}/*8 column*/
+.fbx-10{width: calc(10% - 10px);padding: 0 5px;}/*10 column*/
 
 /*BOX ALIGNMENTS*/
 .h-left{ justify-content:flex-start;}
@@ -53,6 +54,7 @@
 .fbx-20{width: calc(50% - 20px);}
 .fbx-16{width: calc(50% - 20px);} 
 .fbx-12{width: calc(25% - 10px);}
+.fbx-10{width: calc(25% - 10px);}
 
 
 .text-right{text-align:center;}

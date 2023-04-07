@@ -1,5 +1,5 @@
 /*FLEX BOXES*/
-.flexbox{display: flex;flex-wrap: wrap;width: 100%;gap:10px;}
+.flexbox{display: flex;flex-wrap: wrap;width: 100%;}
 .fbx-100{width: calc(100% - 20px);padding: 0 5px;}
 .fbx-84{width: calc(83.333% - 20px);padding: 0 5px;}
 .fbx-75{width: calc(75% - 20px);padding: 0 5px;}

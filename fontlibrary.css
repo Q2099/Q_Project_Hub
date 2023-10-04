@@ -1,5 +1,30 @@
 /*Font Queries*/
 
+/*NOAH TEXT*/
+@font-face {
+  font-family: "Noah";
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/8cdca7c8db12853e247ee0ee05df9cbc51242bfb/fonts/Noah-Text-Regular.ttf?raw=true")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Noah";
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/8cdca7c8db12853e247ee0ee05df9cbc51242bfb/fonts/Noah%20Text%20Bold.ttf?raw=true")
+    format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noah";
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/8cdca7c8db12853e247ee0ee05df9cbc51242bfb/fonts/Noah%20Text%20Bold.ttf?raw=true")
+    format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
 
 
 /*ARVO*/
@@ -466,6 +491,10 @@
 
 .no_continue {
   font-family: "No Continue" !important;
+}
+
+.noah {
+  font-family: "Noah" !important;
 }
 
 .poppins {

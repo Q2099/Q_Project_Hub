@@ -1,0 +1,14 @@
+#TransMessage .common-transition-loader-logo {
+    background-color: #4f3c79;
+}
+
+.loading-logo {
+    background-color: #4f3c79;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.custom-header .header-logo a img{
+	height:auto!important;
+}

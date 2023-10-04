@@ -1,14 +1,8 @@
-#TransMessage .common-transition-loader-logo {
-    background-color: #4f3c79;
+.search-bar-section {
+    background: #fff;
+    color: #666;
 }
 
-.loading-logo {
-    background-color: #4f3c79;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.custom-header .header-logo a img{
-	height:auto!important;
+.search-bar-section ody-dropdown .select2-container--default .select2-selection--multiple, .search-bar-section ody-dropdown .select2-container--default .select2-selection--single, .search-bar-section ody-dropdown .select2-container--default.select2-container--disabled .select2-selection--multiple, .search-bar-section ody-dropdown .select2-container--default.select2-container--disabled .select2-selection--single, .search-bar-section ody-dropdown .select2-container--default.select2-container--focus .select2-selection--multiple, .search-bar-section ody-dropdown .select2-container--default.select2-container--focus .select2-selection--single {
+    border-color: #ddd;
 }

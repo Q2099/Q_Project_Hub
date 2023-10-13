@@ -1,8 +1,14 @@
+/*HEADER*/
+
 .custom-header {
         width: 100%;
         background-color: #fff;
         box-sizing: border-box;
     }
+
+.custom-header-container.flexbox {
+    border-bottom: solid #BE9F55;
+}
 
     .custom-header-container {
         display: -webkit-box;
@@ -23,11 +29,11 @@
         padding: 10px 16px;
         box-sizing: border-box;
     }
-a.nav-links{
+a.nav-links, a{
 color: #BE9F55;
 }
 
-a.nav-links:hover{
+a.nav-links:hover, a:hover{
 color: #777;
 }
 
@@ -56,6 +62,8 @@ color: #777;
             flex-direction:column;
         }
     }
+
+/*SEARCH BAR*/
 
 .search-bar-section {
     background: #fff!important;

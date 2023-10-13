@@ -79,6 +79,14 @@ button[data-ody-id=SearchButton], .btn-primary {
     border-color: #BE9F55;
 }
 
-.btn-outline-primary{
-    color:#BE9F55;
+.cruise-title, .btn-outline-primary {
+    color: #BE9F55;
+}
+
+.btn-outline-primary {
+    border-color: #BE9F55;
+}
+
+.bg-primary{
+    background-color: #BE9F55!important;    
 }

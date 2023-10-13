@@ -90,3 +90,7 @@ button[data-ody-id=SearchButton], .btn-primary {
 .bg-primary{
     background-color: #BE9F55!important;    
 }
+
+.custom-footer, .bg-secondary, .progress-stepper-arrow .checkout-steps-wrap .checkout-step.current .checkout-step-inner, .progress-stepper-arrow .checkout-steps-wrap .checkout-step.past .checkout-step-inner{
+     background: #BE9F55!important;    
+}

@@ -47,7 +47,7 @@ color: #777;
         color: #BE9F55;
     }
 
-    @media (max-width: 767px) {
+    @media (max-width: 768px) {
         .custom-header-brand img {
             max-width: 170px;
             height: auto;

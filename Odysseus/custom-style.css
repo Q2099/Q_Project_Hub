@@ -91,7 +91,7 @@ button[data-ody-id=SearchButton], .btn-primary {
     border-color: #BE9F55;
 }
 
-.bg-primary{
+.bg-primary, .filter-panel div.bg-primary {
     background-color: #BE9F55!important;    
 }
 

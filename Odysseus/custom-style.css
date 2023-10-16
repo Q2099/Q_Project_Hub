@@ -79,7 +79,11 @@ button[data-ody-id=SearchButton], .btn-primary {
     border-color: #BE9F55;
 }
 
-.cruise-title, .btn-outline-primary {
+.btn-outline-primary {
+    border-color: #BE9F55;
+}
+
+.cruise-title, .btn-outline-primary, .filter-panel .card .card-heading .panel-icon {
     color: #BE9F55;
 }
 

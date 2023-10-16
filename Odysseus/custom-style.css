@@ -83,8 +83,8 @@ button[data-ody-id=SearchButton], .btn-primary {
     border-color: #BE9F55;
 }
 
-.cruise-title, .btn-outline-primary, .filter-panel .card .card-heading .panel-icon {
-    color: #BE9F55;
+.cruise-title, .btn-outline-primary, .filter-panel .card .card-heading .panel-icon, h4.cruise-title.clearfix.dir-ltr.ng-star-inserted {
+    color: #BE9F55!important;
 }
 
 .btn-outline-primary {

@@ -66,7 +66,7 @@ color: #777;
 /*SEARCH BAR*/
 
 .search-bar-section {
-    background: #fff;
+    background: #fff!important;
     color: #666!important;
 }
 

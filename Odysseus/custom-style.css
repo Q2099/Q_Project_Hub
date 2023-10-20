@@ -98,3 +98,9 @@ button[data-ody-id=SearchButton], .btn-primary {
 .custom-footer, .bg-secondary, .progress-stepper-arrow .checkout-steps-wrap .checkout-step.current .checkout-step-inner, .progress-stepper-arrow .checkout-steps-wrap .checkout-step.past .checkout-step-inner{
      background: #BE9F55!important;    
 }
+
+/*MAIN PAGE*/
+.cruise-sailing-dates .nav-tabs>li.nav-item>a.nav-link.active, .cruise-sailing-dates .nav-tabs>li.nav-item>a.nav-link.active:focus, .cruise-sailing-dates .nav-tabs>li.nav-item>a.nav-link.active:hover {
+    border-top: 2px solid #BE9F55!important;
+    color: #BE9F55;
+}

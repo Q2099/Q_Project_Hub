@@ -104,3 +104,11 @@ button[data-ody-id=SearchButton], .btn-primary {
     border-top: 2px solid #BE9F55!important;
     color: #BE9F55;
 }
+
+
+/*SEARCH CSS*/
+.search-resultpage.swift-search-bar .custom-guest-dialog, .search-resultpage.swift-search-bar .form-control.custom-datepicker, .search-resultpage.swift-search-bar .form-control.custom-select, .search-resultpage.swift-search-bar input.form-control {
+    background-color: transparent;
+    border-color: #ddd!important;
+    color: #333!important;
+}

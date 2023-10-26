@@ -125,3 +125,7 @@ button[data-ody-id=SearchButton], .btn-primary {
     border-color: #ddd!important;
     color: #333!important;
 }
+
+.air-searchform-top .top-title .odi::before{
+        background: rgba(0,0,0,0)!important;
+}

@@ -63,6 +63,11 @@ color: #777;
         }
     }
 
+/*ADMIN FORGOT PASSWORD*/
+div.logbox div.login .rememberblock {
+    display: none!important;
+}
+
 /*SEARCH BAR*/
 
 .search-bar-section {

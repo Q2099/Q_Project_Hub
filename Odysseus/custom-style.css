@@ -70,12 +70,21 @@ color: #777;
     color: #666!important;
 }
 
-.search-resultpage.swift-search-bar label{
+.search-resultpage.swift-search-bar label, .search-resultpage.swift-search-bar label{
         color: #666!important;
+}
+
+.search-resultpage.swift-search-bar .custom-guest-dialog, .search-resultpage.swift-search-bar .form-control.custom-datepicker, .search-resultpage.swift-search-bar .form-control.custom-select, .search-resultpage.swift-search-bar input.form-control {
+    border-color: rgba(0,0,0,.1)!important;
+    color: #000!important;
 }
 
 .search-bar-section ody-dropdown .select2-container--default .select2-selection--multiple, .search-bar-section ody-dropdown .select2-container--default .select2-selection--single, .search-bar-section ody-dropdown .select2-container--default.select2-container--disabled .select2-selection--multiple, .search-bar-section ody-dropdown .select2-container--default.select2-container--disabled .select2-selection--single, .search-bar-section ody-dropdown .select2-container--default.select2-container--focus .select2-selection--multiple, .search-bar-section ody-dropdown .select2-container--default.select2-container--focus .select2-selection--single {
     border-color: #ddd;
+}
+
+.container-fluid.d-flex.align-items-center.justify-content-end.custom-modifysearch.pt-2{
+       background-color: #BE9F55;  
 }
 
 button[data-ody-id=SearchButton], .btn-primary {

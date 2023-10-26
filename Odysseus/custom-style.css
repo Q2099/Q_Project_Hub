@@ -37,6 +37,11 @@ a.nav-links:hover, a:hover{
 color: #777;
 }
 
+button[data-ody-id=SearchButton]:focus, button[data-ody-id=SearchButton]:hover{
+       background-color: #333;
+    border-color: #333;     
+}
+
     .custom-phone {
         font-size: 20px;
         color: #BE9F55;

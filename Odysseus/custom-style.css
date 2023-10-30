@@ -152,7 +152,7 @@ button[data-ody-id=SearchButton], .btn-primary {
     background-color: #BE9F55!important;    
 }
 
-.bg-secondary, .progress-stepper-arrow .checkout-steps-wrap .checkout-step.current .checkout-step-inner, .progress-stepper-arrow .checkout-steps-wrap .checkout-step.past .checkout-step-inner{
+.bg-secondary, .progress-steppe-arrow .checkout-steps-wrap .checkout-step.current .checkout-step-inner, .progress-stepper-arrow .checkout-steps-wrap .checkout-step.past .checkout-step-inner, .checkout-stepper-accordion .st-open>.card-header{
      background: #BE9F55!important;    
 }
 
@@ -162,7 +162,7 @@ button[data-ody-id=SearchButton], .btn-primary {
     color: #BE9F55;
 }
 
-.ui-slider .ui-slider-handle, .ui-slider .ui-slider-range, .matrix-card .airline-matrix-wrap .matrix-left .mstops label, .text-primary{
+.ui-slider .ui-slider-handle, .ui-slider .ui-slider-range, .matrix-card .airline-matrix-wrap .matrix-left .mstops label, .text-primary, .text-secondary, .page-title{
 color: #BE9F55!important;
 }
 

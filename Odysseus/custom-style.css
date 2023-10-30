@@ -131,7 +131,7 @@ button[data-ody-id=SearchButton], .btn-primary {
     border-color: #BE9F55;
 }
 
-.progress-stepper-arrow .checkout-steps-wrap .checkout-step.current .checkout-step-inner::after, .progress-stepper-arrow .checkout-steps-wrap .checkout-step.past .checkout-step-inner::after {
+.progress-stepper-arrow .checkout-steps-wrap .checkout-step.current .checkout-step-inner::after, .progress-stepper-arrow .checkout-steps-wrap .checkout-step.past .checkout-step-inner::after, .nav-stepper .nav-link.active::after {
     border-color: transparent #BE9F55!important;
 }
 

@@ -113,7 +113,7 @@ section[data-ody-id="CruiseSearchBarSection"] .searchbar-checkbox-group div.ml-3
     border-color: #ddd;
 }
 
-.container-fluid.d-flex.align-items-center.justify-content-end.custom-modifysearch.pt-2{
+.container-fluid.d-flex.align-items-center.justify-content-end.custom-modifysearch.pt-2, .bg-primary{
        background-color: #BE9F55;  
 }
 

@@ -126,15 +126,24 @@ button[data-ody-id=SearchButton], .btn-primary {
     border-color: #BE9F55;
 }
 
-.cruise-title, .btn-outline-primary, .filter-panel .card .card-heading .panel-icon, h4.cruise-title.clearfix.dir-ltr.ng-star-inserted {
+.progress-stepper-arrow .checkout-steps-wrap .checkout-step.current .checkout-step-inner::after, .progress-stepper-arrow .checkout-steps-wrap .checkout-step.past .checkout-step-inner::after {
+    border-color: transparent #BE9F55!important;
+}
+
+.cruise-title, .btn-outline-primary, .filter-panel .card .card-heading .panel-icon, h4.cruise-title.clearfix.dir-ltr.ng-star-inserted, .text-price-color, .text-primary, .top-line .nav-tabs>li.active>a.nav-link, .top-line .nav-tabs>li.active>a.nav-link:focus, .top-line .nav-tabs>li.active>a.nav-link:hover, .section-air-search-tabs .air-search-tabs .air-search-tab input:checked+span {
     color: #BE9F55!important;
 }
 
-.btn-outline-primary {
+.btn-outline-primary, .nav-tabs>li.active>a.nav-link, .nav-tabs>li.active>a.nav-link:focus, .nav-tabs>li.active>a.nav-link:hover, .section-package-details, .loading-box, .loading-box-air, .loading-box-cruise, .loading-box-hotel {
     border-color: #BE9F55;
 }
 
-.bg-primary, .filter-panel div.bg-primary {
+.btn-outline-secondary {
+    color: #BE9F55!important;
+    border-color: #BE9F55!important;
+}
+
+.bg-primary, .filter-panel div.bg-primary, .nav-stepper .nav-link.active, .table-header.supplier-payment-title-table, .splash-header, .multiselect-package-icons .package-summary-icon .odi.active, .flight-info .transit-table-top {
     background-color: #BE9F55!important;    
 }
 

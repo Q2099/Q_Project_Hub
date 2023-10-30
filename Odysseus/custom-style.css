@@ -95,6 +95,11 @@ section[data-ody-id="CruiseSearchBarSection"] .searchbar-checkbox-group div.ml-3
     display: none;
 }
 
+/*Hide Rules section*/
+[data-ody-id="FilterPanelRules"] {
+    display: none;
+}
+
 .search-bar-section {
     background: #fff!important;
     color: #666!important;

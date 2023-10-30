@@ -68,6 +68,16 @@ button[data-ody-id=SearchButton]:focus, button[data-ody-id=SearchButton]:hover{
         }
     }
 
+/*BODY FONT RESPONSIVE*/
+
+@media(max-width: 1200px){
+        body {font-size: 85%;}
+}
+
+@media(max-width: 768px){
+        body {font-size: 80%;}
+}
+
 /*ADMIN FORGOT PASSWORD*/
 div.logbox div.login .rememberblock {
     display: none!important;

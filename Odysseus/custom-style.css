@@ -149,7 +149,7 @@ button[data-ody-id=SearchButton], .btn-primary, .primary-btn, .ui-dialog .ui-dia
     color: #BE9F55!important;
 }
 
-.btn-outline-primary, .nav-tabs>li.active>a.nav-link, .nav-tabs>li.active>a.nav-link:focus, .nav-tabs>li.active>a.nav-link:hover, .section-package-details, .loading-box, .loading-box-air, .loading-box-cruise, .loading-box-hotel, .flight-info, .loading-box, .loading-box-air, .loading-box-cruise, .loading-box-hotel {
+.btn-outline-primary, .nav-tabs>li.active>a.nav-link, .nav-tabs>li.active>a.nav-link:focus, .nav-tabs>li.active>a.nav-link:hover, .section-package-details, .loading-box, .loading-box-air, .loading-box-cruise, .loading-box-hotel, .flight-info, .loading-box, .loading-box-air, .loading-box-cruise, .loading-box-hotel, .section-booking-timer-extend, .trip-price-popup {
     border-color: #BE9F55!important;
 }
 
@@ -158,11 +158,16 @@ button[data-ody-id=SearchButton], .btn-primary, .primary-btn, .ui-dialog .ui-dia
     border-color: #BE9F55!important;
 }
 
-.bg-primary, .filter-panel div.bg-primary, .nav-stepper .nav-link.active, .table-header.supplier-payment-title-table, .splash-header, .multiselect-package-icons .package-summary-icon .odi.active {
+.nav-tabs-overline>.nav-tabs .nav-link.active {
+   color: #BE9F55!important;
+    border-top-color: #BE9F55!important;
+}
+
+.bg-primary, .filter-panel div.bg-primary, .nav-stepper .nav-link.active, .table-header.supplier-payment-title-table, .splash-header, .multiselect-package-icons .package-summary-icon .odi.active, .custom-control-input:checked~.custom-control-label::before {
     background-color: #BE9F55!important;    
 }
 
-.bg-secondary, .progress-steppe-arrow .checkout-steps-wrap .checkout-step.current .checkout-step-inner, .progress-stepper-arrow .checkout-steps-wrap .checkout-step.past .checkout-step-inner, .checkout-stepper-accordion .st-open>.card-header, .section-air-search-tabs .air-search-tabs .air-search-tab input:checked+span::before, .flight-info .transit-table-top{
+.bg-secondary, .progress-steppe-arrow .checkout-steps-wrap .checkout-step.current .checkout-step-inner, .progress-stepper-arrow .checkout-steps-wrap .checkout-step.past .checkout-step-inner, .checkout-stepper-accordion .st-open>.card-header, .section-air-search-tabs .air-search-tabs .air-search-tab input:checked+span::before, .flight-info .transit-table-top, .ui-slider .ui-slider-handle, .ui-slider .ui-slider-range, .ui-slider .ui-slider-handle, .ui-slider .ui-slider-range, .progress-stepper-arrow .checkout-steps-wrap .checkout-step.current .checkout-step-inner{
      background: #BE9F55!important;    
 }
 
@@ -172,7 +177,7 @@ button[data-ody-id=SearchButton], .btn-primary, .primary-btn, .ui-dialog .ui-dia
     color: #BE9F55;
 }
 
-.ui-slider .ui-slider-handle, .ui-slider .ui-slider-range, .matrix-card .airline-matrix-wrap .matrix-left .mstops label, .text-primary, .text-secondary, .page-title{
+.ui-slider .ui-slider-handle, .ui-slider .ui-slider-range, .matrix-card .airline-matrix-wrap .matrix-left .mstops label, .text-primary, .text-secondary, .page-title, .nav-stepper .stepper-item-caption{
 color: #BE9F55!important;
 }
 

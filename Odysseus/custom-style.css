@@ -132,7 +132,7 @@ section[data-ody-id="CruiseSearchBarSection"] .searchbar-checkbox-group div.ml-3
        background-color: #BE9F55;  
 }
 
-button[data-ody-id=SearchButton], .btn-primary {
+button[data-ody-id=SearchButton], .btn-primary, .primary-btn, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .btn-primary {
     background-color: #BE9F55;
     border-color: #BE9F55;
 }
@@ -149,7 +149,7 @@ button[data-ody-id=SearchButton], .btn-primary {
     color: #BE9F55!important;
 }
 
-.btn-outline-primary, .nav-tabs>li.active>a.nav-link, .nav-tabs>li.active>a.nav-link:focus, .nav-tabs>li.active>a.nav-link:hover, .section-package-details, .loading-box, .loading-box-air, .loading-box-cruise, .loading-box-hotel {
+.btn-outline-primary, .nav-tabs>li.active>a.nav-link, .nav-tabs>li.active>a.nav-link:focus, .nav-tabs>li.active>a.nav-link:hover, .section-package-details, .loading-box, .loading-box-air, .loading-box-cruise, .loading-box-hotel, .flight-info, .loading-box, .loading-box-air, .loading-box-cruise, .loading-box-hotel {
     border-color: #BE9F55!important;
 }
 
@@ -158,11 +158,11 @@ button[data-ody-id=SearchButton], .btn-primary {
     border-color: #BE9F55!important;
 }
 
-.bg-primary, .filter-panel div.bg-primary, .nav-stepper .nav-link.active, .table-header.supplier-payment-title-table, .splash-header, .multiselect-package-icons .package-summary-icon .odi.active, .flight-info .transit-table-top {
+.bg-primary, .filter-panel div.bg-primary, .nav-stepper .nav-link.active, .table-header.supplier-payment-title-table, .splash-header, .multiselect-package-icons .package-summary-icon .odi.active {
     background-color: #BE9F55!important;    
 }
 
-.bg-secondary, .progress-steppe-arrow .checkout-steps-wrap .checkout-step.current .checkout-step-inner, .progress-stepper-arrow .checkout-steps-wrap .checkout-step.past .checkout-step-inner, .checkout-stepper-accordion .st-open>.card-header, .section-air-search-tabs .air-search-tabs .air-search-tab input:checked+span::before{
+.bg-secondary, .progress-steppe-arrow .checkout-steps-wrap .checkout-step.current .checkout-step-inner, .progress-stepper-arrow .checkout-steps-wrap .checkout-step.past .checkout-step-inner, .checkout-stepper-accordion .st-open>.card-header, .section-air-search-tabs .air-search-tabs .air-search-tab input:checked+span::before, .flight-info .transit-table-top{
      background: #BE9F55!important;    
 }
 

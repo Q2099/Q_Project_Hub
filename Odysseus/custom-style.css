@@ -42,6 +42,16 @@ button[data-ody-id=SearchButton]:focus, button[data-ody-id=SearchButton]:hover{
     border-color: #333;     
 }
 
+.btn-container .primary-btn, .btn-container .primary-btn:hover{
+         background: #BE9F55!important;
+    border: 2px solid #BE9F55!important;   
+}
+
+.btn-container .secondary-btn, .btn-container .secondary-btn:hover {
+    color: #BE9F55!important;
+    border: 2px solid #BE9F55!important;
+}
+
     .custom-phone {
         font-size: 20px;
         color: #BE9F55;
@@ -140,7 +150,7 @@ button[data-ody-id=SearchButton], .btn-primary {
 }
 
 .btn-outline-primary, .nav-tabs>li.active>a.nav-link, .nav-tabs>li.active>a.nav-link:focus, .nav-tabs>li.active>a.nav-link:hover, .section-package-details, .loading-box, .loading-box-air, .loading-box-cruise, .loading-box-hotel {
-    border-color: #BE9F55;
+    border-color: #BE9F55!important;
 }
 
 .btn-outline-secondary {
@@ -152,7 +162,7 @@ button[data-ody-id=SearchButton], .btn-primary {
     background-color: #BE9F55!important;    
 }
 
-.bg-secondary, .progress-steppe-arrow .checkout-steps-wrap .checkout-step.current .checkout-step-inner, .progress-stepper-arrow .checkout-steps-wrap .checkout-step.past .checkout-step-inner, .checkout-stepper-accordion .st-open>.card-header{
+.bg-secondary, .progress-steppe-arrow .checkout-steps-wrap .checkout-step.current .checkout-step-inner, .progress-stepper-arrow .checkout-steps-wrap .checkout-step.past .checkout-step-inner, .checkout-stepper-accordion .st-open>.card-header, .section-air-search-tabs .air-search-tabs .air-search-tab input:checked+span::before{
      background: #BE9F55!important;    
 }
 

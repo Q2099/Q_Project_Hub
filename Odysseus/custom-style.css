@@ -100,6 +100,11 @@ div[data-ody-id="FilterPanelCruiseTypes"] {
     display: none;
 }
 
+/*Hide Cruise only checkbox*/
+section[data-ody-id="CruiseSearchBarSection"] .searchbar-checkbox-group .ml-3.my-2.ng-star-inserted:nth-of-type(1) {
+    display: none;
+}
+
 /*Hide Cruise tour checkbox*/
 section[data-ody-id="CruiseSearchBarSection"] .searchbar-checkbox-group .ml-3.my-2.ng-star-inserted:nth-of-type(2) {
     display: none;

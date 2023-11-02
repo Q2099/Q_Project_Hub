@@ -173,11 +173,11 @@ button[data-ody-id=SearchButton], .btn-primary, .primary-btn, .ui-dialog .ui-dia
     border-top-color: #BE9F55!important;
 }
 
-.bg-primary, .filter-panel div.bg-primary, .nav-stepper .nav-link.active, .table-header.supplier-payment-title-table, .splash-header, .multiselect-package-icons .package-summary-icon .odi.active, .custom-control-input:checked~.custom-control-label::before {
+.bg-primary, .filter-panel div.bg-primary, .nav-stepper .nav-link.active, .table-header.supplier-payment-title-table, .splash-header, .multiselect-package-icons .package-summary-icon .odi.active, .custom-control-input:checked~.custom-control-label::before, .progress-bar-indeterminate::after, .progress-bar-indeterminate::before, .progress-bar-query::after, .progress-bar-query::before {
     background-color: #BE9F55!important;    
 }
 
-.bg-secondary, .progress-steppe-arrow .checkout-steps-wrap .checkout-step.current .checkout-step-inner, .progress-stepper-arrow .checkout-steps-wrap .checkout-step.past .checkout-step-inner, .checkout-stepper-accordion .st-open>.card-header, .section-air-search-tabs .air-search-tabs .air-search-tab input:checked+span::before, .flight-info .transit-table-top, .ui-slider .ui-slider-handle, .ui-slider .ui-slider-range, .ui-slider .ui-slider-handle, .ui-slider .ui-slider-range, .progress-stepper-arrow .checkout-steps-wrap .checkout-step.current .checkout-step-inner{
+.bg-secondary, .progress-steppe-arrow .checkout-steps-wrap .checkout-step.current .checkout-step-inner, .progress-stepper-arrow .checkout-steps-wrap .checkout-step.past .checkout-step-inner, .checkout-stepper-accordion .st-open>.card-header, .section-air-search-tabs .air-search-tabs .air-search-tab input:checked+span::before, .flight-info .transit-table-top, .ui-slider .ui-slider-handle, .ui-slider .ui-slider-range, .progress-stepper-arrow .checkout-steps-wrap .checkout-step.current .checkout-step-inner{
      background: #BE9F55!important;    
 }
 
@@ -187,7 +187,7 @@ button[data-ody-id=SearchButton], .btn-primary, .primary-btn, .ui-dialog .ui-dia
     color: #BE9F55;
 }
 
-.ui-slider .ui-slider-handle, .ui-slider .ui-slider-range, .matrix-card .airline-matrix-wrap .matrix-left .mstops label, .text-primary, .text-secondary, .page-title, .nav-stepper .stepper-item-caption{
+.matrix-card .airline-matrix-wrap .matrix-left .mstops label, .text-primary, .text-secondary, .page-title, .nav-stepper .stepper-item-caption{
 color: #BE9F55!important;
 }
 

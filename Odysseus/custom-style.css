@@ -95,8 +95,8 @@ div.logbox div.login .rememberblock {
 
 /*SEARCH BAR*/
 
-/*Hide Cruise Only checkbox*/
-section[data-ody-id="CruiseSearchBarSection"] .searchbar-checkbox-group .ml-3.my-2.ng-star-inserted:nth-of-type(1) {
+/*Hide Cruise Only and tours on filter bar*/
+div[data-ody-id="FilterPanelCruiseTypes"] {
     display: none;
 }
 

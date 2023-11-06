@@ -138,11 +138,11 @@ section[data-ody-id="CruiseSearchBarSection"] .searchbar-checkbox-group div.ml-3
     border-color: #ddd;
 }
 
-.container-fluid.d-flex.align-items-center.justify-content-end.custom-modifysearch.pt-2, .bg-primary{
+.container-fluid.d-flex.align-items-center.justify-content-end.custom-modifysearch.pt-2, .bg-primary, .ui-datepicker .ui-datepicker-header, .ui-datepicker .ui-datepicker-calendar .ui-state-active, .select2-container--default .select2-results__option[aria-selected=true]{
        background-color: #BE9F55;  
 }
 
-button[data-ody-id=SearchButton], .btn-primary, .primary-btn, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .btn-primary {
+button[data-ody-id=SearchButton], .btn-primary, .primary-btn, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .btn-primary, .switch-container .switch-yes-no .switch-label::after {
     background-color: #BE9F55;
     border-color: #BE9F55;
 }

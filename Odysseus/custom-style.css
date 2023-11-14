@@ -187,7 +187,7 @@ button[data-ody-id=SearchButton], .btn-primary, .primary-btn, .ui-dialog .ui-dia
     color: #BE9F55;
 }
 
-.matrix-card .airline-matrix-wrap .matrix-left .mstops label, .text-primary, .text-secondary, .page-title, .nav-stepper .stepper-item-caption{
+.matrix-card .airline-matrix-wrap .matrix-left .mstops label, .text-primary, .text-secondary, .page-title, .nav-stepper .stepper-item-caption, .search-resultpage.swift-search-bar .btn-outline-primary, .search-resultpage.swift-search-bar .btn-primary, .search-resultpage.swift-search-bar .primary-btn, .search-resultpage.swift-search-bar .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .btn-outline-primary, .search-resultpage.swift-search-bar .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .btn-primary, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .search-resultpage.swift-search-bar .btn-outline-primary, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .search-resultpage.swift-search-bar .btn-primary{
 color: #BE9F55!important;
 }
 

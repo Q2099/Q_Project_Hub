@@ -181,6 +181,10 @@ button[data-ody-id=SearchButton], .btn-primary, .primary-btn, .ui-dialog .ui-dia
      background: #BE9F55!important;    
 }
 
+.default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-button-wrapper.od-search-button .od-btn.btn-search:hover {
+    background-color: #000;
+}
+
 /*MAIN PAGE*/
 .cruise-sailing-dates .nav-tabs>li.nav-item>a.nav-link.active, .cruise-sailing-dates .nav-tabs>li.nav-item>a.nav-link.active:focus, .cruise-sailing-dates .nav-tabs>li.nav-item>a.nav-link.active:hover {
     border-top: 2px solid #BE9F55!important;

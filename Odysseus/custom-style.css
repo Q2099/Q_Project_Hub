@@ -188,7 +188,7 @@ button[data-ody-id=SearchButton], .btn-primary, .primary-btn, .ui-dialog .ui-dia
     border-top-color: #BE9F55!important;
 }
 
-.bg-primary, .filter-panel div.bg-primary, .nav-stepper .nav-link.active, .table-header.supplier-payment-title-table, .splash-header, .multiselect-package-icons .package-summary-icon .odi.active, .custom-control-input:checked~.custom-control-label::before, .progress-bar-indeterminate::after, .progress-bar-indeterminate::before, .progress-bar-query::after, .progress-bar-query::before, .search-resultpage.swift-search-bar .pax-count .dialog button, .default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-button-wrapper.od-search-button .od-btn.btn-search, .popup.list>div:hover, .switch-btn.active
+.bg-primary, .filter-panel div.bg-primary, .nav-stepper .nav-link.active, .table-header.supplier-payment-title-table, .splash-header, .multiselect-package-icons .package-summary-icon .odi.active, .custom-control-input:checked~.custom-control-label::before, .progress-bar-indeterminate::after, .progress-bar-indeterminate::before, .progress-bar-query::after, .progress-bar-query::before, .search-resultpage.swift-search-bar .pax-count .dialog button, .default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-button-wrapper.od-search-button .od-btn.btn-search, .popup.list>div:hover, .switch-btn.active, .switch-field input:checked+label
 {
     background-color: #BE9F55!important;    
 }

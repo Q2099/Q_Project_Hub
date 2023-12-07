@@ -200,6 +200,10 @@ button[data-ody-id=SearchButton], .btn-primary, .primary-btn, .ui-dialog .ui-dia
      background: #a0a0a0!important;    
 }
 
+.bg-primary.trip-total.w-100 {
+ background-color: #a0a0a0!important;   
+}
+
 .progress-stepper-arrow .checkout-steps-wrap .checkout-step.past .checkout-step-inner, .checkout-stepper-accordion .st-open>.card-header, .section-air-search-tabs .air-search-tabs .air-search-tab input:checked+span::before, .flight-info .transit-table-top, .ui-slider .ui-slider-handle, .ui-slider .ui-slider-range, .progress-stepper-arrow .checkout-steps-wrap .checkout-step.current .checkout-step-inner, ::selection{
      background: #BE9F55!important;    
 }
@@ -240,4 +244,22 @@ color: #BE9F55!important;
 
 .air-searchform-top .top-title .odi::before{
         background: rgba(0,0,0,0)!important;
+}
+
+/*BF STAGE 1 CUSTOMER DETAILS TICKBOX*/
+h5.text-primary.fw-bold.fs16.guest-info-title {
+    color: #fff!important;
+}
+
+div.col-12.col-md-6.float-left.clear-left.guest-info-section.ng-star-inserted fieldset.ng-star-inserted {
+    background: #be9f55;
+    color: #fff!important;
+}
+
+select.custom-select.w-auto.ng-pristine.ng-valid.ng-touched {
+    background-color: #fff;
+}
+
+input.form-control.w-65px.ng-valid.ng-dirty.ng-touched {
+    color: #222;
 }

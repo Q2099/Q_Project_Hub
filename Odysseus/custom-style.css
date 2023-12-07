@@ -205,9 +205,7 @@ button[data-ody-id=SearchButton], .btn-primary, .primary-btn, .ui-dialog .ui-dia
 }
 
 .progress-stepper-arrow .checkout-steps-wrap .checkout-step.past .checkout-step-inner, .section-air-search-tabs .air-search-tabs .air-search-tab input:checked+span::before, .flight-info .transit-table-top, .ui-slider .ui-slider-handle, .ui-slider .ui-slider-range, .progress-stepper-arrow .checkout-steps-wrap .checkout-step.current .checkout-step-inner, ::selection, .checkout-stepper-accordion .valid .spc-panel-title .step-number {
-    color: #fff;
-    background: #4f3c79;
-}{
+   {
      background: #BE9F55!important;    
 }
 

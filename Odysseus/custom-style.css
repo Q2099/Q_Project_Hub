@@ -16,6 +16,10 @@ button[data-ody-id="FareCodeSelectionButton"] {
     display: none;
 }
 
+input#_ctl0_MainContentsPH__ctl0_HoldNoEmailBTN {
+    display: none;
+}
+
 /*HEADER*/
 
 .custom-header {

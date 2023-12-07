@@ -258,7 +258,7 @@ div.col-12.col-md-6.float-left.clear-left.guest-info-section.ng-star-inserted fi
 }
 
 .d-print-none.btn-add-hotel a:hover{
- background: #be9f55;
+ background: #000!important;
     color: #fff!important;
 }
 

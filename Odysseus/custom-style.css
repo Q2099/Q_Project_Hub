@@ -8,6 +8,9 @@ th[data-ody-id="fareCodeFareTypeTableHeader"] {
 td[data-ody-id="fareCodeFareTypeCell"] {
   display: none;
 }
+button[data-ody-id="FareCodeSelectionButton"] {
+    display: none;
+}
 
 .section-alert-message.container-fluid.alert-msg-wrapper {
     display: none;

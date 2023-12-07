@@ -218,6 +218,18 @@ button[data-ody-id=SearchButton], .btn-primary, .primary-btn, .ui-dialog .ui-dia
 color: #BE9F55!important;
 }
 
+.low-rate {
+    border-color: #a0a0a0;
+    border: solid #a0a0a0;
+    background-color: #a0a0a0;
+    color: #fff!important;
+    font-weight: 700;
+}
+
+.low-rate-list li {
+    border-color: #fff!important;
+}
+
 
 /*SEARCH CSS*/
 .search-resultpage.swift-search-bar .custom-guest-dialog, .search-resultpage.swift-search-bar .form-control.custom-datepicker, .search-resultpage.swift-search-bar .form-control.custom-select, .search-resultpage.swift-search-bar input.form-control {

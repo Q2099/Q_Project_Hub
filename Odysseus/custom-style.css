@@ -279,3 +279,7 @@ input.form-control.w-65px.ng-valid.ng-dirty.ng-touched {
     color: #333;
     border-color: rgba(0,0,0,.25);
 }
+
+.default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-form-wrapper .product-searchform-container .mx-icon-clear, .default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .vue_multiselect .multiselect__tags .product-searchform-container .multiselect__placeholder, .default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .vue_multiselect .product-searchform-container .multiselect__single, .product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-form-wrapper .mx-icon-clear, .product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .vue_multiselect .multiselect__single, .product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .vue_multiselect .multiselect__tags .multiselect__placeholder{
+ color: #333!important;
+}

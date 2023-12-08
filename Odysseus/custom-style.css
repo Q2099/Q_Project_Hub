@@ -177,7 +177,7 @@ button[data-ody-id=SearchButton], .btn-primary, .primary-btn, .ui-dialog .ui-dia
     border-color: transparent #BE9F55!important;
 }
 
-.cruise-title, .btn-outline-primary, .filter-panel .card .card-heading .panel-icon, h4.cruise-title.clearfix.dir-ltr.ng-star-inserted, .text-price-color, .text-primary, .top-line .nav-tabs>li.active>a.nav-link, .top-line .nav-tabs>li.active>a.nav-link:focus, .top-line .nav-tabs>li.active>a.nav-link:hover, .section-air-search-tabs .air-search-tabs .air-search-tab input:checked+span {
+.cruise-title, .btn-outline-primary, .filter-panel .card .card-heading .panel-icon, h4.cruise-title.clearfix.dir-ltr.ng-star-inserted, .text-price-color, .text-primary, .top-line .nav-tabs>li.active>a.nav-link, .top-line .nav-tabs>li.active>a.nav-link:focus, .top-line .nav-tabs>li.active>a.nav-link:hover, .section-air-search-tabs .air-search-tabs .air-search-tab input:checked+span, a.hotel-searchform-top.text-decoration-none.py-1 span {
     color: #BE9F55!important;
 }
 
@@ -195,7 +195,7 @@ button[data-ody-id=SearchButton], .btn-primary, .primary-btn, .ui-dialog .ui-dia
     border-top-color: #BE9F55!important;
 }
 
-.bg-primary, .filter-panel div.bg-primary, .nav-stepper .nav-link.active, .splash-header, .multiselect-package-icons .package-summary-icon .odi.active, .custom-control-input:checked~.custom-control-label::before, .progress-bar-indeterminate::after, .progress-bar-indeterminate::before, .progress-bar-query::after, .progress-bar-query::before, .search-resultpage.swift-search-bar .pax-count .dialog button, .default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-button-wrapper.od-search-button .od-btn.btn-search, .popup.list>div:hover, .switch-btn.active, .switch-field input:checked+label
+.bg-primary, .filter-panel div.bg-primary, .nav-stepper .nav-link.active, .splash-header, .multiselect-package-icons .package-summary-icon .odi.active, .custom-control-input:checked~.custom-control-label::before, .progress-bar-indeterminate::after, .progress-bar-indeterminate::before, .progress-bar-query::after, .progress-bar-query::before, .search-resultpage.swift-search-bar .pax-count .dialog button, .default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-button-wrapper.od-search-button .od-btn.btn-search, .popup.list>div:hover, .switch-btn.active, .switch-field input:checked+label, .product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-button-wrapper.od-search-button .od-btn.btn-search
 {
     background-color: #BE9F55!important;    
 }

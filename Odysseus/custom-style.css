@@ -200,7 +200,7 @@ button[data-ody-id=SearchButton], .btn-primary, .primary-btn, .ui-dialog .ui-dia
     background-color: #BE9F55!important;    
 }
 
-.bg-secondary, .progress-steppe-arrow .checkout-steps-wrap .checkout-step.current .checkout-step-inner, .checkout-stepper-accordion .st-open>.card-header{
+.bg-secondary, .progress-steppe-arrow .checkout-steps-wrap .checkout-step.current .checkout-step-inner, .checkout-stepper-accordion .st-open>.card-header, div[data-ody-id="HotealSearchFilterSec"] h6.card.flex-row.bg-primary.d-flex.align-items-center.px-2.py-2{
      background: #a0a0a0!important;    
 }
 

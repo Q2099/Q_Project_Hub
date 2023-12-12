@@ -107,6 +107,119 @@
   font-style: Italic;
 }
 
+/*TEXTA*/
+@font-face {
+  font-family: "Texta";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/TextaLight.ttf?raw=true")
+    format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Texta";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/TextaLightIt.ttf?raw=true")
+    format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Texta";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/TextaBook.ttf?raw=true")
+    format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Texta";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/TextaBookIt.ttf?raw=true")
+    format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Texta";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/TextaRegular.ttf?raw=true")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Texta";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/TextaRegularIt.ttf?raw=true")
+    format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Texta";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/TextaMedium.ttf?raw=true")
+    format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Texta";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/TextaMediumIt.ttf?raw=true")
+    format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Texta";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/TextaBold.ttf?raw=true")
+    format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Texta";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/TextaBoldIt.ttf?raw=true")
+    format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Texta";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/TextaHeavy.ttf?raw=true")
+    format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Texta";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/TextaHeavyIt.ttf?raw=true")
+    format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Texta";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/TextaBlack.ttf?raw=true")
+    format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Texta";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/TextaBlackIt.ttf?raw=true")
+    format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
 /*ARVO*/
 @font-face {
   font-family: "Arvo";

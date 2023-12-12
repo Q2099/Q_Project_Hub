@@ -79,7 +79,7 @@
   font-family: "Majesti";
   src: url("https://q2099.github.io/Q_Project_Hub/fonts/Majesti-Banner-Bold.ttf?raw=true")
     format("truetype");
-  font-weight: 700;
+  font-weight: bold;
   font-style: normal;
 }
 
@@ -87,7 +87,7 @@
   font-family: "Majesti";
   src: url("https://q2099.github.io/Q_Project_Hub/fonts/Majesti-Banner-BoldItalic.ttf?raw=true")
     format("truetype");
-  font-weight: 700;
+  font-weight: bold;
   font-style: Italic;
 }
 
@@ -108,6 +108,22 @@
 }
 
 /*TEXTA*/
+@font-face {
+  font-family: "Texta";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/TextaThin.ttf?raw=true")
+    format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Texta";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/TextaThinIt.ttf?raw=true")
+    format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
 @font-face {
   font-family: "Texta";
   src: url("https://q2099.github.io/Q_Project_Hub/fonts/TextaLight.ttf?raw=true")
@@ -176,7 +192,7 @@
   font-family: "Texta";
   src: url("https://q2099.github.io/Q_Project_Hub/fonts/TextaBold.ttf?raw=true")
     format("truetype");
-  font-weight: 700;
+  font-weight: bold;
   font-style: normal;
 }
 
@@ -184,7 +200,7 @@
   font-family: "Texta";
   src: url("https://q2099.github.io/Q_Project_Hub/fonts/TextaBoldIt.ttf?raw=true")
     format("truetype");
-  font-weight: 700;
+  font-weight: bold;
   font-style: italic;
 }
 
@@ -220,6 +236,66 @@
   font-style: italic;
 }
 
+/*TRUE LIES*/
+@font-face {
+  font-family: "True Lies";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/True%20Lies.ttf?raw=true")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*SKYFALL*/
+@font-face {
+  font-family: "Skyfall";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/SkyFall%20Done.ttf?raw=true")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*The Citizens*/
+@font-face {
+  font-family: "Citizens";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/the%20Citizens.ttf?raw=true")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*Constan*/
+@font-face {
+  font-family: "Constan";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Constan.ttf?raw=true")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Constan";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Constani.ttf?raw=true")
+    format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Constan";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Constanb.ttf?raw=true")
+    format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Constan";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Constanz.ttf?raw=true")
+    format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
 /*ARVO*/
 @font-face {
   font-family: "Arvo";
@@ -228,6 +304,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 
 @font-face {
   font-family: "Arvo";

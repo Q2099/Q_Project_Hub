@@ -26,6 +26,86 @@
   font-style: normal;
 }
 
+/*MAJESTI BANNER*/
+@font-face {
+  font-family: "Majesti";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Majesti-Banner-Book.ttf?raw=true")
+    format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Majesti";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Majesti-Banner-BookItalic.ttf?raw=true")
+    format("truetype");
+  font-weight: 200;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: "Majesti";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Majesti-Banner-Light.ttf?raw=true")
+    format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Majesti";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Majesti-Banner-LightItalic.ttf?raw=true")
+    format("truetype");
+  font-weight: 300;
+  font-style: Italic;
+}
+
+
+@font-face {
+  font-family: "Majesti";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Majesti-Banner-Medium.ttf?raw=true")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Majesti";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Majesti-Banner-MediumItalic.ttf?raw=true")
+    format("truetype");
+  font-weight: 400;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: "Majesti";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Majesti-Banner-Bold.ttf?raw=true")
+    format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Majesti";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Majesti-Banner-BoldItalic.ttf?raw=true")
+    format("truetype");
+  font-weight: 700;
+  font-style: Italic;
+}
+
+@font-face {
+  font-family: "Majesti";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Majesti-Banner-Heavy.ttf?raw=true")
+    format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Majesti";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Majesti-Banner-HeavyItalic.ttf?raw=true")
+    format("truetype");
+  font-weight: 900;
+  font-style: Italic;
+}
 
 /*ARVO*/
 @font-face {

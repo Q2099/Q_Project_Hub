@@ -283,7 +283,7 @@
 /*Constan*/
 @font-face {
   font-family: "Constan";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Constan.ttf?raw=true")
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/constan.ttf?raw=true")
     format("truetype");
   font-weight: normal;
   font-style: normal;
@@ -291,7 +291,7 @@
 
 @font-face {
   font-family: "Constan";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Constani.ttf?raw=true")
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/constani.ttf?raw=true")
     format("truetype");
   font-weight: normal;
   font-style: italic;
@@ -299,7 +299,7 @@
 
 @font-face {
   font-family: "Constan";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Constanb.ttf?raw=true")
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/constanb.ttf?raw=true")
     format("truetype");
   font-weight: bold;
   font-style: normal;
@@ -307,7 +307,7 @@
 
 @font-face {
   font-family: "Constan";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Constanz.ttf?raw=true")
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/constanz.ttf?raw=true")
     format("truetype");
   font-weight: bold;
   font-style: italic;

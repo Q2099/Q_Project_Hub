@@ -26,6 +26,23 @@
   font-style: normal;
 }
 
+/*STRANGER IN THE NIGHT*/
+@font-face {
+  font-family: "Stranger";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Stranger%20back%20in%20the%20Night.ttf?raw=true")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*BLOWBRUSH*/
+@font-face {
+  font-family: "Blowbrush";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/blowbrush.ttf?raw=true")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 /*MAJESTI BANNER*/
 @font-face {
   font-family: "Majesti";
@@ -773,4 +790,36 @@
 
 .bebas_neue {
   font-family: "Bebas Neue Pro" !important;
+}
+
+.blowbrush {
+  font-family: "BLowbrush" !important;
+}
+
+.texta {
+  font-family: "Texta" !important;
+}
+
+.constan {
+  font-family: "Constan" !important;
+}
+
+.majesti {
+  font-family: "Majesti" !important;
+}
+
+.skyfall {
+  font-family: "Skyfall" !important;
+}
+
+.true_lies {
+  font-family: "True Lies" !important;
+}
+
+.citizens {
+  font-family: "Citizens" !important;
+}
+
+.stranger {
+  font-family: "Stranger" !important;
 }

@@ -284,3 +284,18 @@ input.form-control.w-65px.ng-valid.ng-dirty.ng-touched {
 .default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-form-wrapper .product-searchform-container .mx-icon-clear, .default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .vue_multiselect .multiselect__tags .product-searchform-container .multiselect__placeholder, .default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .vue_multiselect .product-searchform-container .multiselect__single, .product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-form-wrapper .mx-icon-clear, .product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .vue_multiselect .multiselect__single, .product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .vue_multiselect .multiselect__tags .multiselect__placeholder{
  color: #333!important;
 }
+
+/*Pre/post cruise hotel button*/
+a#_ctl0__ctl1_ItineraryDetails__ctl0_PreCruiseHotelLink:before {
+    content: "Pre-Cruise: ";
+}
+
+a#_ctl0__ctl1_ItineraryDetails__ctl0_PostCruiseHotelLink:before{
+    content: "Post-Cruise: ";
+}
+
+a#_ctl0__ctl1_ItineraryDetails__ctl0_PreCruiseHotelLink:before {
+    font-weight: bold;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}

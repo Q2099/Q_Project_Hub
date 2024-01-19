@@ -285,6 +285,10 @@ input.form-control.w-65px.ng-valid.ng-dirty.ng-touched {
  color: #333!important;
 }
 
+.package-itinerary .package-itinerary-body {
+    padding: 0.5rem .75rem;
+}
+
 /*Pre/post cruise hotel button*/
 a#_ctl0__ctl1_ItineraryDetails__ctl0_PreCruiseHotelLink:before {
     content: "Pre-Cruise: ";
@@ -298,4 +302,21 @@ a#_ctl0__ctl1_ItineraryDetails__ctl0_PreCruiseHotelLink:before, a#_ctl0__ctl1_It
     font-weight: bold;
     font-size: 1.1em;
     text-transform: uppercase;
+}
+
+.overflow-auto.mProItineraryContainer:before {
+    content: "Choose your Pre and Post Cruise Extras or scroll down to complete your booking.";
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+tr.package-itinerary-node.d-none:hover:after {
+    content: "add a pre and post cruise flight to add to your package";
+    padding: 15px;
+    background: #333;
+    color: #fff;
+    display: block;
+    width: 150px;
+    position: absolute;
+    right: 0;
 }

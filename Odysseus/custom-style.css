@@ -294,7 +294,7 @@ a#_ctl0__ctl1_ItineraryDetails__ctl0_PostCruiseHotelLink:before{
     content: "Post-Cruise: ";
 }
 
-a#_ctl0__ctl1_ItineraryDetails__ctl0_PreCruiseHotelLink:before {
+a#_ctl0__ctl1_ItineraryDetails__ctl0_PreCruiseHotelLink:before, a#_ctl0__ctl1_ItineraryDetails__ctl0_PostCruiseHotelLink:before {
     font-weight: bold;
     font-size: 1.1em;
     text-transform: uppercase;

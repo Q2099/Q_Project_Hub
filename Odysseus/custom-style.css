@@ -319,6 +319,7 @@ tr.package-itinerary-node.d-none:hover:after {
     width: 150px;
     position: absolute;
     right: 0;
+     border-right: double 15px;
 }
 input#ItineraryAddFlightButton:hover {
     background-color: #000;

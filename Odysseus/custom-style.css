@@ -311,7 +311,7 @@ a#_ctl0__ctl1_ItineraryDetails__ctl0_PreCruiseHotelLink:before, a#_ctl0__ctl1_It
 }
 
 tr.package-itinerary-node.d-none:hover:after {
-    content: "add a pre and post cruise flight to add to your package";
+    content: "Add a pre and post cruise flight to add to your package.";
     padding: 15px;
     background: #333;
     color: #fff;
@@ -319,4 +319,7 @@ tr.package-itinerary-node.d-none:hover:after {
     width: 150px;
     position: absolute;
     right: 0;
+}
+input#ItineraryAddFlightButton:hover {
+    background-color: #000;
 }

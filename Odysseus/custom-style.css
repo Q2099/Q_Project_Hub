@@ -242,6 +242,10 @@ color: #BE9F55!important;
 
 
 /*SEARCH CSS*/
+.default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-button-wrapper.od-search-button .od-btn.btn-search{
+ background-color: #be9f55;
+}
+
 .search-resultpage.swift-search-bar .custom-guest-dialog, .search-resultpage.swift-search-bar .form-control.custom-datepicker, .search-resultpage.swift-search-bar .form-control.custom-select, .search-resultpage.swift-search-bar input.form-control {
     background-color: transparent;
     border-color: #ddd!important;
@@ -255,6 +259,23 @@ color: #BE9F55!important;
 /*BF STAGE 1 CUSTOMER DETAILS TICKBOX*/
 h5.text-primary.fw-bold.fs16.guest-info-title {
     color: #fff!important;
+}
+
+/*FLIGHT RESULTS CSS*/
+div.flprice span[data-ody-id="TripTotal"] {
+    font-weight: 700;
+    font-size: 1.75em;
+}
+
+div.flprice .price-box .air-sub-price {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.85em;
+}
+
+h5.mb-1 {
+    font-size: 2em;
+    font-weight: 700;
 }
 
 div.col-12.col-md-6.float-left.clear-left.guest-info-section.ng-star-inserted fieldset.ng-star-inserted, .d-print-none.btn-add-hotel a {

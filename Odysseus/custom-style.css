@@ -273,6 +273,22 @@ div.flprice .price-box .air-sub-price {
     font-size: 0.85em;
 }
 
+div[data-original-title="Flight arrival is close to cruise departure."] em.odi.odi-info-o:after {
+    content: "This Flight is not Selectable";
+    right: 0;
+    max-width: 210px;
+    word-wrap: normal;
+    display: block;
+    text-wrap: balance;
+   padding: 5px 10px;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2em;
+    background: red;
+    color: #fff;
+}
+
 h5.mb-1 {
     font-size: 2em;
     font-weight: 700;

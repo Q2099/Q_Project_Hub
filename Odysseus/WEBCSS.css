@@ -17,7 +17,7 @@ div.flprice .price-box .air-sub-price {
 div[data-original-title="Flight arrival is close to cruise departure."]:after, div[data-original-title="Flight arrival is close to cruise arrival."]:after, div[data-original-title="Flight arrival is after cruise departure."]:after {
     content: "This Flight is not Selectable";
     right: 0;
-    max-width: 210px;
+    /*max-width: 210px;*/
     word-wrap: normal;
     display: block;
     text-wrap: balance;

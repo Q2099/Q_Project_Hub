@@ -29,3 +29,8 @@ div[data-original-title="Flight arrival is close to cruise departure."]:after, d
     background: red;
     color: #fff;
 }
+
+/*HOTEL RESULTS CSS*/
+.default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-button-wrapper.od-search-button .od-btn.btn-search {
+    background-color: #be9f55!important;
+}

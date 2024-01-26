@@ -1,3 +1,7 @@
+tr[data-ody-id='ItineraryAddAirButton'] {
+  display: table-row !important;
+}
+
 /*FLIGHT RESULTS CSS*/
 div.flprice span[data-ody-id="TripTotal"] {
     font-weight: 700;

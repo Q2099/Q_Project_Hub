@@ -28,6 +28,7 @@ div[data-original-title="Flight arrival is close to cruise departure."]:after, d
     line-height: 1.2em;
     background: red;
     color: #fff;
+  border-right: double 15px;
 }
 
 /*HOTEL RESULTS CSS*/

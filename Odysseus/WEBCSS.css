@@ -8,7 +8,7 @@ div.flprice span[data-ody-id="TripTotal"] {
     font-size: 1.75em;
 }
 
-div.flprice .price-box .air-sub-price {
+div.flprice .price-box span.air-sub-price {
     font-weight: 700;
     text-transform: uppercase;
     font-size: 0.85em;

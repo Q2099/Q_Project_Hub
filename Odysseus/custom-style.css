@@ -1,7 +1,7 @@
 /*HIDDEN ELEMENTS*/
 .supplier-api-errors{display:none;}
 
-th[data-ody-id="fareCodeFareTypeTableHeader"] {
+/*th[data-ody-id="fareCodeFareTypeTableHeader"] {
  display: none;
 }
 
@@ -10,7 +10,7 @@ td[data-ody-id="fareCodeFareTypeCell"] {
 }
 button[data-ody-id="FareCodeSelectionButton"] {
     display: none;
-}
+}*/
 
 .section-alert-message.container-fluid.alert-msg-wrapper {
     display: none;

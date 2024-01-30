@@ -8,14 +8,14 @@ div.flprice span[data-ody-id="TripTotal"] {
     font-size: 1.75em;
 }
 
-div.flprice .price-box span.air-sub-price {
+.price-box .air-sub-price {
     font-weight: 700;
     text-transform: uppercase;
     font-size: 0.85em;
 }
 
 div[data-original-title="Flight arrival is close to cruise departure."]:after, div[data-original-title="Flight arrival is close to cruise arrival."]:after, div[data-original-title="Flight arrival is after cruise departure."]:after {
-    content: "This Flight is not Selectable";
+    content: "This Flight Is Not Selectable";
     right: 0;
     /*max-width: 210px;*/
     word-wrap: normal;

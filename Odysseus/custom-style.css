@@ -296,6 +296,7 @@ div[data-original-title="Flight arrival is close to cruise departure."]:after, d
     top: 2px!important;
     right: 2px!important;
     background: #be9f55;
+ color:#fff;
     font-weight: 700;
 }
 

@@ -21,6 +21,7 @@ div.flprice span[data-ody-id="TripTotal"] {
     top: 2px!important;
     right: 2px!important;
     background: #be9f55;
+   color:#fff;
     font-weight: 700;
 }
 

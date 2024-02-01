@@ -289,6 +289,16 @@ div[data-original-title="Flight arrival is close to cruise departure."]:after, d
     color: #fff;
 }
 
+/*Flight Filters*/
+.filter-section .search-filter .filter-list .only-text {
+    position: absolute;
+    padding: 6px!important;
+    top: 2px!important;
+    right: 2px!important;
+    background: #be9f55;
+    font-weight: 700;
+}
+
 h5.mb-1 {
     font-size: 2em;
     font-weight: 700;
@@ -325,6 +335,8 @@ input.form-control.w-65px.ng-valid.ng-dirty.ng-touched {
 .package-itinerary .package-itinerary-body {
     padding: 0.5rem .75rem;
 }
+
+
 
 /*Pre/post cruise hotel button*/
 a#_ctl0__ctl1_ItineraryDetails__ctl0_PreCruiseHotelLink:before {

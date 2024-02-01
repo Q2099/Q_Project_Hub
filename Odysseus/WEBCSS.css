@@ -14,6 +14,16 @@ div.flprice span[data-ody-id="TripTotal"] {
     font-size: 0.85em;
 }
 
+/*Flight Filters*/
+.filter-section .search-filter .filter-list .only-text {
+    position: absolute;
+    padding: 6px!important;
+    top: 2px!important;
+    right: 2px!important;
+    background: #be9f55;
+    font-weight: 700;
+}
+
 div[data-original-title="Flight departure is close to cruise departure."]:after, div[data-original-title="Flight arrival is close to cruise departure."]:after, div[data-original-title="Flight departure is close to cruise arrival."]:after, div[data-original-title="Flight arrival is close to cruise arrival."]:after, div[data-original-title="Flight departure is after cruise departure."]:after, div[data-original-title="Flight arrival is after cruise departure."]:after {
     content: "This Flight Is Not Selectable";
     right: 0;

@@ -47,6 +47,20 @@ div[data-original-title="Flight departure is close to cruise departure."]:after,
   border-right: double 15px;
 }
 
+/*airline filter tooltip*/
+.d-flex.pointer.p-2[data-target="#airlines-wrap"]:hover:after {
+    content: "click the tickbox to select your option or click on then 'only' button to select only one option";
+    position: absolute;
+    right: -205px;
+    width: 200px;
+    display: inline-table;
+    z-index: 999;
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border-left: double 15px;
+}
+
 /*HOTEL RESULTS CSS*/
 .default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-button-wrapper.od-search-button .od-btn.btn-search {
     background-color: #be9f55!important;

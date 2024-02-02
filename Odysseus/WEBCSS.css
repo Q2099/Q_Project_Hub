@@ -2,6 +2,11 @@ tr[data-ody-id='ItineraryAddAirButton'] {
   display: table-row !important;
 }
 
+/*flight search tabs*/
+.air-search-tabs label.air-search-tab:nth-of-type(2), .air-search-tabs label.air-search-tab:nth-of-type(3) {
+    display: none;
+}
+
 /*FLIGHT RESULTS CSS*/
 div.flprice span[data-ody-id="TripTotal"] {
     font-weight: 700;

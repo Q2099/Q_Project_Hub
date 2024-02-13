@@ -18,6 +18,9 @@
 }
 
 /*HIDDEN ELEMENTS*/
+.col-12.mb-2.additionalServWidget div#CruiseTransfers {
+    display: none;
+}
 
 button[ng-reflect-tooltip="Share"] {
     display: none;

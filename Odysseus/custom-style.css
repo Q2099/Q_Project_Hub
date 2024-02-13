@@ -1,3 +1,25 @@
+button[ng-reflect-tooltip="Share"] {
+    display: none;
+}
+
+div[data-ody-id="sailingDateSection"] .section-sailing-date-btns {
+    display: none;
+}
+
+input#ItineraryAddFlightButton {
+    font-weight: 700;
+}
+
+.card.st-open.border-bottom input#AddFlightBTN {
+    display: none;
+}
+
+.container-fluid.d-flex.align-items-center.justify-content-end.custom-modifysearchtext span.text-white.text-nowrap.fs18 {
+    display: none;
+}
+
+
+
 /*remove dollar icon*/
 [data-ody-id='FilterSection'] .odi-money,
 .search-filter .odi-money {

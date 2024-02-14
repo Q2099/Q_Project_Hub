@@ -415,7 +415,7 @@ tr.package-itinerary-node.d-none:hover:after {
     color: #fff;
     padding: 5px 20px;
     z-index: 99;
-    border-radius: 5px;
+    border-top: double 15px;
     text-align: center;
 }
 

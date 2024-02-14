@@ -409,10 +409,17 @@ tr.package-itinerary-node.d-none:hover:after {
 
 .cruise-list-view.btn-group.btn-group-small.d-none.d-lg-block.ml-2:hover:after {
     content: "Select how you wish to view your results";
+     position: absolute;
     margin: 40px 0px 0px -175px;
+    background: #333;
+    color: #fff;
+    padding: 5px 20px;
+    z-index: 99;
+    border-radius: 5px;
+    text-align: center;
 }
 
-tr.package-itinerary-node.d-none:hover:after, .cruise-list-view.btn-group.btn-group-small.d-none.d-lg-block.ml-2:hover:after {
+tr.package-itinerary-node.d-none:hover:after {
     padding: 15px;
     background: #333;
     color: #fff;

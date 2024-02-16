@@ -1,3 +1,13 @@
+/*Start Booking Button*/
+div[data-ody-id="SailingsWrapperContainer"] button.btn.btn-primary.mw100:before {
+    content: "start";
+}
+
+div[data-ody-id="SailingsWrapperContainer"] button.btn.btn-primary.mw100:after {
+    content: "ing";
+    margin-left: -3px;
+}
+
 
 /*remove dollar icon*/
 [data-ody-id='FilterSection'] .odi-money,

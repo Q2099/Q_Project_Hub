@@ -15,7 +15,7 @@ div[data-ody-id="ProgressStepperBar"] div.checkout-step.text-center.ng-star-inse
 
 /*remove dollar icon*/
 [data-ody-id='FilterSection'] .odi-money,
-.search-filter .odi-money {
+.search-filter .odi-money, em.odi.odi-money.fs24.mr-2 {
 	margin-top: -5px;
     font-size: 1.5rem !important;
     margin-right: 0.75rem !important;
@@ -27,7 +27,7 @@ div[data-ody-id="ProgressStepperBar"] div.checkout-step.text-center.ng-star-inse
 }
 
 [data-ody-id='FilterSection'] .odi-money::before,
-.search-filter .odi-money::before {
+.search-filter .odi-money::before, em.odi.odi-money.fs24.mr-2:before {
 	content: '£' !important;
 }
 

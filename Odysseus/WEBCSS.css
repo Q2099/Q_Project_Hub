@@ -52,9 +52,9 @@ div#flight_options_search_form input#_ctl0_MainContentsPH__ctl0_SearchAirBTN:hov
     color: #fff;
 }
 
-div#flight_options_search_form .air-search-tabs-container select {
+/*div#flight_options_search_form .air-search-tabs-container select {
     background-color: #fff!important;
-}
+}*/
 
 
 /*Flight Filters*/

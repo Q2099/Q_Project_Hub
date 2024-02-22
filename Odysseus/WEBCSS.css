@@ -19,6 +19,40 @@ div.flprice span[data-ody-id="TripTotal"] {
     font-size: 0.85em;
 }
 
+.package-summary-price.p-2.border-left.flex-shrink-1.d-flex.align-items-center h5.text-primary.mb-0.text-nowrap.font-weight-bold {
+    font-size: 22px!important;
+}
+
+/*Air Search Tab Box*/
+
+.card-body {
+    background: #be9f55;
+}
+
+div#flight_options_search_form .air-search-tabs-container {
+    color: #fff;
+}
+
+div#flight_options_search_form label.air-search-tab {
+    margin-bottom: 0;
+}
+
+div#flight_options_search_form input#_ctl0_MainContentsPH__ctl0_SearchAirBTN {
+    background-color: #fff;
+    color: #be9f55;
+    min-width: 200px;
+}
+
+div#flight_options_search_form input#_ctl0_MainContentsPH__ctl0_SearchAirBTN:hover {
+    background: #000;
+    color: #fff;
+}
+
+div#flight_options_search_form .air-search-tabs-container select {
+    background-color: #fff!important;
+}
+
+
 /*Flight Filters*/
 .filter-section .search-filter .filter-list .only-text {
     position: absolute;

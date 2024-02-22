@@ -28,7 +28,7 @@ div.flprice span[data-ody-id="TripTotal"] {
     color: #fff;
     background: #838383;
 }
-.card-body {
+.card-body div#flight_options_search_form {
     background: #be9f55;
 }
 

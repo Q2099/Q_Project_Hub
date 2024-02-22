@@ -41,7 +41,7 @@ div#flight_options_search_form label.air-search-tab {
     margin-bottom: 0;
 }
 
-div#flight_options_search_form input#_ctl0_MainContentsPH__ctl0_SearchAirBTN {
+/*div#flight_options_search_form input#_ctl0_MainContentsPH__ctl0_SearchAirBTN {
     background-color: #fff;
     color: #be9f55;
     min-width: 200px;
@@ -50,7 +50,7 @@ div#flight_options_search_form input#_ctl0_MainContentsPH__ctl0_SearchAirBTN {
 div#flight_options_search_form input#_ctl0_MainContentsPH__ctl0_SearchAirBTN:hover {
     background: #000;
     color: #fff;
-}
+}*/
 
 /*div#flight_options_search_form .air-search-tabs-container select {
     background-color: #fff!important;

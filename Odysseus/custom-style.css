@@ -1,12 +1,12 @@
 /*Start Booking Button*/
-div[data-ody-id="SailingsWrapperContainer"] button.btn.btn-primary.mw100:before {
+/*div[data-ody-id="SailingsWrapperContainer"] button.btn.btn-primary.mw100:before {
     content: "start";
 }
 
 div[data-ody-id="SailingsWrapperContainer"] button.btn.btn-primary.mw100:after {
     content: "ing";
     margin-left: -3px;
-}
+}*/
 
 /*Choose Cabin Category breadcrumb CSS*/
 div[data-ody-id="ProgressStepperBar"] div.checkout-step.text-center.ng-star-inserted:nth-of-type(2) span span::before {

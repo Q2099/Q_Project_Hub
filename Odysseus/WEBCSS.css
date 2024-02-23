@@ -2,6 +2,11 @@ tr[data-ody-id='ItineraryAddAirButton'] {
   display: table-row !important;
 }
 
+/*Alert Message*/
+.section-alert-message.container-fluid.alert-msg-wrapper {
+    display: none;
+}
+
 /*flight search tabs*/
 .air-search-tabs label.air-search-tab:nth-of-type(2), .air-search-tabs label.air-search-tab:nth-of-type(3) {
     display: none;
@@ -11,6 +16,10 @@ tr[data-ody-id='ItineraryAddAirButton'] {
 div.flprice span[data-ody-id="TripTotal"] {
     font-weight: 700;
     font-size: 1.75em;
+}
+
+a.share-icon.btn.btn-outline-primary {
+    display: none;
 }
 
 .price-box .air-sub-price {

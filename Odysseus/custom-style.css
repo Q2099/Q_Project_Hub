@@ -420,23 +420,6 @@ a#_ctl0__ctl1_ItineraryDetails__ctl0_PreCruiseHotelLink:before, a#_ctl0__ctl1_It
 
 
 
-tr.package-itinerary-node.d-none:hover:after {
-    display: block;
-    width: 235px;
-    right: 0;
-     border-right: double 15px;
-	    position: absolute;
-    z-index: 999;
-    padding: 10px 15px;
-    font-size: 14px;
-    background-color: #eee;
-    color: #333;
-	    border: solid 1px #ddd;
-    border-right: solid 10px #ddd;
-    border-radius: 10px;
-}
-}
-
 @media(max-width: 550px){
  tr.package-itinerary-node.d-none:hover:after {
     width: 155px;

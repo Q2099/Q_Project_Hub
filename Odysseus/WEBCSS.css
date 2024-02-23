@@ -104,6 +104,26 @@ div[data-original-title="Flight departure is close to cruise departure."]:after,
     background-color: #be9f55!important;
 }
 
+/*package icon tooltip*/
+.package-summary-icon.text-primary:after {
+    content: "What's included in your current package";
+	position: absolute;
+    right: -205px;
+    width: 200px;
+    display: inline-table;
+    z-index: 999;
+    padding: 10px 15px;
+font-size: 14px;	
+    background-color: #333;
+    color: #fff;
+    border-left: double 15px;
+}
+
+/*Hide room/board and more prices links*/
+div.card.card-material.mb-3.hotel-item-card .col-md-5.col-lg-3.col-12.text-right.card-flex-auto.grid-flex-end div:nth-of-type(3), div.card.card-material.mb-3.hotel-item-card .col-md-5.col-lg-3.col-12.text-right.card-flex-auto.grid-flex-end div:nth-of-type(4) {
+    display:none;
+}
+
 /*remove dollar icon*/
 [data-ody-id='FilterSection'] .odi-money,
 .search-filter .odi-money, em.odi.odi-money.fs24.mr-2 {

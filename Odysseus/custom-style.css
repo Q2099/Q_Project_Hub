@@ -446,7 +446,7 @@ input#ItineraryAddFlightButton:hover {
 
 /*TOOLTIP GENERAL*/
      
-.cruise-list-view.btn-group.btn-group-small.d-none.d-lg-block.ml-2:hover:after, div#gridandcard:hover:after, .d-flex.pointer.p-2[data-target="#airlines-wrap"]:hover:after, .package-summary-icon.text-primary:hover:after  {
+tr.package-itinerary-node.d-none:hover:after, .cruise-list-view.btn-group.btn-group-small.d-none.d-lg-block.ml-2:hover:after, div#gridandcard:hover:after, .d-flex.pointer.p-2[data-target="#airlines-wrap"]:hover:after, .package-summary-icon.text-primary:hover:after  {
 position: absolute;
     /*margin: 40px 0px 0px -175px;*/
     width: 200px;    

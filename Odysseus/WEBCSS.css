@@ -171,7 +171,7 @@ position: absolute;
 
 /*TOOLTIP INDIVIDUAL*/
 tr.package-itinerary-node.d-none:hover:after {
-    content: "Add a pre and post cruise flight to add to your package.";
+    content: "Add a pre and post cruise flight to your package.";
 	    border-left: solid 10px #ddd;
 	right: 0;
 }

@@ -31,7 +31,7 @@ div.flprice span[data-ody-id="TripTotal"] {
 .section-air-search-tabs .air-search-tabs .air-search-tab input:checked+span, .section-air-search-tabs .air-search-tabs .air-search-tab span:hover {
     background: #be9f55!important;
 	color:#fff!important;
-	border: 0px!important;
+	/*border: 0px!important;*/
     margin: 0px 1px;
 }
 }

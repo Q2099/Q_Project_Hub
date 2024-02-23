@@ -85,44 +85,14 @@ div[data-original-title="Flight departure is close to cruise departure."]:after,
   border-right: double 15px;
 }
 
-/*airline filter tooltip*/
-.d-flex.pointer.p-2[data-target="#airlines-wrap"]:hover:after {
-    content: "click the tickbox to select your option or click on then 'only' button to select only one option";
-    position: absolute;
-    right: -205px; 
-    width: 200px;
-    display: inline-table;
-    z-index: 999;
-    padding: 10px 15px;
-    font-size: 14px;
-    background-color: #eee;
-    color: #333;
-	    border: solid 1px #ddd;
-    border-left: solid 10px #ddd;
-    border-radius: 10px;
-}
+
 
 /*HOTEL RESULTS CSS*/
 .default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-button-wrapper.od-search-button .od-btn.btn-search {
     background-color: #be9f55!important;
 }
 
-/*package icon tooltip*/
-.package-summary-icon.text-primary:hover:after {
-    content: "What's included in your current package";
-    position: absolute;
-    /* right: -205px; */
-    width: 200px;
-    display: inline-table;
-    z-index: 999;
-    padding: 10px 15px;
-    font-size: 14px;
-    background-color: #eee;
-    color: #333;
-	    border: solid 1px #ddd;
-    border-left: solid 10px #ddd;
-    border-radius: 10px;
-}
+
 
 /*Hide room/board and more prices links*/
 div.card.card-material.mb-3.hotel-item-card .col-md-5.col-lg-3.col-12.text-right.card-flex-auto.grid-flex-end div:nth-of-type(3), div.card.card-material.mb-3.hotel-item-card .col-md-5.col-lg-3.col-12.text-right.card-flex-auto.grid-flex-end div:nth-of-type(4) {
@@ -146,3 +116,45 @@ div.card.card-material.mb-3.hotel-item-card .col-md-5.col-lg-3.col-12.text-right
 .search-filter .odi-money::before, em.odi.odi-money.fs24.mr-2:before {
 	content: '£' !important;
 }
+
+/*------------------------------------------TOOLTIPS------------------------------------------*/	
+
+/*TOOLTIP GENERAL*/
+     
+.cruise-list-view.btn-group.btn-group-small.d-none.d-lg-block.ml-2:hover:after, div#gridandcard:hover:after, .d-flex.pointer.p-2[data-target="#airlines-wrap"]:hover:after, .package-summary-icon.text-primary:hover:after  {
+position: absolute;
+    margin: 40px 0px 0px -175px;
+    width: 200px;    z-index: 999;
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #eee;
+    color: #333;
+	border: solid 1px #ddd;
+    border-radius: 10px;
+}
+
+/*TOOLTIP INDIVIDUAL*/
+tr.package-itinerary-node.d-none:hover:after {
+    content: "Add a pre and post cruise flight to add to your package.";
+	    border-left: solid 10px #ddd;
+}
+
+.cruise-list-view.btn-group.btn-group-small.d-none.d-lg-block.ml-2:hover:after, div#gridandcard:hover:after {
+    content: "Select how you wish to view your results";
+	    border-top: solid 10px #ddd;
+}
+
+
+/*airline filter tooltip*/
+.d-flex.pointer.p-2[data-target="#airlines-wrap"]:hover:after {
+    content: "click the tickbox to select your option or click on then 'only' button to select only one option";
+    right: -205px; 
+    border-left: solid 10px #ddd;
+}
+
+/*package icon tooltip*/
+.package-summary-icon.text-primary:hover:after {
+    content: "What's included in your current package";
+    border-left: solid 10px #ddd;
+}
+

@@ -60,6 +60,14 @@ div#flight_options_search_form .air-search-tabs-container select {
     background-color: #fff!important;
 }
 
+div#lbl_from {
+    margin-bottom: 5px;
+    margin-top: 8px;
+}
+
+div#divFlexibledates {
+    display: none;
+}
 
 /*Flight Filters*/
 .filter-section .search-filter .filter-list .only-text {

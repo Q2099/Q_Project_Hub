@@ -105,10 +105,10 @@ div[data-original-title="Flight departure is close to cruise departure."]:after,
 }
 
 /*package icon tooltip*/
-.package-summary-icon.text-primary:after {
+.package-summary-icon.text-primary:hover:after {
     content: "What's included in your current package";
 	position: absolute;
-    right: -205px;
+    /*right: -205px;*/
     width: 200px;
     display: inline-table;
     z-index: 999;

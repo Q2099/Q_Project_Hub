@@ -421,7 +421,7 @@ tr.package-itinerary-node.d-none:hover:after {
     content: "Add a pre and post cruise flight to add to your package.";
 }
 
-.cruise-list-view.btn-group.btn-group-small.d-none.d-lg-block.ml-2:hover:after {
+.cruise-list-view.btn-group.btn-group-small.d-none.d-lg-block.ml-2:hover:after, div#gridandcard:hover:after {
     content: "Select how you wish to view your results";
      position: absolute;
     margin: 40px 0px 0px -175px;

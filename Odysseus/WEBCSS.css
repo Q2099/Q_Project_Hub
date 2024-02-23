@@ -89,14 +89,17 @@ div[data-original-title="Flight departure is close to cruise departure."]:after,
 .d-flex.pointer.p-2[data-target="#airlines-wrap"]:hover:after {
     content: "click the tickbox to select your option or click on then 'only' button to select only one option";
     position: absolute;
-    right: -205px;
+    right: -205px; 
     width: 200px;
     display: inline-table;
     z-index: 999;
     padding: 10px 15px;
-    background-color: #333;
-    color: #fff;
-    border-left: double 15px;
+    font-size: 14px;
+    background-color: #eee;
+    color: #333;
+	    border: solid 1px #ddd;
+    border-left: solid 10px #ddd;
+    border-radius: 10px;
 }
 
 /*HOTEL RESULTS CSS*/
@@ -107,16 +110,18 @@ div[data-original-title="Flight departure is close to cruise departure."]:after,
 /*package icon tooltip*/
 .package-summary-icon.text-primary:hover:after {
     content: "What's included in your current package";
-	position: absolute;
-    /*right: -205px;*/
+    position: absolute;
+    /* right: -205px; */
     width: 200px;
     display: inline-table;
     z-index: 999;
     padding: 10px 15px;
-font-size: 14px;	
-    background-color: #333;
-    color: #fff;
-    border-left: double 15px;
+    font-size: 14px;
+    background-color: #eee;
+    color: #333;
+	    border: solid 1px #ddd;
+    border-left: solid 10px #ddd;
+    border-radius: 10px;
 }
 
 /*Hide room/board and more prices links*/

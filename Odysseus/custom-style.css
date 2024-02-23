@@ -425,23 +425,35 @@ tr.package-itinerary-node.d-none:hover:after {
     content: "Select how you wish to view your results";
      position: absolute;
     margin: 40px 0px 0px -175px;
-    background: #333;
-    color: #fff;
-    padding: 5px 20px;
-    z-index: 99;
-    border-top: double 15px;
-    text-align: center;
+    /* right: -205px; */
+    width: 200px;
+    /*display: inline-table;*/
+    z-index: 999;
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #eee;
+    color: #333;
+	    border: solid 1px #ddd;
+    border-top: solid 10px #ddd;
+    border-radius: 10px;
+}
 }
 
 tr.package-itinerary-node.d-none:hover:after {
-    padding: 15px;
-    background: #333;
-    color: #fff;
     display: block;
     width: 235px;
-    position: absolute;
     right: 0;
      border-right: double 15px;
+	    position: absolute;
+    z-index: 999;
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #eee;
+    color: #333;
+	    border: solid 1px #ddd;
+    border-right: solid 10px #ddd;
+    border-radius: 10px;
+}
 }
 
 @media(max-width: 550px){

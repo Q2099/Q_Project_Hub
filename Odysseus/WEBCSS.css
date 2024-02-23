@@ -27,7 +27,7 @@ section[data-ody-id="AirResultFlightSummary"]  ul.d-flex.flex-wrap.listing.light
     display: none;
 }
 
-a.share-icon.btn.btn-outline-primary, a[data-clipboard-element="shareToClipboard"] {
+a.share-icon.btn.btn-outline-primary, a[data-clipboard-element="shareToClipboard"], a[data-toaster-content="Copied to clipboard"] {
     display: none;
 }
 
@@ -120,7 +120,15 @@ div[data-original-title="Flight departure is close to cruise departure."]:after,
   border-right: double 15px;
 }
 
+/*HOTEL SEARCH FIXES*/
+#odysseus #OVExploreContainer .od-btn.od-btn-secondary, #odysseus #OVExploreContainer .od-form-wrapper .multiselect__option--selected, #odysseus #OVExploreContainer .od-form-wrapper .multiselect__option--selected.multiselect__option--highlight {
+    border: 0px!important;;
+    background: #be9f55!important;
+}
 
+#pax-count-popup .pax-count-outer .add-room, #pax-count-popup .pax-count-outer .remove-room, .od-location-select #location-select-popup .location-select-outer .locations-wrapper>div .airports-cruiseports-header, .od-location-select #location-select-popup .location-select-outer .locations-wrapper>div .airports-header, .od-location-select #location-select-popup .location-select-outer .locations-wrapper>div .airports-hotels, .od-location-select #location-select-popup .location-select-outer .locations-wrapper>div .airports-hotels-header, .od-location-select #location-select-popup .location-select-outer .locations-wrapper>div .cruiseports-header, .od-location-select #location-select-popup .location-select-outer .locations-wrapper>div .header-style, .od-location-select #location-select-popup .location-select-outer .locations-wrapper>div .hotels-header, .od-location-select #location-select-popup .location-select-outer .locations-wrapper>div .others-header{
+ color: #be9f55!important;	
+}
 
 /*HOTEL RESULTS CSS*/
 .default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-button-wrapper.od-search-button .od-btn.btn-search {

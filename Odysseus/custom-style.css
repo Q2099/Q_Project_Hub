@@ -438,6 +438,11 @@ input#ItineraryAddFlightButton:hover {
     background-color: #000;
 }
 
+/*Hide FLight Ticket info*/
+div[data-ody-id="CruiseAIrItinerarySection_1"] .info-card.mProDetCont, div[data-ody-id="CruiseAIrItinerarySection_2"] .info-card.mProDetCont, div[data-ody-id="CruiseAIrItinerarySection_3"] .info-card.mProDetCont, div[data-ody-id="CruiseAIrItinerarySection_4"] .info-card.mProDetCont, div[data-ody-id="CruiseAIrItinerarySection_5"] .info-card.mProDetCont, div[data-ody-id="CruiseAIrItinerarySection_6"] .info-card.mProDetCont {
+    display: none;
+}
+
 /*custom button design for final buttons on payment page*/
 .spc-conti-cont.btn-container span input, .spc-conti-cont.btn-container input[data-ody-id="SaveForLaterButton"] {
     background-color: #be9f55;

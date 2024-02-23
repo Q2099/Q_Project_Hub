@@ -18,6 +18,15 @@ div.flprice span[data-ody-id="TripTotal"] {
     font-size: 1.75em;
 }
 
+/*Flight Agent Info*/
+section[data-ody-id="AirResultFlightSummary"] ul.d-flex.flex-wrap.listing.light-theme-background li:nth-of-type(5) {
+    display: block;
+}
+
+section[data-ody-id="AirResultFlightSummary"]  ul.d-flex.flex-wrap.listing.light-theme-background li {
+    display: none;
+}
+
 a.share-icon.btn.btn-outline-primary, a[data-clipboard-element="shareToClipboard"] {
     display: none;
 }

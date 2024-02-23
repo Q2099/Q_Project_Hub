@@ -28,7 +28,7 @@ section[data-ody-id="AirResultFlightSummary"]  ul.d-flex.flex-wrap.listing.light
 }
 
 a.share-icon.btn.btn-outline-primary, a[data-clipboard-element="shareToClipboard"], a[data-toaster-content="Copied to clipboard"] {
-    display: none;
+    display: none!important;
 }
 
 .price-box .air-sub-price {

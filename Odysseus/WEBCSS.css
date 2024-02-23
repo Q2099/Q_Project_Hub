@@ -34,7 +34,7 @@ div.flprice span[data-ody-id="TripTotal"] {
 }
 
 div#flight_options_search_form .air-search-tabs-container {
-    color: #fff;
+    /*color: #fff;*/
 }
 
 div#flight_options_search_form label.air-search-tab {

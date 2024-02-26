@@ -397,18 +397,18 @@ input.form-control.w-65px.ng-valid.ng-dirty.ng-touched {
 
 /*Pre/post cruise hotel button*/
 a#_ctl0__ctl1_ItineraryDetails__ctl0_PreCruiseHotelLink:before {
-    content: "Pre-Cruise: ";
+    content: "Pre-Cruise ";
 }
 
 a#_ctl0__ctl1_ItineraryDetails__ctl0_PostCruiseHotelLink:before{
-    content: "Post-Cruise: ";
+    content: "Post-Cruise ";
 }
 
-a#_ctl0__ctl1_ItineraryDetails__ctl0_PreCruiseHotelLink:before, a#_ctl0__ctl1_ItineraryDetails__ctl0_PostCruiseHotelLink:before {
+/*a#_ctl0__ctl1_ItineraryDetails__ctl0_PreCruiseHotelLink:before, a#_ctl0__ctl1_ItineraryDetails__ctl0_PostCruiseHotelLink:before {
     font-weight: bold;
     font-size: 1.1em;
     text-transform: uppercase;
-}
+}*/
 
 .overflow-auto.mProItineraryContainer:before {
     content: "Choose your Pre and Post Cruise Extras or scroll down to complete your booking.";

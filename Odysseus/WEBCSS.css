@@ -7,6 +7,10 @@ tr[data-ody-id='ItineraryAddAirButton'] {
     display: none;
 }
 
+.tickettype-note {
+    display: none;
+}
+
 /*flight search tabs*/
 .air-search-tabs label.air-search-tab:nth-of-type(2), .air-search-tabs label.air-search-tab:nth-of-type(3) {
     display: none;

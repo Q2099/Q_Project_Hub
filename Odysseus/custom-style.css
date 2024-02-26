@@ -35,7 +35,13 @@ div[data-ody-id="sailingDateSection"] .section-sailing-date-btns {
 }
 
 input#ItineraryAddFlightButton {
-    font-weight: 400;
+        font-weight: 400;
+	min-width: 200px;
+}
+
+a#_ctl0__ctl1_ItineraryDetails__ctl0_PreCruiseHotelLink, a#_ctl0__ctl1_ItineraryDetails__ctl0_PostCruiseHotelLink {
+    min-width: 200px;
+    margin-left: 3px;
 }
 
 .card.st-open.border-bottom input#AddFlightBTN {

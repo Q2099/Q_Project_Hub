@@ -49,7 +49,7 @@ a.share-icon.btn.btn-outline-primary, a[data-clipboard-element="shareToClipboard
 .section-air-search-tabs .air-search-tabs .air-search-tab input:checked+span, .section-air-search-tabs .air-search-tabs .air-search-tab span:hover {
     background: #be9f55!important;
 	color:#fff!important;
-	/*border: 0px!important;*/
+    border: solid 1px #be9f55 !important;
     margin: 0px 1px;
 }
 }

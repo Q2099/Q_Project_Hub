@@ -473,7 +473,30 @@ position: absolute;
 tr.package-itinerary-node.d-none:hover:after {
     content: "Add a pre and post cruise flight to your package.";
 	    border-left: solid 10px #ddd;
-	right: 0;
+	right: 50%;
+}
+
+@media(max-width:1400px){
+tr.package-itinerary-node.d-none:hover:after {
+	right: 40%;
+}	
+}
+
+@media(max-width:1100px){
+tr.package-itinerary-node.d-none:hover:after {
+	right: 30%;
+}	
+}
+@media(max-width:1000px){
+tr.package-itinerary-node.d-none:hover:after {
+	right: 40%;
+}	
+}
+
+@media(max-width:860px){
+tr.package-itinerary-node.d-none:hover:after {
+	right: 25%;
+}	
 }
 
 .d-print-none.btn-add-hotel:hover:after {

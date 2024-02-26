@@ -34,9 +34,9 @@ div[data-ody-id="sailingDateSection"] .section-sailing-date-btns {
     display: none;
 }
 
-/*input#ItineraryAddFlightButton {
-    font-weight: 700;
-}*/
+input#ItineraryAddFlightButton {
+    font-weight: 400;
+}
 
 .card.st-open.border-bottom input#AddFlightBTN {
     display: none;

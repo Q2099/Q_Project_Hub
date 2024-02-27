@@ -183,9 +183,9 @@ position: absolute;
 	z-index: 999;
     padding: 10px 15px;
     font-size: 14px;
-    background-color: #eee;
+    background-color: #ccc;
     color: #333;
-	border: solid 1px #ddd;
+	border: solid 1px #bbb;
     border-radius: 10px;
 }
 

@@ -431,7 +431,7 @@ a#_ctl0__ctl1_ItineraryDetails__ctl0_PostCruiseHotelLink:before{
 }
 }
 input#ItineraryAddFlightButton:hover {
-    background-color: #000;
+    background-color: #000!important;
 }
 
 /*Hide FLight Ticket info*/

@@ -49,14 +49,29 @@ a.share-icon.btn.btn-outline-primary, a[data-clipboard-element="shareToClipboard
 .section-air-search-tabs .air-search-tabs .air-search-tab span {
     color: #fff;
     background: #838383;
+	border: none;
+	border-right: 1px solid #fff;
+    border-left: solid 1px;
+    border-bottom: solid 1px;
 }
+
+.air-search-tabs-container .d-flex.align-items-center {
+    min-height: 50px;
+}
+
+.btn-outline-primary:hover, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .btn-outline-primary:hover {
+    color: #fff!important;
+    border-color: #fff!important;
+    background-color: #be9f55!important;
+}
+
 .section-air-search-tabs .air-search-tabs .air-search-tab input:checked+span, .section-air-search-tabs .air-search-tabs .air-search-tab span:hover {
     background: #be9f55!important;
 	color:#fff!important;
     border: solid 1px #be9f55 !important;
     margin: 0px 1px;
 }
-}
+
 
 div#flight_options_search_form .air-search-tabs-container {
     /*color: #fff;*/

@@ -499,6 +499,12 @@ tr.package-itinerary-node.d-none:hover:after {
 }	
 }
 
+@media(max-width:550px){
+tr.package-itinerary-node.d-none:hover:after {
+	right: 0;
+}	
+}
+
 .d-print-none.btn-add-hotel:hover:after {
     content: "Add a pre and post cruise hotel to your package.";
 	border-left: solid 10px #aaa;

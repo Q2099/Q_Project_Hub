@@ -1,3 +1,52 @@
+/*Quick Scroll Button Payment Page*/
+  /*button.btn-right:hover  span.txt-hidden{
+    visibility:visible!important;
+  }*/
+  
+  .flexbox.btn-container {
+      /* flex-direction: column!important; */
+      position: fixed;
+      right: 0;
+      /* top: 50%; */
+      bottom: 50%;
+      z-index: 999;
+    width:auto;
+  }
+  
+  button.btn-right:hover{   max-width: 90px;}
+  
+  
+  /*.txt-hidden{
+    visibility:hidden;
+  }*/
+  
+  .btn-right {
+      /*position: fixed;*/
+      z-index: 999;
+      right: 0;
+      /*top: 50%;
+      bottom: 50%;*/
+min-height: 50px!important;
+      text-align: center;
+      background-color: #333;
+      padding: 10px 5px;
+      min-width: 50px;
+      max-width: /*50px*/90px;
+      line-height: 1.2em;
+      height: auto;
+    border: none;
+    border-bottom: solid 1px;
+      border-radius: 0 !important;
+      margin: 0;
+      /*box-shadow: 0 0 6px #444;*/
+    font-weight:500!important;
+    text-transform: capitalize!important;
+  }
+  
+  /*#checkout-quicklinks{
+    visibility:hidden;
+  }*/
+
 /*Choose Cabin Category breadcrumb CSS*/
 div[data-ody-id="ProgressStepperBar"] div.checkout-step.text-center.ng-star-inserted:nth-of-type(2) span span::before {
     content: "Choose ";

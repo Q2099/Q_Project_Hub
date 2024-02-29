@@ -1,6 +1,11 @@
 /*Tags Colour*/
-.status12 {
+/*quote tag*/.status12 {
     background-color: red!important;
+}
+
+/*hide connecting cabins*/
+div[data-ody-id="SpaecialRates"] .d-inline-flex.flex-column:has(input[name="isConnectingCabinsSelected"]) {
+    display: none !important;
 }
 
 /*Quick Scroll Button Payment Page*/

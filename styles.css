@@ -37,11 +37,16 @@
 
 @media(max-width: 1024px){
 .fbx-12{width: calc(25% - 10px);}
-  .fbx-16{width: calc(33.333% - 10px);} 
+  .fbx-16{width: calc(33.333% - 10px);}
+  .fbx-25{width: calc(50% - 20px);}
 }
 
 @media(max-width: 920px){
 
+.fbx-20{width: calc(50% - 20px);}
+.fbx-16{width: calc(50% - 20px);} 
+.fbx-12{width: calc(25% - 20px);}
+.fbx-10{width: calc(20% - 20px);}
 }
 
 @media(max-width: 768px){
@@ -49,12 +54,9 @@
 .fbx-75{width: calc(50% - 20px);}
 .fbx-50{width: calc(100%);}
 .fbx-66{width: calc(50% - 20px);}   
-.fbx-33{width: calc(50% - 20px);}  
-.fbx-25{width: calc(50% - 20px);}
-.fbx-20{width: calc(50% - 20px);}
-.fbx-16{width: calc(50% - 20px);} 
-.fbx-12{width: calc(25% - 20px);}
-.fbx-10{width: calc(25% - 20px);}
+.fbx-33{width: calc(50% - 20px);}
+ .fbx-10{width: calc(25% - 20px);} 
+
 
 
 .text-right{text-align:center;}

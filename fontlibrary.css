@@ -739,7 +739,51 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "tw-cen-mt-std";
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/11c9bb157f6b9d39fa23b6d2cf16e50b1a5ddcca/fonts/TwCenMTStdLight.otf")
+    format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tw-cen-mt-std";
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/11c9bb157f6b9d39fa23b6d2cf16e50b1a5ddcca/fonts/TwCenMTStd.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tw-cen-mt-std";
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/11c9bb157f6b9d39fa23b6d2cf16e50b1a5ddcca/fonts/TwCenMTStdBold.otf")
+    format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tw-cen-mt-std";
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/11c9bb157f6b9d39fa23b6d2cf16e50b1a5ddcca/fonts/TwCenMTStdExtraBold.otf")
+    format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tw-cen-mt-std";
+  src: url("https://rawcdn.githack.com/Q2099/Q_Project_Hub/11c9bb157f6b9d39fa23b6d2cf16e50b1a5ddcca/fonts/twcenmtstdultrabold.otf")
+    format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
 /*Font Classes*/
+.tw-cen-mt-std {
+  font-family: "tw-cen-mt-std" !important;
+}
+
 .Arvo {
   font-family: "Arvo" !important;
 }

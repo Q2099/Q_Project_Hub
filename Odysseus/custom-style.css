@@ -99,9 +99,9 @@ div[data-ody-id="ProgressStepperBar"] div.checkout-step.text-center.ng-star-inse
     display: none;
 }
 
-button[ng-reflect-tooltip="Share"] {
+/*button[ng-reflect-tooltip="Share"] {
     display: none;
-}
+}*/
 
 div[data-ody-id="sailingDateSection"] .section-sailing-date-btns {
     display: none;

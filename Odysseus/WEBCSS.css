@@ -43,9 +43,9 @@ section[data-ody-id="AirResultFlightSummary"]  ul.d-flex.flex-wrap.listing.light
     display: none;
 }
 
-a.share-icon.btn.btn-outline-primary, a[data-clipboard-element="shareToClipboard"], a[data-toaster-content="Copied to clipboard"] {
+/*a.share-icon.btn.btn-outline-primary, a[data-clipboard-element="shareToClipboard"], a[data-toaster-content="Copied to clipboard"] {
     display: none!important;
-}
+}*/
 
 .price-box .air-sub-price {
     font-weight: 700;

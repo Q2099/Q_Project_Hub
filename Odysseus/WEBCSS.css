@@ -135,7 +135,7 @@ div#divFlexibledates {
 }
 
 div[data-original-title="Flight departure is close to cruise departure."]:after, div[data-original-title="Flight arrival is close to cruise departure."]:after, div[data-original-title="Flight departure is close to cruise arrival."]:after, div[data-original-title="Flight arrival is close to cruise arrival."]:after, div[data-original-title="Flight departure is after cruise departure."]:after, div[data-original-title="Flight arrival is after cruise departure."]:after {
-    content: "This Flight Is Not Selectable";
+    content: "UNAVAILABLE - DATES ARE TOO CLOSE/ DURING CRUISE";
     right: 0;
     /*max-width: 210px;*/
     word-wrap: normal;

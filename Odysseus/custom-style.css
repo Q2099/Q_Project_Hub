@@ -15,7 +15,10 @@
 }
 }
 
-
+/*hide comms info box on flight search*/
+section.card-material.air-card .agent-info.d-print-none {
+    display: none;
+}
 
 /*hide connecting cabins*/
 div[data-ody-id="SpaecialRates"] .d-inline-flex.flex-column:has(input[name="isConnectingCabinsSelected"]) {

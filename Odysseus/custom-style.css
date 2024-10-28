@@ -272,8 +272,8 @@ section[data-ody-id="CruiseSearchBarSection"] .searchbar-checkbox-group div.ml-3
 }
 
 .search-bar-section {
-    background: #fff!important;
-    color: #666!important;
+    background: /*#fff*/#be9f55!important;
+    color: /*#666*/#fff!important;
 }
 
 .search-resultpage.swift-search-bar label, .search-resultpage.swift-search-bar label{

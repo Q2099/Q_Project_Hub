@@ -315,8 +315,12 @@ button[data-ody-id=SearchButton], .btn-primary, .primary-btn, .ui-dialog .ui-dia
     border-color: transparent #BE9F55!important;
 }
 
-.cruise-title, .btn-outline-primary, .filter-panel .card .card-heading .panel-icon, h4.cruise-title.clearfix.dir-ltr.ng-star-inserted, .text-price-color, .text-primary, .top-line .nav-tabs>li.active>a.nav-link, .top-line .nav-tabs>li.active>a.nav-link:focus, .top-line .nav-tabs>li.active>a.nav-link:hover, a.hotel-searchform-top.text-decoration-none.py-1 span {
+.cruise-title, .btn-outline-primary, .filter-panel .card .card-heading .panel-icon, h4.cruise-title.clearfix.dir-ltr.ng-star-inserted, .text-price-color, .text-primary, .top-line .nav-tabs>li.active>a.nav-link, .top-line .nav-tabs>li.active>a.nav-link:focus, .top-line .nav-tabs>li.active>a.nav-link:hover, a.hotel-searchform-top.text-decoration-none.py-1 span, h6.sailing-category-price.my-2 {
     color: #BE9F55!important;
+}
+
+.d-flex.align-items-start.justify-content-between.guest-info-title .text-primary {
+    color: #fff !important;
 }
 
 .btn-outline-primary, .nav-tabs>li.active>a.nav-link, .nav-tabs>li.active>a.nav-link:focus, .nav-tabs>li.active>a.nav-link:hover, .section-package-details, .loading-box, .loading-box-air, .loading-box-cruise, .loading-box-hotel, .flight-info, .loading-box, .loading-box-air, .loading-box-cruise, .loading-box-hotel, .section-booking-timer-extend, .trip-price-popup {

@@ -3,6 +3,10 @@
     background-color: red!important;
 }
 
+.custom-select {
+background-color: #fff;
+}
+
 @media(max-width:991px){
 	.package-summary-icon {
     min-height: auto !important;

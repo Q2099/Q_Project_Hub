@@ -302,8 +302,8 @@ section[data-ody-id="CruiseSearchBarSection"] .searchbar-checkbox-group div.ml-3
 }
 
 button[data-ody-id=SearchButton], .btn-primary, .primary-btn, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .btn-primary, .switch-container .switch-yes-no .switch-label::after, input#ItineraryAddFlightButton {
-    background-color: #333;
-    border-color: #333;
+    background-color: #BE9F55;
+    border-color: #BE9F55;
  color:#fff!important;
 }
 
@@ -383,10 +383,10 @@ color: #BE9F55!important;
 }
 
 .low-rate {
-    border-color: #a0a0a0;
-    border: solid #a0a0a0;
-    background-color: #a0a0a0;
-    color: #fff!important;
+    border-color: #fff;
+    border: solid #fff;
+    background-color: #fff;
+    color: #be9f55!important;
     font-weight: 700;
 }
 

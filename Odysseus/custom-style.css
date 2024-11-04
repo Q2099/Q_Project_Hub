@@ -378,11 +378,11 @@ div#divFlexibledates {
     color: #BE9F55;
 }
 
-.matrix-card .airline-matrix-wrap .matrix-left .mstops label, .text-primary, .text-secondary, .page-title, .nav-stepper .stepper-item-caption, .search-resultpage.swift-search-bar .btn-outline-primary, .search-resultpage.swift-search-bar .btn-primary, .search-resultpage.swift-search-bar .primary-btn, .search-resultpage.swift-search-bar .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .btn-outline-primary, .search-resultpage.swift-search-bar .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .btn-primary, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .search-resultpage.swift-search-bar .btn-outline-primary, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .search-resultpage.swift-search-bar .btn-primary{
+.matrix-card .airline-matrix-wrap .matrix-left .mstops label, .text-primary, .text-secondary, .page-title, .nav-stepper .stepper-item-caption, .search-resultpage.swift-search-bar .btn-outline-primary, .search-resultpage.swift-search-bar .btn-primary, .search-resultpage.swift-search-bar .primary-btn, .search-resultpage.swift-search-bar .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .btn-outline-primary, .search-resultpage.swift-search-bar .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .btn-primary, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .search-resultpage.swift-search-bar .btn-outline-primary, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .search-resultpage.swift-search-bar .btn-primary, cruise-prices-component .cruise-lowest-prices .low-rate .low-rate-list li span{
 color: #BE9F55!important;
 }
 
-.low-rate {
+cruise-prices-component .cruise-lowest-prices .low-rate {
     border-color: #fff;
     border: solid #fff;
     background-color: #fff;

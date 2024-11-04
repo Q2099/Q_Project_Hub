@@ -320,7 +320,7 @@ section[data-ody-id="CruiseSearchBarSection"] .searchbar-checkbox-group div.ml-3
 }
 
 .d-flex.align-items-start.justify-content-between.guest-info-title .text-primary {
-    color: #fff !important;
+    color: #BE9F55 !important;
 }
 
 .btn-outline-primary, .nav-tabs>li.active>a.nav-link, .nav-tabs>li.active>a.nav-link:focus, .nav-tabs>li.active>a.nav-link:hover, .section-package-details, .loading-box, .loading-box-air, .loading-box-cruise, .loading-box-hotel, .flight-info, .loading-box, .loading-box-air, .loading-box-cruise, .loading-box-hotel, .section-booking-timer-extend, .trip-price-popup {
@@ -460,8 +460,8 @@ h5.mb-1 {
 }
 
 div.col-12.col-md-6.float-left.clear-left.guest-info-section.ng-star-inserted fieldset.ng-star-inserted, .d-print-none.btn-add-hotel a {
-    background: #be9f55;
-    color: #fff!important;
+    background: #fff;
+    color: #000!important;
 }
 
 .d-print-none.btn-add-hotel a:hover{

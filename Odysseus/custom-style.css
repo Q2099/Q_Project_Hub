@@ -192,7 +192,7 @@ a.nav-links:hover, a:hover{
 color: #777;
 }
 
-button[data-ody-id=SearchButton]:focus, button[data-ody-id=SearchButton]:hover{
+button[data-ody-id=SearchButton], button[data-ody-id=SearchButton]:focus, button[data-ody-id=SearchButton]:hover{
        background-color: #333;
     border-color: #333;     
 }
@@ -301,7 +301,7 @@ section[data-ody-id="CruiseSearchBarSection"] .searchbar-checkbox-group div.ml-3
        background-color: #BE9F55;  
 }
 
-button[data-ody-id=SearchButton], .btn-primary, .primary-btn, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .btn-primary, .switch-container .switch-yes-no .switch-label::after, input#ItineraryAddFlightButton {
+.btn-primary, .primary-btn, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .btn-primary, .switch-container .switch-yes-no .switch-label::after, input#ItineraryAddFlightButton {
     background-color: #BE9F55;
     border-color: #BE9F55;
  color:#fff!important;

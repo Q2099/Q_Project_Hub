@@ -7,6 +7,12 @@
 background-color: #fff;
 }
 
+/*payment page timer*/
+h4.d-flex.align-items-center.booking-timer.text-primary.timerSPC span#Extendtime {
+    color: red;
+    font-weight: 700;
+}
+
 @media(max-width:991px){
 	.package-summary-icon {
     min-height: auto !important;

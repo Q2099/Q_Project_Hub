@@ -25,9 +25,9 @@ section.card-material.air-card .agent-info.d-print-none {
 }
 
 /*hide connecting cabins*/
-div[data-ody-id="SpaecialRates"] .d-inline-flex.flex-column:has(input[name="isConnectingCabinsSelected"]) {
+/*div[data-ody-id="SpaecialRates"] .d-inline-flex.flex-column:has(input[name="isConnectingCabinsSelected"]) {
     display: none !important;
-}
+}*/
 
 /*Quick Scroll Button Payment Page*/
   /*button.btn-right:hover  span.txt-hidden{

@@ -327,7 +327,7 @@ section[data-ody-id="CruiseSearchBarSection"] .searchbar-checkbox-group div.ml-3
 }
 
 /*hide policies tab from modal*/
-div.modal-body tabset ul.nav.nav-tabs li.nav-item.ng-star-inserted a#policies-link {
+div.modal-body tabset ul.nav.nav-tabs li.nav-item.ng-star-inserted a#policies-link, div.modal-body tabset ul.nav.nav-tabs li[ng-reflect-ng-class="nav-item,"]:nth-of-type(5) {
     display: none;
 }
 

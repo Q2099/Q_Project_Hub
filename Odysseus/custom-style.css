@@ -331,6 +331,15 @@ div.modal-body tabset ul.nav.nav-tabs li.nav-item.ng-star-inserted a#policies-li
     display: none;
 }
 
+tabset.full-width.top-line.outline.tab-container ul li.nav-item:nth-of-type(5) {
+    display: none;
+}
+
+/*hide port charges in fleximarkp section*/
+.card.p-2.mb-3.category-markup div.port-charges {
+    display: none;
+}
+
 /*hide checkbox for senior guest section below pax info*/
 div[data-ody-id="hasSeniorGuestSection"] {
     display: none;

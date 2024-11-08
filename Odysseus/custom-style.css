@@ -411,8 +411,8 @@ color: #BE9F55!important;
 cruise-prices-component .cruise-lowest-prices .low-rate {
     border-color: #fff;
     border: solid #fff;
-    background-color: #fff;
-    color: #be9f55!important;
+    background-color: #ddd;
+    color: #333!important;
     font-weight: 700;
 }
 

@@ -3,6 +3,11 @@
     background-color: red!important;
 }
 
+/*package price text size*adjustment/
+.package-prices.ng-star-inserted .text-center.mx-1.ng-star-inserted h6 {
+    font-size: 1.25em;
+}
+
 .custom-select {
 background-color: #fff;
 }

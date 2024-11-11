@@ -198,6 +198,13 @@ header.custom-header div.fbx-100{ text-align: right}
         padding: 10px 16px;
         box-sizing: border-box;
     }
+
+@media(max-width:1024px){
+div#header div.fbx-75 {
+    width: calc(50% - 20px);
+}
+}
+
 a.nav-links, a{
 color: #BE9F55;
 }

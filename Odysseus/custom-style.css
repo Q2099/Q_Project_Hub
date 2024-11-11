@@ -173,7 +173,7 @@ input#_ctl0_MainContentsPH__ctl0_HoldNoEmailBTN {
     }
 
 header.custom-header div.fbx-75{ justify-content: end;}
-header.custom-header div.fbx-100{ text-align: right}
+header.custom-header div.fbx-100{ text-align: right;}
 
 /*.custom-header-container.flexbox {
     border-bottom: solid #BE9F55;
@@ -243,9 +243,10 @@ button[data-ody-id=SearchButton], button[data-ody-id=SearchButton]:focus, button
             max-width: 170px;
             height: auto;
         }
-
+header.custom-header div.fbx-100{ text-align: center;}
         .custom-header-brand {
             margin-bottom: 20px;
+		text-align:center;
         }
 
         .custom-header-container {

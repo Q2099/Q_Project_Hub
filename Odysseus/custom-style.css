@@ -172,9 +172,9 @@ input#_ctl0_MainContentsPH__ctl0_HoldNoEmailBTN {
         box-sizing: border-box;
     }
 
-.custom-header-container.flexbox {
+/*.custom-header-container.flexbox {
     border-bottom: solid #BE9F55;
-}
+}*/
 
     .custom-header-container {
         display: -webkit-box;

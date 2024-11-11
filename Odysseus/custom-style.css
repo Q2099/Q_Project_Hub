@@ -172,6 +172,9 @@ input#_ctl0_MainContentsPH__ctl0_HoldNoEmailBTN {
         box-sizing: border-box;
     }
 
+header.custom-header div.fbx-75{ justify-content: end;}
+header.custom-header div.fbx-100{ text-align: right}
+
 /*.custom-header-container.flexbox {
     border-bottom: solid #BE9F55;
 }*/

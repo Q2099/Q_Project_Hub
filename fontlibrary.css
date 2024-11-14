@@ -9,6 +9,87 @@
   font-style: normal;
 }
 
+/*Adrianna Extended*/
+@font-face {
+  font-family: "Adrianna Extended";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/AdriannaExtended-Thin.ttf")
+    format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Adrianna Extended";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/AdriannaExtended-ThinItalic.ttf")
+    format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Adrianna Extended";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/AdriannaExtended-Light.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Adrianna Extended";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/AdriannaExtended-LightItalic.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Adrianna Extended";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/AdriannaExtended-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Adrianna Extended";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/AdriannaExtended-RegularItalic.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Adrianna Extended";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/AdriannaExtended-DemiBold.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Adrianna Extended";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/AdriannaExtended-DemiBoldItalic.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Adrianna Extended";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/AdriannaExtended-Bold.ttf")
+    format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Adrianna Extended";
+  src: url("https://q2099.github.io/Q_Project_Hub/fonts/AdriannaExtended-BoldItalic.ttf")
+    format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
 /*NOAH TEXT*/
 @font-face {
   font-family: "Noah";

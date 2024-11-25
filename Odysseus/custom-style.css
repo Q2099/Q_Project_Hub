@@ -360,9 +360,9 @@ tabset.full-width.top-line.outline.tab-container ul li.nav-item:nth-of-type(5) {
 }
 
 /*hide checkbox for senior guest section below pax info*/
-div[data-ody-id="hasSeniorGuestSection"] {
+/*div[data-ody-id="hasSeniorGuestSection"] {
     display: none;
-}
+}*/
 
 .d-flex.align-items-start.justify-content-between.guest-info-title .text-primary {
     color: #BE9F55!important;

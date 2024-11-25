@@ -331,6 +331,9 @@ section[data-ody-id="CruiseSearchBarSection"] .searchbar-checkbox-group div.ml-3
 
 .btn-outline-primary {
     border-color: #BE9F55;
+    color: #fff!important;
+    background-color: #BE9F55!important;;
+    background-image: none;
 }
 
 .progress-stepper-arrow .checkout-steps-wrap .checkout-step.current .checkout-step-inner::after, .progress-stepper-arrow .checkout-steps-wrap .checkout-step.past .checkout-step-inner::after, .nav-stepper .nav-link.active::after {

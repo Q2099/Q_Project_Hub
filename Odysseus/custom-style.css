@@ -317,7 +317,7 @@ section[data-ody-id="CruiseSearchBarSection"] .searchbar-checkbox-group div.ml-3
 }
 
 .search-resultpage.swift-search-bar label, .search-resultpage.swift-search-bar label{
-        color: #666!important;
+        color: #fff!important;
 }
 
 .search-resultpage.swift-search-bar .custom-guest-dialog, .search-resultpage.swift-search-bar .form-control.custom-datepicker, .search-resultpage.swift-search-bar .form-control.custom-select, .search-resultpage.swift-search-bar input.form-control {

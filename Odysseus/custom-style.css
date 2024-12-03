@@ -10,6 +10,10 @@
 	background-color: #BE9F55!important;
 }
 
+.alert-primary {
+    background-color: #ddd;
+}
+
 /*Tags Colour*/
 /*quote tag*/.status12 {
     background-color: red!important;

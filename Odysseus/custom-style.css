@@ -3,6 +3,10 @@
 	background: #fff;
 }
 
+.search-resultpage #odysseus #OVExploreContainer .od-form-wrapper .od-search-button #SearchBTN.btn-search .od-icon, .search-resultpage #odysseus #OVExploreContainer .od-form-wrapper .od-search-button #SearchBTN.btn-search span{
+	color:#fff!important;
+}
+
 
 /*Tags Colour*/
 /*quote tag*/.status12 {

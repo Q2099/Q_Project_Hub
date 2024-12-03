@@ -6,7 +6,9 @@
 .search-resultpage #odysseus #OVExploreContainer .od-form-wrapper .od-search-button #SearchBTN.btn-search .od-icon, .search-resultpage #odysseus #OVExploreContainer .od-form-wrapper .od-search-button #SearchBTN.btn-search span{
 	color:#fff!important;
 }
-
+.cruise-special-services .card-header.conf-title{
+	background-color: #BE9F55!important;
+}
 
 /*Tags Colour*/
 /*quote tag*/.status12 {

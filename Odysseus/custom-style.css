@@ -710,3 +710,7 @@ tr.package-itinerary-node.d-none:hover:after {
 .default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-form-wrapper {
     color: #fff!important;
 }
+
+.search-resultpage #odysseus #OVExploreContainer .od-form-wrapper .od-search-button #SearchBTN.btn-search .od-icon svg {
+    fill: #fff !important;
+}

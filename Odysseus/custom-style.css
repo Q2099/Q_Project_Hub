@@ -453,7 +453,7 @@ div#divFlexibledates {
 }
 
 .default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-button-wrapper.od-search-button .od-btn.btn-search:hover {
-    background-color: #000;
+    background-color: #000!important;
 }
 
 /*MAIN PAGE*/

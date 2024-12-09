@@ -706,3 +706,7 @@ tr.package-itinerary-node.d-none:hover:after {
     content: "What's included in your current package";
     border-left: solid 10px #aaa;
 }
+/*Hotel serch adjustments*/
+.default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-form-wrapper {
+    color: #fff!important;
+}

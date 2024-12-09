@@ -100,6 +100,15 @@ min-height: 50px!important;
     font-weight:500!important;
     text-transform: capitalize!important;
   }
+
+/*Save for later btn*/
+a.btn.btn-invert.btn-sm.text-uppercase.text-primary.btn-outline-primary {
+    color: #fff !important;
+}
+
+a.btn.btn-invert.btn-sm.text-uppercase.text-primary.btn-outline-primary:hover {
+    background: #000 !important;
+}
   
   /*#checkout-quicklinks{
     visibility:hidden;

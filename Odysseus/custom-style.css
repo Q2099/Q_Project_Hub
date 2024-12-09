@@ -14,6 +14,11 @@
     background-color: #ddd;
 }
 
+.show-cabinscount {
+    color: #333!important;
+    background-color: #ddd!important;
+}
+
 /*Tags Colour*/
 /*quote tag*/.status12 {
     background-color: red!important;
@@ -104,6 +109,8 @@ min-height: 50px!important;
 /*Save for later btn*/
 a.btn.btn-invert.btn-sm.text-uppercase.text-primary.btn-outline-primary {
     color: #fff !important;
+	text-transform: capitalize !important;
+    font-weight: 700;
 }
 
 a.btn.btn-invert.btn-sm.text-uppercase.text-primary.btn-outline-primary:hover {

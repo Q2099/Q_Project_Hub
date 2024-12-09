@@ -113,8 +113,9 @@ a.btn.btn-invert.btn-sm.text-uppercase.text-primary.btn-outline-primary {
     font-weight: 700;
 }
 
-a.btn.btn-invert.btn-sm.text-uppercase.text-primary.btn-outline-primary:hover {
+a.btn.btn-invert.btn-sm.text-uppercase.text-primary.btn-outline-primary:hover, .btn-outline-primary:hover, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .btn-outline-primary:hover, .btn-outline-primary:hover, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .btn-outline-primary:hover {
     background: #000 !important;
+	border: none;
 }
   
   /*#checkout-quicklinks{

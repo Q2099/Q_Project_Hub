@@ -35,6 +35,10 @@
 .reverse-col{flex-direction: column-reverse;}
 .reverse-row{flex-direction: row-reverse;} 
 
+@media(max-width: 1450px){
+  .fbx-10{width: calc(25% - 20px);padding: 0 5px;}
+}
+
 @media(max-width: 1200px){
   .fbx-16{width: calc(33.333% - 10px);padding: 0px;}
 }

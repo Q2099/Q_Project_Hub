@@ -36,7 +36,7 @@
 .reverse-row{flex-direction: row-reverse;} 
 
 @media(max-width: 1450px){
-  .fbx-10{width: calc(25% - 20px);padding: 0 5px;}
+  .fbx-10{width: calc(20% - 20px);padding: 0 5px;}
 }
 
 @media(max-width: 1200px){

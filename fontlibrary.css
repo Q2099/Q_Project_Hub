@@ -1,4 +1,134 @@
 /*Font Queries*/
+/*Sofia Pro*/
+
+ @font-face {
+    font-family: 'Sofia Pro';
+    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Sofia%20Pro%20Regular%20Az.ttf");
+    font-style: normal;
+    font-weight: normal;
+    src: local('Sofia Pro Regular'), url('Sofia Pro Regular Az.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Sofia Pro';
+    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Sofia%20Pro%20Regular%20Italic%20Az.ttf");
+    font-style: 400;
+    font-weight: italic;
+
+    }
+    
+
+    @font-face {
+    font-family: 'Sofia Pro';
+    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Sofia%20Pro%20ExtraLight%20Italic%20Az.ttf");
+    font-style: 100;
+    font-weight: normal;
+    }
+
+    @font-face {
+    font-family: 'Sofia Pro';
+    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Sofia%20Pro%20ExtraLight%20Italic%20Az.ttf");
+    font-style: 100;
+    font-weight: italic;
+    }
+
+    @font-face {
+    font-family: 'Sofia Pro';
+    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Sofia%20Pro%20UltraLight%20Az.ttf");
+    font-style: 200;
+    font-weight: normal;
+    src: local('Sofia Pro UltraLight'), url('Sofia Pro UltraLight Az.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Sofia Pro';
+    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Sofia%20Pro%20UltraLight%20Italic%20Az.ttf");
+    font-style: 200;
+    font-weight: italic;
+    }
+    
+
+    @font-face {
+    font-family: 'Sofia Pro';
+    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Sofia%20Pro%20Light%20Az.ttf");  
+    font-style: 300;
+    font-weight: normal;
+    }
+    
+
+    @font-face {
+    font-family: 'Sofia Pro';
+    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Sofia%20Pro%20Light%20Italic%20Az.ttf");  
+    font-style: 300;
+    font-weight: italic;
+    }
+    
+
+    @font-face {
+    font-family: 'Sofia Pro';
+    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Sofia%20Pro%20Medium%20Az.ttf");  
+    font-style: 500;
+    font-weight: normal;
+    }
+    
+
+    @font-face {
+    font-family: 'Sofia Pro';
+    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Sofia%20Pro%20Medium%20Italic%20Az.ttf");  
+    font-style: 500;
+    font-weight: italic;
+    }
+    
+
+    @font-face {
+    font-family: 'Sofia Pro';
+    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Sofia%20Pro%20SemiBold%20Az.ttf");
+    font-style: 600;
+    font-weight: normal;
+    }
+    
+
+    @font-face {
+    font-family: 'Sofia Pro';
+    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Sofia%20Pro%20SemiBold%20Italic%20Az.ttf");  
+    font-style: 600;
+    font-weight: italic;
+    }
+    
+
+    @font-face {
+    font-family: 'Sofia Pro';
+    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Sofia%20Pro%20Bold%20Az.ttf");  
+    font-style: 700;
+    font-weight: normal;
+
+    }
+    
+
+    @font-face {
+    font-family: 'Sofia Pro';
+    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Sofia%20Pro%20Bold%20Italic%20Az.ttf");  
+    font-weight: 700;
+    font-style: italic;
+    }
+    
+
+    @font-face {    
+    font-family: 'Sofia Pro';
+    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Sofia%20Pro%20Black%20Az.ttf");  
+    font-style: normal;
+    font-weight: 900;
+    }
+    
+
+    @font-face {
+    font-family: 'Sofia Pro';
+    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Sofia%20Pro%20Black%20Italic%20Az.ttf");  
+    font-style: italic;
+    font-weight: 900;
+    }
 
 /*Centabel*/
 @font-face {

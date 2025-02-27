@@ -59,6 +59,11 @@ h4.d-flex.align-items-center.booking-timer.text-primary.timerSPC span#Extendtime
 }
 }
 
+/*itinerary info box text adjustment*/
+.itinerary-node-info-group{
+	text-transform: uppercase;
+}
+
 /*hide comms info box on flight search*/
 section.card-material.air-card .agent-info.d-print-none {
     /*display: none;*/

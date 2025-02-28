@@ -60,7 +60,7 @@ h4.d-flex.align-items-center.booking-timer.text-primary.timerSPC span#Extendtime
 }
 
 /*itinerary info box text adjustment*/
-.itinerary-node-info-group{
+.itinerary-node-info-group, .itinerary-node-info-group span.text-capitalize{
 	text-transform: uppercase!important;
 }
 

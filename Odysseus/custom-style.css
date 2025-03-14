@@ -7,7 +7,7 @@ div.marquee {
     padding: 5px;
     text-transform: capitalize;
     border-bottom: solid 1px;
-    height: 35px;
+    min-height: 35px;
     overflow: hidden;
     display: flex;
     justify-content: center;

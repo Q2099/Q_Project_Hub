@@ -1,3 +1,19 @@
+/*marquee-style*/
+div.marquee {
+    text-align: center;
+    font-weight: 700;
+    background: #bf9e55;
+    color: #fff;
+    padding: 5px;
+    text-transform: capitalize;
+    border-bottom: solid 1px;
+    height: 35px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*fleximarkup text*/
 label.flex-grow-1.text-bold.markup-title:after {
     content: "Please Note: this will only affect the cruise element of the booking";

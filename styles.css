@@ -37,6 +37,7 @@
 
 @media(max-width: 1450px){
   .fbx-10{width: calc(20% - 20px);padding: 0 5px;}
+  .fbx-12{width: calc(25% - 10px);padding: 0px;}
 }
 
 @media(max-width: 1200px){
@@ -44,7 +45,6 @@
 }
 
 @media(max-width: 1024px){
-.fbx-12{width: calc(25% - 10px);padding: 0px;}
   .fbx-25{width: calc(50% - 20px);}
 }
 
@@ -52,7 +52,7 @@
 
 .fbx-20{width: calc(50% - 20px);}
 .fbx-16{width: calc(50% - 20px);} 
-.fbx-12{width: calc(25% - 20px);}
+.fbx-12{width: calc(25% - 10px);}
 .fbx-10{width: calc(25% - 20px);}
 }
 
@@ -75,7 +75,7 @@
 }
 
 @media(max-width: 720px){
-.fbx-12{width: calc(50% - 20px);}
+.fbx-12{width: calc(50% - 10px);}
 }
 
 @media(max-width: 680px){

@@ -13,6 +13,7 @@
     width: 100% !important;
     height: 200px;
     overflow: hidden;
+ max-width: 300px;
 }
 
 /*FLEX BOXES*/

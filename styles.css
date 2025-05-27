@@ -1,3 +1,8 @@
+/*JTA GLOBALS*/
+.bf_hotellistview .bf_image
+ {    background-position: center;}
+
+
 /*FLEX BOXES*/
 .flexbox{display: flex;flex-wrap: wrap;width: 100%;}
 .fbx-100{width: calc(100% - 20px);padding: 0 5px;}

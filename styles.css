@@ -2,6 +2,18 @@
 .bf_hotellistview .bf_image
  {    background-position: center;}
 
+.bf_hotellistview .bf_imagecarousel {
+    max-height: 220px !important;
+}
+.bf_480 .bf_hotellistview {
+    justify-content: center;
+}
+
+.bf_480 .bf_imagecarousel {
+    width: 100% !important;
+    height: 200px;
+    overflow: hidden;
+}
 
 /*FLEX BOXES*/
 .flexbox{display: flex;flex-wrap: wrap;width: 100%;}

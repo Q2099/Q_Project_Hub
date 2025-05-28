@@ -16,6 +16,16 @@
     max-width: 300px!important;
 }
 
+.bf_addprod_resultitem_container.bf_4_col.js-bf_showdetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bf_addprod_resultitem_container .bf_addprod_bottomsection, .bf_addprod_resultitem_container .bf_carparkingtopsect, .bf_addprod_resultitem_container .bf_cheader{
+ padding:0px!important;
+}
+
 /*FLEX BOXES*/
 .flexbox{display: flex;flex-wrap: wrap;width: 100%;}
 .fbx-100{width: calc(100% - 20px);padding: 0 5px;}

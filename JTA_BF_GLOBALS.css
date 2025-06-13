@@ -1,1 +1,53 @@
+/*Hotel Results- block*/
+.bf_hotellistview .bf_image
+ {    background-position: center;
+max-width: 250px !important;}
 
+.bf_hotellistview .bf_imagecarousel {
+    max-height: 220px !important;
+}
+.bf_480 .bf_hotellistview {
+    justify-content: center;
+}
+
+.bf_480 .bf_imagecarousel {
+    width: 100% !important;
+    height: 200px;
+    overflow: hidden;
+    max-width: 300px!important;
+}
+
+.bf_addprod_resultitem_container.bf_4_col.js-bf_showdetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bf_addprod_resultitem_container .bf_addprod_bottomsection, .bf_addprod_resultitem_container .bf_carparkingtopsect, .bf_addprod_resultitem_container .bf_cheader{
+ padding:0px!important;
+}
+
+.bf_imagecarousel{
+ overflow:hidden;
+}
+
+.bf_hotellistview div.bf_selectbtn, .bf_hotellistview div.bf_removebtn {
+    font-size: 1em!important;
+}
+
+.bf_detailsline.bf_boardbasis, .bf_detailsline.bf_emissions {
+    width: 100%;
+}
+
+.bf_hotellistview .bf_select .bf_detailsline{
+padding:0px!important;
+}
+
+.bf_hotellistview div.bf_rsshare{
+margin-top:0px}
+
+
+.bf_hotellistview .bf_select{
+width: 25%!important;
+
+}

@@ -5,12 +5,11 @@
     color: %palette01%;
     font-size: 22px;
     font-weight: 800;
-    /*margin-top: -50px;*/
-      background: #fff;
+    background: #fff;
     display: block;
     margin-top: 0px;
     padding: 10px;
-      text-align: center;
+    text-align: center;
 }
 
 

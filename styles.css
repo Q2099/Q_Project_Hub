@@ -3,9 +3,8 @@
 .bf_rsitem.bf_rsitem_list.bf_featureditem:nth-of-type(1)::before {
     content: "Results are filtered by our Favourite /Partner hotels first. To see all hotel prices low to high, please continue to scroll down or click to the next page.";
     position: static;
-    color: %palette01%;
     font-size: 22px;
-    font-weight: 800;
+    font-weight: 700;
     /*margin-top: -50px;*/
       background: #fff;
     display: block;

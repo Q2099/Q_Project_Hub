@@ -1,3 +1,8 @@
+/*SB3 tweaks*/
+.nbf_tpl_custom.sb3_flighthotel_super_mini .sb3_flighthotel_form .collapsible1 .options-ctr .advanced_options .bagOnly_fares_ctr, .nbf_tpl_custom.sb3_flighthotel_super_mini .sb3_flighthotel_form .collapsible1 .options-ctr .advanced_options .directflights_ctr_copy {
+Align-items:center;
+}
+
 /*Featured item on results page*/
 .bf_rsitem.bf_rsitem_list.bf_featureditem:nth-of-type(1)::before {
     content: "Results are filtered by our Favourite /Partner hotels first. To see all hotel prices low to high, please continue to scroll down or click to the next page.";
@@ -13,6 +18,9 @@
 
 
 /*Hotel Results- block*/
+body.bfv3 div.bf_mctr{
+Overflow-x: hidden;}
+
 .bf_hotellistview .bf_image
  {    background-position: center;
 max-width: 250px !important;}

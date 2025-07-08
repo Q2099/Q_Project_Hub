@@ -1,6 +1,6 @@
 /*SB3 tweaks*/
 .nbf_tpl_custom.sb3_flighthotel_super_mini .sb3_flighthotel_form .collapsible1 .options-ctr .advanced_options .bagOnly_fares_ctr, .nbf_tpl_custom.sb3_flighthotel_super_mini .sb3_flighthotel_form .collapsible1 .options-ctr .advanced_options .directflights_ctr_copy {
-Align-items:center;
+align-items:baseline;
 }
 
 /*Featured item on results page*/

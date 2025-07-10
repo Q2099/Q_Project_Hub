@@ -34,7 +34,7 @@ div.bf_hoteltags div:nth-of-type(n+8)
 max-width: 250px !important;}
 
 .bf_hotellistview .bf_select{
-    min-height:170px;
+    min-height:180px;
 }
 
 div.bf_hotellistview  .bf_select .bf_group {

@@ -29,6 +29,7 @@ div.bf_hotellistview  .bf_select .bf_group {
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
+    justify-content: center;
 }
 
 .bf_hotellistview .bf_imagecarousel {

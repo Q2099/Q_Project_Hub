@@ -25,6 +25,10 @@ Overflow-x: hidden;}
     display: none;
 }
 
+/*Tag visibility limit*/
+div.bf_hoteltags div:nth-of-type(n+8)
+ {display: none !important;}
+
 .bf_hotellistview .bf_image
  {    background-position: center;
 max-width: 250px !important;}

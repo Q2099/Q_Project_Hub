@@ -25,6 +25,12 @@ Overflow-x: hidden;}
  {    background-position: center;
 max-width: 250px !important;}
 
+div.bf_hotellistview  .bf_select .bf_group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
 .bf_hotellistview .bf_imagecarousel {
     max-height: 220px !important;
 }

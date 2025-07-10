@@ -32,6 +32,10 @@ div.bf_hotellistview  .bf_select .bf_group {
     justify-content: center;
 }
 
+.bf_hotellistview .bf_select .bf_displayprice .bf_discountprice {
+    margin-bottom: 0.2em!important; 
+}
+
 .bf_hotellistview .bf_imagecarousel {
     max-height: 220px !important;
 }

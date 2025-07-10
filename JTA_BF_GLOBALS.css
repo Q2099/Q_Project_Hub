@@ -21,6 +21,10 @@ align-items:baseline;
 body.bfv3 div.bf_mctr{
 Overflow-x: hidden;}
 
+.bf_hoteldistance.bf_l2 {
+    display: none;
+}
+
 .bf_hotellistview .bf_image
  {    background-position: center;
 max-width: 250px !important;}

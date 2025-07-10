@@ -33,6 +33,10 @@ div.bf_hoteltags div:nth-of-type(n+8)
  {    background-position: center;
 max-width: 250px !important;}
 
+.bf_hotellistview .bf_select{
+    min-height:170px;
+}
+
 div.bf_hotellistview  .bf_select .bf_group {
     display: flex;
     flex-wrap: wrap;

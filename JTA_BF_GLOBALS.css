@@ -35,13 +35,23 @@ max-width: 250px !important;}
 
 .bf_hotellistview .bf_select{
     min-height:180px;
+    align-self: stretch!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
+ 
 
 div.bf_hotellistview  .bf_select .bf_group {
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
     justify-content: center;
+}
+
+.bf_commissionlink.bf_l2.bf_hoverable_price_hotel.bf_hoverable_price {
+    width: 100%;
 }
 
 .bf_hotellistview .bf_select .bf_displayprice .bf_discountprice {

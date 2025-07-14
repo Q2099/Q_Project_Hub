@@ -13,6 +13,7 @@ align-items:baseline;
         min-height: 50px !important;
     display: block;
     margin-top: 0px;
+    margin-bottom: 0px;
     padding: 10px;
     text-align: center;
 }

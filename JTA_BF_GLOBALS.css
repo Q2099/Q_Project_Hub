@@ -10,6 +10,7 @@ align-items:baseline;
     font-size: 22px;
     font-weight: 700;
     background: #fff!important;
+        min-height: 50px !important;
     display: block;
     margin-top: 0px;
     padding: 10px;

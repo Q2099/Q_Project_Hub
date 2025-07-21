@@ -12,6 +12,7 @@ align-items:baseline;
     background: #000!important;
         min-height: 50px !important;
     width:auto;
+    height: auto !important;
     display: block;
     margin-top: 0px;
     margin-bottom: 0px;

@@ -113,6 +113,10 @@ width: 25%!important;
 
 }
 
+(max-width: 4970px) {
+    .bf_hotellistview {flex-direction: row;}
+}
+
 @media(max-width: 500px){
 .bf_hotellistview {
     display: flex;

@@ -96,7 +96,7 @@ div.bf_hotelgridview_header_right .bf_detailsline.bf_boardbasis, div.bf_hotelgri
 width: auto;
 }
 
-.bf_hotellistview .bf_detailsline.bf_boardbasis, .bf_hotellistview .bf_detailsline.bf_emissions {
+div.bf_hotellistview .bf_detailsline.bf_boardbasis, div.bf_hotellistview .bf_detailsline.bf_emissions {
     width: 100%;
 }
 

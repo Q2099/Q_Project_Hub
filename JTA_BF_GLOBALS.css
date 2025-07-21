@@ -92,6 +92,10 @@ div.bf_hotellistview  .bf_select .bf_group {
     font-size: 1em!important;
 }
 
+div.bf_hotelgridview_header_right .bf_detailsline.bf_boardbasis, div.bf_hotelgridview_header_right .bf_detailsline.bf_emissions{
+width: auto;
+}
+
 .bf_detailsline.bf_boardbasis, .bf_detailsline.bf_emissions {
     width: 100%;
 }

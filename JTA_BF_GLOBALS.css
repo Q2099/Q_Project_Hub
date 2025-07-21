@@ -120,12 +120,10 @@ width: 25%!important;
     align-items: center;
 }
 
-.bf_hotellistview .bf_select{
-width: 100%!important;
-}
-  
 .bf_hotellistview .bf_select {
 width: 100% !important;
+            border-top: solid 1px;
+            border-left: 0px !important;
 }
 
     .bf_hotellistview .bf_hoteldetails .bf_hoteltags {

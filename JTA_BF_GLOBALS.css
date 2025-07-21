@@ -9,13 +9,17 @@ align-items:baseline;
     position: static;
     font-size: 22px;
     font-weight: 700;
-    background: #fff!important;
+    background: #000!important;
         min-height: 50px !important;
     display: block;
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 10px;
     text-align: center;
+     border-bottom: solid 10px #FFF;
+    text-transform: uppercase;
+    line-height: 1.1em;
+    color: #fff;
 }
 
 

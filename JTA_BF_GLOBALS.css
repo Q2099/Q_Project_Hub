@@ -116,13 +116,6 @@ margin-top:0px}
 
 .bf_hotellistview .bf_select{
 width: 25%!important;
-border-left: solid 1px;
-}
 
-@media(max-width:497px){
- .bf_hotellistview .bf_select{
-border-top: solid 1px;
-border-left: solid 0px;
-}   
 }
 

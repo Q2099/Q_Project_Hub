@@ -1,3 +1,23 @@
+@media(max-width: 550px){
+  /* COOKIE NOTICE */
+#cookieLaw {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cookieCont {
+  max-width: 80% !important;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+}
+}
+
+
 /*Overflow fix*/
 body{
   overflow-x: hidden;

@@ -50,7 +50,9 @@
 .fbx-84{width: calc(83.333% - 20px);padding: 0 5px;}
 .fbx-75{width: calc(75% - 20px);padding: 0 5px;}
 .fbx-66{width: calc(66.667% - 20px);padding: 0 5px;}
+.fbx-60{width: calc(60% - 10px);padding: 0 5px;}/*3/5 column*/
 .fbx-50{width: calc(50% - 20px);padding: 0 5px;} /*2 column*/
+.fbx-40{width: calc(40% - 10px);padding: 0 5px;}/*2/5 column*/
 .fbx-33{width: calc(33.333% - 20px);padding: 0 5px;} /*3 column*/
 .fbx-25{width: calc(25% - 20px);padding: 0 5px;} /*4 column*/
 .fbx-20{width: calc(20% - 10px);padding: 0 5px;}/*5 column*/
@@ -88,6 +90,7 @@
 
 @media(max-width: 1200px){
   .fbx-16{width: calc(33.333% - 10px);padding: 0px;}
+
 }
 
 @media(max-width: 1024px){
@@ -97,6 +100,8 @@
 @media(max-width: 920px){
 
 .fbx-20{width: calc(50% - 20px);}
+.fbx-40{width: calc(50% - 10px);}
+.fbx-60{width: calc(50% - 10px);}
 .fbx-16{width: calc(50% - 20px);} 
 .fbx-12{width: calc(25% - 10px);}
 .fbx-10{width: calc(25% - 20px);}
@@ -130,6 +135,8 @@
 }
 
 @media(max-width: 550px){
+.fbx-40{width: calc(100%);}
+.fbx-60{width: calc(100%);}
 .fbx-84{width: calc(100%);}
 .fbx-75{width: calc(100%);}
 .fbx-50{width: calc(100%);}

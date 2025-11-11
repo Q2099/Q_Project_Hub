@@ -16,6 +16,13 @@
 
  @font-face {
     font-family: "Avant Garde";
+    src: url("https://q2099.github.io/Q_Project_Hub/fonts/AvantGarde%20Normal.ttf");
+    font-style: normal;
+    font-weight: normal;
+    }
+
+ @font-face {
+    font-family: "Avant Garde";
     src: url("https://q2099.github.io/Q_Project_Hub/fonts/AvantGarde%20Demi.ttf");
     font-style: normal;
     font-weight: 700;
@@ -1253,6 +1260,7 @@
 .stranger {
   font-family: "Stranger" !important;
 }
+
 
 
 

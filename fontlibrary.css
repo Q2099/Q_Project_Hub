@@ -1,4 +1,26 @@
 /*Font Queries*/
+/*Avant Garde*/
+ @font-face {
+    font-family: "Avant Garde";
+    src: url("https://q2099.github.io/Q_Project_Hub/fonts/AvantGarde%20Book.ttf");
+    font-style: normal;
+    font-weight: 300;
+    }
+
+ @font-face {
+    font-family: "Avant Garde";
+    src: url("https://q2099.github.io/Q_Project_Hub/fonts/AvantGarde%20Normal.ttf");
+    font-style: normal;
+    font-weight: 400;
+    }
+
+ @font-face {
+    font-family: "Avant Garde";
+    src: url("https://q2099.github.io/Q_Project_Hub/fonts/AvantGarde%20Demi.ttf");
+    font-style: normal;
+    font-weight: 700;
+    }
+
 /*Sofia Pro*/
 
  @font-face {
@@ -1127,6 +1149,10 @@
 }
 
 /*Font Classes*/
+.avant{
+ font-family: "Avant Garde"!important;
+}
+
 .tw-cen-mt-std {
   font-family: "tw-cen-mt-std" !important;
 }
@@ -1227,6 +1253,7 @@
 .stranger {
   font-family: "Stranger" !important;
 }
+
 
 
 

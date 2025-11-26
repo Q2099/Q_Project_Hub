@@ -21,6 +21,12 @@ body.is-admin.pb.bfv3 div[data-description="hotel supplier filter"] ol.bf_filter
   padding: 15px 30px;
   box-sizing: border-box;
 }
+.bf_hotellistview .bf_select{
+width: 100%!important;
+
+}
+
+    
 }
 
 

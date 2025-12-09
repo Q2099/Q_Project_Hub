@@ -3,6 +3,14 @@
     background-color: royalblue!important;
 }
 
+/*hide cancellation policy*/
+.cancellation-policy-label,
+[data-ody-id='CustomerBookingEmail'] .custom-email-button .mProNoteCont[data-ody-id='cancellationPolicyTab'],
+[data-ody-id='cancellationPolicyButton'],
+[data-ody-id='refundPolicyTimeline'] {
+  display: none !important;
+}
+
 /*per person text on f h results*/
 .tot-price.PkgPriceTotal span.fs10.d-block,  div.mb-1 span.fs10.d-block{
     font-size: 1.3em;

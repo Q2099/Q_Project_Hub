@@ -1,3 +1,11 @@
+/*hide cancellation policy*/
+.cancellation-policy-label,
+[data-ody-id='CustomerBookingEmail'] .custom-email-button .mProNoteCont[data-ody-id='cancellationPolicyTab'],
+[data-ody-id='cancellationPolicyButton'],
+[data-ody-id='refundPolicyTimeline'] {
+  display: none !important;
+}
+
 /*marquee-style*/
 div.marquee {
     text-align: center;
@@ -758,3 +766,4 @@ tr.package-itinerary-node.d-none:hover:after {
 .search-resultpage #odysseus #OVExploreContainer .od-form-wrapper .od-search-button #SearchBTN.btn-search .od-icon svg {
     fill: #fff !important;
 }
+

@@ -10,7 +10,6 @@
     }
     100% {
         opacity: 0;
-left: -9999px; 
     }
 }
 @keyframes fadeInOut {
@@ -25,8 +24,26 @@ left: -9999px;
     }
     100% {
         opacity: 0;
-        left: -9999px; 
     }
+}
+
+@-webkit-keyframes seconds {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    left: -9999px; 
+  }
+}
+@keyframes seconds {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    left: -9999px; 
+  }
 }
 
 div#status-text {
@@ -34,8 +51,8 @@ div#status-text {
     background: #fff;
     padding: 20px;
     box-shadow: 0px 2px 6px #777;
-    -webkit-animation: fadeOut 3s;
-    animation: fadeOut 3s;
+    -webkit-animation: fadeInOut 3s;
+    animation: fadeInOut 3s;
       -webkit-animation: seconds 1.0s forwards;
   -webkit-animation-iteration-count: 1;
   -webkit-animation-delay: 3s;

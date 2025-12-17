@@ -34,8 +34,8 @@ div#status-text {
     background: #fff;
     padding: 20px;
     box-shadow: 0px 2px 6px #777;
-    -webkit-animation: fadeInOut 3s;
-    animation: fadeInOut 3s;
+    -webkit-animation: fadeOut 3s;
+    animation: fadeOut 3s;
       -webkit-animation: seconds 1.0s forwards;
   -webkit-animation-iteration-count: 1;
   -webkit-animation-delay: 3s;

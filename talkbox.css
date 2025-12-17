@@ -10,6 +10,7 @@
     }
     100% {
         opacity: 0;
+left: -9999px; 
     }
 }
 @keyframes fadeInOut {
@@ -24,6 +25,7 @@
     }
     100% {
         opacity: 0;
+        left: -9999px; 
     }
 }
 

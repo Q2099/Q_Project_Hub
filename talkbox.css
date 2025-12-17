@@ -48,22 +48,6 @@ left: -9999px;
   }
 }
 
-button.bulletproof_button_medium {
-    background-color: #E5C650!important;
-    border-color: #E5C650!important;
-}
-
-button.bulletproof_button_medium:hover {
-    background-color: #3A404F!important;
-    border-color: #3A404F!important;
-}
-
-#status-text .alert {
-    width: 85%!important;
-    max-width: 400px!important;
-    font-family: "Avant Garde", sans-serif !important;
-}
-
 div#status-text {
     position: absolute;
     background: #fff;
@@ -81,4 +65,20 @@ div#status-text {
 .bootstrap_form select, .bootstrap_form textarea, .bootstrap_form input[type=text], .bootstrap_form input[type=password], .bootstrap_form input[type=datetime], .bootstrap_form input[type=datetime-local], .bootstrap_form input[type=date], .bootstrap_form input[type=month], .bootstrap_form input[type=time], .bootstrap_form input[type=week], .bootstrap_form input[type=number], .bootstrap_form input[type=email], .bootstrap_form input[type=url], .bootstrap_form input[type=search], .bootstrap_form input[type=tel], .bootstrap_form input[type=color], .bootstrap_form .uneditable-input{
     height: 30px!important;
     font-size: 16px!important;
+}
+
+button.bulletproof_button_medium {
+    background-color: #E5C650!important;
+    border-color: #E5C650!important;
+}
+
+button.bulletproof_button_medium:hover {
+    background-color: #3A404F!important;
+    border-color: #3A404F!important;
+}
+
+#status-text .alert {
+    width: 85%!important;
+    max-width: 400px!important;
+    font-family: "Avant Garde", sans-serif !important;
 }

@@ -82,6 +82,12 @@ button.bulletproof_button_medium:hover {
     border-color: #3A404F!important;
 }
 
+table.body_wrapper_table{
+    width:100%!important;
+    max-width:300px;
+}
+
+
 #status-text .alert {
     width: 85%!important;
     max-width: 400px!important;

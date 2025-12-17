@@ -1,0 +1,6 @@
+div#status-text {
+    position: absolute;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px 2px 6px #777;
+}

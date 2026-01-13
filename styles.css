@@ -1,17 +1,16 @@
 /*JTA GLOBALS*/
-/*Featured item on results page*/
-.bf_rsitem.bf_rsitem_list.bf_featureditem:nth-of-type(1)::before {
+/*Featured item on results page DISABLED*/
+/*.bf_rsitem.bf_rsitem_list.bf_featureditem:nth-of-type(1)::before {
     content: "Results are filtered by our Favourite /Partner hotels first. To see all hotel prices low to high, please continue to scroll down or click to the next page.";
     position: static;
     font-size: 22px;
     font-weight: 700;
-    /*margin-top: -50px;*/
       background: #fff;
     display: block;
     margin-top: 0px;
     padding: 10px;
       text-align: center;
-}
+}*/
 
 .bf_hotellistview .bf_image
  {    background-position: center;}

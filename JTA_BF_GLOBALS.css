@@ -40,27 +40,6 @@ body{
 align-items:baseline;
 }
 
-/*Featured item on results page*/
-.bf_rsitem.bf_rsitem_list.bf_featureditem:nth-of-type(1)::before {
-    content: "Results are filtered by our Favourite /Partner hotels first. To see all hotel prices low to high, please continue to scroll down or click to the next page.";
-    position: static;
-    font-size: 22px;
-    font-weight: 700;
-    background: #000!important;
-        min-height: 50px !important;
-    width:auto;
-    height: auto !important;
-    display: block;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding: 10px;
-    text-align: center;
-     border-bottom: solid 10px #FFF;
-    text-transform: uppercase;
-    line-height: 1.1em;
-    color: #fff;
-}
-
 
 /*Hotel Results- block*/
 body.bfv3 div.bf_mctr{

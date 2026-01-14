@@ -1,4 +1,19 @@
 /*Font Queries*/
+/*Noteworthy*/
+ @font-face {
+    font-family: "Noteworthy";
+    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Noteworthy.ttf");
+    font-style: normal;
+    font-weight: 400;
+    }
+ @font-face {
+    font-family: "Noteworthy";
+    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Noteworthy.ttf");
+    font-style: normal;
+    font-weight: normal;
+    }
+
+
 /*Avant Garde*/
  @font-face {
     font-family: "Avant Garde";
@@ -1156,6 +1171,10 @@
 }
 
 /*Font Classes*/
+.noteworthy{
+ font-family: "Noteworthy"!important;
+}
+
 .avant{
  font-family: "Avant Garde"!important;
 }
@@ -1260,6 +1279,7 @@
 .stranger {
   font-family: "Stranger" !important;
 }
+
 
 
 

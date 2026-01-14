@@ -2,13 +2,13 @@
 /*Noteworthy*/
  @font-face {
     font-family: "Noteworthy";
-    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Noteworthy.ttf");
+    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Noteworthy-Lt.ttf");
     font-style: normal;
     font-weight: 400;
     }
  @font-face {
     font-family: "Noteworthy";
-    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Noteworthy.ttf");
+    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Noteworthy-Lt.ttf");
     font-style: normal;
     font-weight: normal;
     }
@@ -1279,6 +1279,7 @@
 .stranger {
   font-family: "Stranger" !important;
 }
+
 
 
 

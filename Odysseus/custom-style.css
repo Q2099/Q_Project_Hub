@@ -1,3 +1,8 @@
+/*hide flights when cruise is too close  to departure date*/
+section.air-card:has(div[data-original-title="Flight arrival is close to cruise departure."]){
+    display: none;
+}
+
 /*hide cancellation policy*/
 .cancellation-policy-label,
 [data-ody-id='CustomerBookingEmail'] .custom-email-button .mProNoteCont[data-ody-id='cancellationPolicyTab'],
@@ -766,4 +771,5 @@ tr.package-itinerary-node.d-none:hover:after {
 .search-resultpage #odysseus #OVExploreContainer .od-form-wrapper .od-search-button #SearchBTN.btn-search .od-icon svg {
     fill: #fff !important;
 }
+
 

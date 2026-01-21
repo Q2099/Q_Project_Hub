@@ -1,3 +1,9 @@
+/*hide flights when cruise is too close  to departure date*/
+section.air-card:has(div[data-original-title="Flight arrival is close to cruise departure."]){
+    display: none;
+}
+
+
 /*Tags Colour*/
 .status12 {
     background-color: royalblue!important;

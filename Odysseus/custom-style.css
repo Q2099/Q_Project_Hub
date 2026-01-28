@@ -1,5 +1,5 @@
 /*hide flights when cruise is too close  to departure date*/
-section.air-card:has(div[data-original-title="Flight arrival is close to cruise departure."]){
+section.air-card:has(div[data-original-title="Flight arrival is close to cruise departure."]), section.air-card:has(div[data-original-title="Flight arrival is after cruise departure."]){
     display: none;
 }
 
@@ -771,5 +771,6 @@ tr.package-itinerary-node.d-none:hover:after {
 .search-resultpage #odysseus #OVExploreContainer .od-form-wrapper .od-search-button #SearchBTN.btn-search .od-icon svg {
     fill: #fff !important;
 }
+
 
 

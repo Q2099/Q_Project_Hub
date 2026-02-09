@@ -73,13 +73,13 @@ div#status-text {
 }
 
 button.bulletproof_button_medium {
-    background-color: #E5C650!important;
-    border-color: #E5C650!important;
+    background-color: #3A404F!important;
+    border-color: #3A404F!important;
 }
 
 button.bulletproof_button_medium:hover {
-    background-color: #3A404F!important;
-    border-color: #3A404F!important;
+    background-color: #E5C650!important;
+    border-color: #E5C650!important;
 }
 
 table.body_wrapper_table{

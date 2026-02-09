@@ -88,6 +88,7 @@ background-color: #E5C650 !important;
 table.body_wrapper_table{
     width:100%!important;
     max-width:300px;
+    margin: 0px!important;
 }
 
 

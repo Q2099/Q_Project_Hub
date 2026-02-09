@@ -78,9 +78,11 @@ button.bulletproof_button_medium {
 }
 
 button.bulletproof_button_medium:hover {
-    background-color: #E5C650!important;
-    border-color: #3A404F!important;
-    color:#3A404F!important;
+background-color: #E5C650 !important;
+    border-color: #3A404F !important;
+    padding: 12px 18px;
+    border: solid 1px;
+    color: #3A404F!important;
 }
 
 table.body_wrapper_table{

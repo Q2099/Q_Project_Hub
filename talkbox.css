@@ -79,6 +79,7 @@ div#status-text {
 button.bulletproof_button_medium {
     background-color: #3A404F!important;
     border-color: #3A404F!important;
+    width: 100%;
           max-width: 150px !important;
     display: block;
     margin: auto;

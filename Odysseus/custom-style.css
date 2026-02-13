@@ -1,3 +1,7 @@
+div.hotelform.vue_multiselect .od-input-wrapper.od-one-third-width.destination.location_select_v1 label:after {
+    content: "(Click to change default destination)";
+}
+
 /*hide flights when cruise is too close  to departure date*/
 section.air-card:has(div[data-original-title="Flight arrival is close to cruise departure."]), section.air-card:has(div[data-original-title="Flight arrival is after cruise departure."]), section.air-card:has(div[data-original-title="Flight departure is after cruise departure."]), section.air-card:has(div[data-original-title="Flight departure is after cruise departure."]), section.air-card:has(div[data-original-title="flight departure is close to cuise arrival."]){
     display: none;
@@ -771,6 +775,7 @@ tr.package-itinerary-node.d-none:hover:after {
 .search-resultpage #odysseus #OVExploreContainer .od-form-wrapper .od-search-button #SearchBTN.btn-search .od-icon svg {
     fill: #fff !important;
 }
+
 
 
 

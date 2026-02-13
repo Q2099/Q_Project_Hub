@@ -2,6 +2,10 @@ div.hotelform.vue_multiselect .od-input-wrapper.od-one-third-width.destination.l
     content: "(Click to change default destination)";
 }
 
+div.hotel-category-outer .accordion.mt-3 {
+    display: none;
+}
+
 /*hide flights when cruise is too close  to departure date*/
 section.air-card:has(div[data-original-title="Flight arrival is close to cruise departure."]){
     display: none!important;

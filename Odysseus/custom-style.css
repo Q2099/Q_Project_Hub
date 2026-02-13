@@ -2,7 +2,7 @@ div.hotelform.vue_multiselect .od-input-wrapper.od-one-third-width.destination.l
     content: "(Click to change default destination)";
 }
 
-div.hotel-category-outer .accordion.mt-3 {
+div.hotel-category-outer .accordion.mt-3, div.hotel-item-card .accordion.mt-3 {
     display: none;
 }
 
@@ -779,6 +779,7 @@ tr.package-itinerary-node.d-none:hover:after {
 .search-resultpage #odysseus #OVExploreContainer .od-form-wrapper .od-search-button #SearchBTN.btn-search .od-icon svg {
     fill: #fff !important;
 }
+
 
 
 

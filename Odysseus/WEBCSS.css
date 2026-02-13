@@ -2,7 +2,7 @@ div.hotelform.vue_multiselect .od-input-wrapper.od-one-third-width.destination.l
     content: "(Click to change default destination)";
 }
 
-div.hotel-category-outer .accordion.mt-3 {
+div.hotel-category-outer .accordion.mt-3, div.hotel-item-card .accordion.mt-3 {
     display: none;
 }
 

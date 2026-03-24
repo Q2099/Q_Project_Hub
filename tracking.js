@@ -10,6 +10,17 @@ function pushEvent(eventName, payload = {}) {
   });
 }
 
+/* HOTEL SELECTED */
+const hotelBtn = e.target.closest('.bf_roomrates_selectbutton');
+if (hotelBtn) {
+  pushEvent('hotel_selected', {
+    hotel_name: hotelBtn.getAttribute('bf_roomrates_roomname') || undefined,
+    hotel_id: hotelBtn.getAttribute('data-hotel-id') || undefined,
+    room_type: hotelBtn.getAttribute('data-room-type') || undefined,
+    price: parseFloat(hotelBtn.getAttribute('data-price')) || undefined
+  });
+}
+
 /* ================================
    PRODUCT VIEW (view_item)
 ================================ */

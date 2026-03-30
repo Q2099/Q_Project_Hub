@@ -56,7 +56,6 @@
     </style>
 
     <div class="tb-form-container">
-      <h2>${FORM_TITLE}</h2>
       <form class="tb-form">
         <input type="email" placeholder="Enter your email" required />
         <button type="submit">Subscribe</button>

@@ -77,7 +77,7 @@
 
   const form = container.querySelector(".tb-form");
   const input = container.querySelector("input");
-  const popup = container.querySelector(".tb-popup");
+  const popup = container.querySelector("#newsletter-popup");
   const closeBtn = container.querySelector(".tb-close");
   const submitBtn = form.querySelector("button");
 

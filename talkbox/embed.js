@@ -59,7 +59,6 @@
       <form class="tb-form">
         <input type="email" placeholder="Enter your email" required />
         <button type="submit">Subscribe</button>
-        
         <button id="no-thanks">No Thanks</button></form>
       
     </div>

@@ -77,16 +77,19 @@
 
   const form = container.querySelector(".tb-form");
   const input = container.querySelector("input");
-  const popup = container.querySelector(".tb-popup");
-  const closeBtn = container.querySelector(".tb-close");
   const submitBtn = form.querySelector("button");
 
+  // 🔹 MULTI POPUP SUPPORT
+  const popups = container.querySelectorAll("#newsletter-popup, .tb-popup");
+  const closeButtons = container.querySelectorAll(".tb-close");
+
+  // ---------------------------
+  // FORM SUBMIT
+  // ---------------------------
   form.addEventListener("submit", async (e) => {
     e.preventDefault();
-
     const email = input.value;
 
-    // Prevent duplicate submission
     submitBtn.disabled = true;
     submitBtn.textContent = "Submitting...";
 
@@ -100,25 +103,52 @@
       const result = await res.json();
 
       if (result.success) {
-        popup.style.display = "flex";
+        // Show all popups
+        popups.forEach((popup) => {
+          popup.style.display = "flex";
+        });
+
         form.reset();
 
-        // ✅ Fire Meta Pixel Event "CompleteRegistration"
+        // Meta Pixel
         if (typeof fbq === "function") {
-          fbq("track", "CompleteRegistration", { email: email });
+          fbq("track", "CompleteRegistration", { email });
         }
+
+      } else if (result.message && result.message.includes("Email belongs to another contact")) {
+        alert("This email is already subscribed!");
       } else {
-        alert(result.message || "Error submitting the form");
+        alert("Error: " + (result.message || "Unknown server error"));
       }
+
     } catch (err) {
-      alert("Network error");
+      alert("Network error: " + err.message);
     } finally {
       submitBtn.disabled = false;
       submitBtn.textContent = "Subscribe";
     }
   });
 
-  closeBtn.addEventListener("click", () => {
-    popup.style.display = "none";
+  // ---------------------------
+  // CLOSE BUTTONS
+  // ---------------------------
+  closeButtons.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      popups.forEach((popup) => {
+        popup.style.display = "none";
+      });
+    });
   });
+
+  // ---------------------------
+  // CLICK OUTSIDE TO CLOSE
+  // ---------------------------
+  popups.forEach((popup) => {
+    popup.addEventListener("click", (e) => {
+      if (e.target === popup) {
+        popup.style.display = "none";
+      }
+    });
+  });
+
 })();

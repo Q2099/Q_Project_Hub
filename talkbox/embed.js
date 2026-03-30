@@ -11,6 +11,7 @@
   const container = document.createElement("div");
   container.innerHTML = `
     <style>
+    form.tb-form {display: flex;}
       .tb-form-container {
         font-family: Arial, sans-serif;
         max-width: 400px;

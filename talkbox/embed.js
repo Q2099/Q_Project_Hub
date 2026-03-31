@@ -67,7 +67,7 @@
       <div class="tb-popup-content">
         <h3>${POPUP_TITLE}</h3>
         <p>${POPUP_MESSAGE}</p>
-        <button class="tb-close">Close</button>
+        <button id="tb-close" class="tb-close">Close</button>
       </div>
     </div>
   `;

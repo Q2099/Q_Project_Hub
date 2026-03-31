@@ -73,13 +73,13 @@
   `;
 
   // Inject into page
-  script.parentNode.insertBefore(container, script);
+ script.parentNode.insertBefore(container, script);
 
   const form = container.querySelector(".tb-form");
   const input = container.querySelector("input");
   const submitBtn = form.querySelector("button");
 
-  // 🔹 MULTI POPUP SUPPORT
+  // Multi popup support
   const popups = container.querySelectorAll("#newsletter-popup, .tb-popup");
   const closeButtons = container.querySelectorAll(".tb-close");
 
@@ -115,7 +115,10 @@
           fbq("track", "CompleteRegistration", { email });
         }
 
-      } else if (result.message && result.message.includes("Email belongs to another contact")) {
+      } else if (
+        result.message &&
+        result.message.includes("Email belongs to another contact")
+      ) {
         alert("This email is already subscribed!");
       } else {
         alert("Error: " + (result.message || "Unknown server error"));
@@ -134,7 +137,14 @@
   // ---------------------------
   closeButtons.forEach((btn) => {
     btn.addEventListener("click", () => {
+      // Hide all popups
       popups.forEach((popup) => {
+        popup.style.display = "none";
+      });
+
+      // Explicitly ensure #newsletter-popup is hidden
+      const newsletterPopups = container.querySelectorAll("#newsletter-popup");
+      newsletterPopups.forEach((popup) => {
         popup.style.display = "none";
       });
     });

@@ -2,6 +2,14 @@ div.hotelform.vue_multiselect .od-input-wrapper.od-one-third-width.destination.l
     content: "(Click to change default destination)";
 }
 
+a.addprod {
+    background: #BE9F55;
+    color: #fff;
+    padding: 3px 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+} 
+
 div.hotel-category-outer .accordion.mt-3, div.hotel-item-card .accordion.mt-3 {
     display: none;
 }

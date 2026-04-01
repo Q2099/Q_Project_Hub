@@ -2,6 +2,14 @@ div.hotelform.vue_multiselect .od-input-wrapper.od-one-third-width.destination.l
     content: "(Click to change default destination)";
 }
 
+li.ng-star-inserted:has(span.promo-NRD), span[data-ody-id="promo_NRD"] {
+    display: none !important;
+}
+
+body[data-ody-user-type="b2b"] button:has(em.odi.odi-share), body[data-ody-user-type="b2b"]  a:has(i.odi.odi-share), a.share-icon {
+    display: none;
+}
+
 a.addprod {
     background: #BE9F55;
     color: #fff!important;

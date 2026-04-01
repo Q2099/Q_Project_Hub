@@ -4,7 +4,7 @@ div.hotelform.vue_multiselect .od-input-wrapper.od-one-third-width.destination.l
 
 a.addprod {
     background: #BE9F55;
-    color: #fff;
+    color: #fff!important;
     padding: 3px 12px;
     font-weight: 600;
     text-transform: uppercase;

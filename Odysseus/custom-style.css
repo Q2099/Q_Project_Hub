@@ -10,6 +10,8 @@ a.addprod {
     text-transform: uppercase;
 } 
 
+a.addprod{display:none;}
+
 div.hotel-category-outer .accordion.mt-3, div.hotel-item-card .accordion.mt-3 {
     display: none;
 }

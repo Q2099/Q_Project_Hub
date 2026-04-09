@@ -1,4 +1,9 @@
 
+.bf_component_vertical_container:not(.bf_container_nopadding) {
+    margin-bottom: 20px;
+}
+
+
 /*force flight filters box open*/
 body.is-admin.pb.bfv3 div[data-description="hotel supplier filter"] ol.bf_filtercollapsecontainer.bf_cnx, .bf_filtersection.collapsed .bf_filtercollapsecontainer, .bf_filtersection.collapsed .bf_fltclr, .bf_filtersection.collapsed .bf_pricefltclr, .bf_filters_tourtags .bf_filtercollapsecontainer.collapsed {
     display: block !important;

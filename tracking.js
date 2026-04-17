@@ -1,164 +1,154 @@
-/* ================================
-   GLOBAL SETUP
-================================ */
-window.dataLayer = window.dataLayer || [];
+<script>
+(function() {
+  window.dataLayer = window.dataLayer || [];
 
-function pushEvent(eventName, payload = {}) {
-  window.dataLayer.push({
-    event: eventName,
-    ...payload
+  /**
+   * UTILITIES
+   */
+  const firedEvents = new Set();
+
+  function pushEvent(eventName, data = {}) {
+    const key = eventName + JSON.stringify(data);
+
+    if (!firedEvents.has(key)) {
+      window.dataLayer.push({
+        event: eventName,
+        ...data
+      });
+      firedEvents.add(key);
+    }
+  }
+
+  /**
+   * HELPERS: PRODUCT DATA
+   */
+  function getCategory(container) {
+    if (container.closest('.hotel')) return 'hotel';
+    if (container.closest('.flight')) return 'flight';
+    if (container.closest('.extra')) return 'extra';
+    return 'unknown';
+  }
+
+  function getProductData(el) {
+    const container = el.closest('.bf-product, .room, .result-item') || document;
+
+    const nameEl = container.querySelector('.bf_hotelname');
+    const priceEl = container.querySelector('.bf_price');
+
+    const priceRaw = priceEl ? priceEl.innerText : '';
+    const priceMatch = priceRaw.replace(/[^0-9.]/g, '');
+
+    return {
+      item_name: nameEl ? nameEl.innerText.trim() : 'unknown',
+      price: priceMatch ? parseFloat(priceMatch) : undefined,
+      currency: 'GBP', // hardcoded as requested
+      item_category: getCategory(container)
+    };
+  }
+
+  /**
+   * CLICK EVENT MAP
+   */
+  const clickEventMap = [
+    {
+      selector: 'button.bf_addprod_basketbutton',
+      event: 'open_cart',
+      getData: (el) => ({
+        button_text: el.innerText.trim()
+      })
+    },
+    {
+      selector: 'div.js-bf_slideboxremoveonclose.bf_slidebox_basket_custom',
+      event: 'close_cart'
+    },
+    {
+      selector: 'div.bf_roomrates_selectbutton, button.js-bf_selectproduct',
+      event: 'add_to_cart'
+    },
+    {
+      selector: 'button.js-bf_removeproduct',
+      event: 'remove_from_cart'
+    }
+  ];
+
+  /**
+   * CLICK TRACKING
+   */
+  document.addEventListener('click', function(e) {
+
+    // Standard mapped events
+    clickEventMap.forEach(item => {
+      const el = e.target.closest(item.selector);
+
+      if (el) {
+        const data = item.getData ? item.getData(el) : {};
+        pushEvent(item.event, data);
+      }
+    });
+
+    // VIEW ITEM DETAILS (enhanced)
+    const detailsEl = e.target.closest('a.js-bf_showdetails');
+    if (detailsEl) {
+      const productData = getProductData(detailsEl);
+
+      pushEvent('view_item_details', {
+        ...productData
+      });
+    }
+
   });
-}
 
-/* HOTEL SELECTED */
-const hotelBtn = e.target.closest('.bf_roomrates_selectbutton');
-if (hotelBtn) {
-  pushEvent('hotel_selected', {
-    hotel_name: hotelBtn.getAttribute('bf_roomrates_roomname') || undefined,
-    hotel_id: hotelBtn.getAttribute('data-hotel-id') || undefined,
-    room_type: hotelBtn.getAttribute('data-room-type') || undefined,
-    price: parseFloat(hotelBtn.getAttribute('data-price')) || undefined
+  /**
+   * PAGE EVENT MAP
+   */
+  const pageEventMap = [
+    { match: 'payment.php', event: 'payment_started' },
+    { match: 'paying.php', event: 'booking_pay' },
+    { match: '/results/', event: 'view_item_list' }
+  ];
+
+  /**
+   * PAGE TRACKING
+   */
+  const path = window.location.pathname.toLowerCase();
+
+  pageEventMap.forEach(item => {
+    if (path.includes(item.match)) {
+      pushEvent(item.event);
+    }
   });
-}
 
-/* ================================
-   PRODUCT VIEW (view_item)
-================================ */
-document.addEventListener('DOMContentLoaded', function () {
-  if (window.location.pathname.includes('/product')) {
-    if (window.productName && window.productId) {
-      pushEvent('view_item', {
-        ecommerce: {
-          currency: 'GBP',
-          value: window.productPrice || 0,
-          items: [{
-            item_name: window.productName,
-            item_id: window.productId,
-            price: window.productPrice || 0
-          }]
-        }
-      });
-    }
+  /**
+   * SESSION TRACKING
+   */
+  const SESSION_KEY = 'user_session_data';
+  const now = Date.now();
+  let sessionData = JSON.parse(sessionStorage.getItem(SESSION_KEY) || '{}');
+
+  // First visit
+  if (!localStorage.getItem('first_visit')) {
+    pushEvent('first_visit');
+    localStorage.setItem('first_visit', now);
   }
-});
 
-/* ================================
-   CART VIEW (view_cart)
-================================ */
-document.addEventListener('DOMContentLoaded', function () {
-  if (window.location.pathname.includes('/cart')) {
-    if (window.cartItems) {
-      pushEvent('view_cart', {
-        ecommerce: {
-          currency: 'GBP',
-          value: window.cartTotal || 0,
-          items: window.cartItems
-        }
-      });
-    }
+  // Session start
+  if (!sessionData.start) {
+    sessionData.start = now;
+    pushEvent('session_start');
   }
-});
 
-/* ================================
-   BEGIN CHECKOUT (payment.php)
-================================ */
-document.addEventListener('DOMContentLoaded', function () {
-  if (window.location.pathname.includes('payment.php')) {
-    if (!sessionStorage.getItem('begin_checkout_fired')) {
-      sessionStorage.setItem('begin_checkout_fired', 'true');
+  sessionStorage.setItem(SESSION_KEY, JSON.stringify(sessionData));
 
-      pushEvent('begin_checkout', {
-        ecommerce: {
-          currency: 'GBP',
-          value: window.cartTotal || 0,
-          items: window.cartItems || []
-        }
-      });
-    }
-  }
-});
+  // Session duration
+  window.addEventListener('beforeunload', function() {
+    const sessionEnd = Date.now();
+    const start = sessionData.start || sessionEnd;
+    const durationSeconds = Math.round((sessionEnd - start) / 1000);
 
-/* ================================
-   PURCHASE (thank you page)
-================================ */
-document.addEventListener('DOMContentLoaded', function () {
-  if (window.location.pathname.includes('/thank-you')) {
-    if (!sessionStorage.getItem('purchase_fired')) {
-      sessionStorage.setItem('purchase_fired', 'true');
-
-      pushEvent('purchase', {
-        ecommerce: {
-          transaction_id: window.orderId,
-          value: window.orderTotal || 0,
-          tax: window.orderTax || 0,
-          shipping: window.orderShipping || 0,
-          currency: 'GBP',
-          items: window.orderItems || []
-        }
-      });
-    }
-  }
-});
-
-/* ================================
-   CLICK-BASED EVENTS
-================================ */
-document.addEventListener('click', function (e) {
-
-  /* ADD TO CART */
-  const addBtn = e.target.closest('.js-add-to-cart');
-  if (addBtn) {
-    pushEvent('add_to_cart', {
-      ecommerce: {
-        currency: 'GBP',
-        value: parseFloat(addBtn.dataset.price) || 0,
-        items: [{
-          item_name: addBtn.dataset.productName,
-          item_id: addBtn.dataset.productId,
-          price: parseFloat(addBtn.dataset.price) || 0,
-          quantity: 1
-        }]
-      }
+    pushEvent('session_duration', {
+      duration_seconds: durationSeconds
     });
-  }
+  });
 
-  /* REMOVE FROM CART */
-  const removeBtn = e.target.closest('.js-bf_removeproduct');
-  if (removeBtn) {
-    pushEvent('remove_from_cart', {
-      ecommerce: {
-        items: [{
-          item_name: removeBtn.dataset.productName,
-          item_id: removeBtn.dataset.productId,
-          price: parseFloat(removeBtn.dataset.price) || 0,
-          quantity: 1
-        }]
-      }
-    });
-  }
-
-  /* GENERIC TRACKING */
-  const trackedEl = e.target.closest('[data-track-event]');
-  if (trackedEl) {
-    pushEvent(trackedEl.dataset.trackEvent, {
-      element_text: trackedEl.innerText.trim(),
-      element_class: trackedEl.className
-    });
-  }
-
-});
-
-/* ================================
-   PAYMENT METHOD SELECTED
-================================ */
-document.addEventListener('change', function (e) {
-  if (e.target.name === 'payment_method') {
-    pushEvent('add_payment_info', {
-      payment_type: e.target.value,
-      ecommerce: {
-        value: window.cartTotal || 0,
-        items: window.cartItems || []
-      }
-    });
-  }
-});
+})();
+</script>

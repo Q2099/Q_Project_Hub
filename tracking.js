@@ -1,4 +1,3 @@
-<script>
 (function() {
   window.dataLayer = window.dataLayer || [];
 
@@ -151,4 +150,3 @@
   });
 
 })();
-</script>

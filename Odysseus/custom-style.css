@@ -151,10 +151,10 @@ section.card-material.air-card .agent-info.d-print-none {
   
   .flexbox.btn-container {
       /* flex-direction: column!important; */
-      position: fixed;
+      /*position: fixed;*/
       right: 0;
       /* top: 50%; */
-      bottom: 50%;
+      /*bottom: 50%;*/
       z-index: 999;
     width:auto;
   }
@@ -172,12 +172,12 @@ section.card-material.air-card .agent-info.d-print-none {
       right: 0;
       /*top: 50%;
       bottom: 50%;*/
-min-height: 50px!important;
+min-height: 30px!important;
       text-align: center;
       background-color: #333;
       padding: 10px 5px;
-      min-width: 50px;
-      max-width: /*50px*/90px;
+      min-width: 160px;
+      max-width: /*50px*/200px;
       line-height: 1.2em;
       height: auto;
     border: none;
@@ -201,9 +201,12 @@ a.btn.btn-invert.btn-sm.text-uppercase.text-primary.btn-outline-primary:hover, .
 	border: none;
 }
   
-  /*#checkout-quicklinks{
-    visibility:hidden;
-  }*/
+  #checkout-quicklinks{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    bottom: 50%;
+  }
 
 /*Choose Cabin Category breadcrumb CSS*/
 div[data-ody-id="ProgressStepperBar"] div.checkout-step.text-center.ng-star-inserted:nth-of-type(2) span span::before {

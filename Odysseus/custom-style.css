@@ -202,9 +202,9 @@ a.btn.btn-invert.btn-sm.text-uppercase.text-primary.btn-outline-primary:hover, .
 }
   
   #checkout-quicklinks{
-    position: absolute;
+    position: fixed;
     right: 0;
-    top: 50%;
+    top: 40%;
     bottom: 50%;
   }
 

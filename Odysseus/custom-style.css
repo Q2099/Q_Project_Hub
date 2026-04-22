@@ -54,7 +54,7 @@ div.marquee {
 }
 
 /*payment page notice*/
-body.page_booking_checkout .section-alert-message:before {
+/*body.page_booking_checkout .section-alert-message:before {
     content: "Before proceeding please ensure you select a flight the day prior to the cruise departure";
     width: 100%;
     background: red;
@@ -65,7 +65,7 @@ body.page_booking_checkout .section-alert-message:before {
     color: #fff;
     font-weight: 700;
     text-transform: uppercase;
-}
+}*/
 
 /*fleximarkup text*/
 label.flex-grow-1.text-bold.markup-title:after {

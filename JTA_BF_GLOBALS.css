@@ -88,9 +88,9 @@ div.bf_hotellistview  .bf_select .bf_group {
     margin-bottom: 0.2em!important; 
 }
 
-.bf_hotellistview .bf_imagecarousel {
+/*.bf_hotellistview .bf_imagecarousel {
     max-height: 230px !important;
-}
+}*/
 .bf_480 .bf_hotellistview {
     justify-content: center;
 }

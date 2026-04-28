@@ -44,7 +44,7 @@ body[data-ody-user-type="b2b"] button:has(em.odi.odi-share), body[data-ody-user-
     display: none;
 }
 
-a.addprod {
+a.addprod, a.addprod2, a.addprod-popup {
     background: #BE9F55;
     color: #fff!important;
     padding: 3px 12px;

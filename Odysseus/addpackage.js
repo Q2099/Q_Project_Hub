@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     return; // stop if not checkout page
   }
 
-  const table = document.querySelector("table.package-itinerary.mProItineraryTable");
+  const table = document.querySelector("table.package-itinerary");
 
   if (table) {
     table.insertAdjacentHTML("beforebegin", `

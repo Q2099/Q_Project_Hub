@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
   if (table) {
     table.insertAdjacentHTML("beforebegin", `
       <div class="my-custom-block">
-        <h3>Injected on Checkout Only</h3>
+       <a class="custom-link1 nav-links addprod" target="_blank" href="https://www.jtaholidays.co.uk/enhance-your-cruise/?utm_source=cruise">Add a Package</a>
       </div>
     `);
   }

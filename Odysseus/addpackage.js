@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     return; // stop if not checkout page
   }
 
-  const table = document.querySelector("table.package-itinerary");
+  const table = document.querySelector("div.card-body.pr-0.mProParentItineraryContainer");
 
   if (table) {
     table.insertAdjacentHTML("beforebegin", `

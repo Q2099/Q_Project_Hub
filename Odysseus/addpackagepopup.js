@@ -1,6 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-  if (!window.location.pathname.toLowerCase().includes("checkout.aspx")) {
+  const path = window.location.pathname.toLowerCase();
+
+  // Run only on checkout.aspx OR booking_details.aspx
+  if (
+    !path.includes("checkout.aspx") &&
+    !path.includes("booking_details.aspx")
+  ) {
     return;
   }
 
@@ -35,11 +41,11 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
 
-    // Block click outside popup from closing it
+    // Prevent background clicks from doing anything
     overlay.addEventListener("click", function (e) {
       e.stopPropagation();
     });
 
-  }, 1500); // delay in ms
+  }, 1500);
 
 });

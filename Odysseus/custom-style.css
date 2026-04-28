@@ -52,6 +52,11 @@ a.addprod, a.addprod2, a.addprod-popup {
     text-transform: uppercase;
 } 
 
+a.addprod-popup {
+    padding: 5px 20px!important;
+    border-radius: 5px;
+} 
+
 a.addprod{display:none;}
 
 div.hotel-category-outer .accordion.mt-3, div.hotel-item-card .accordion.mt-3 {

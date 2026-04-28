@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     popup.innerHTML = `
       <button id="checkout-popup-close-x" aria-label="Close popup">✖</button>
       <h2>Want to Enhance your Cruise booking?</h2>
-      <p>Click below to add a flight or hotel to supplement your cruise.</p>
+      <p>Click below to add a flight or hotel to supplement your cruise. or close the pop up to continue with your cruise booking</p>
       <a class="custom-link1 nav-links addprod-popup" target="_blank" href="https://www.jtaholidays.co.uk/enhance-your-cruise/?utm_source=cruise">Add a Package</a>
     `;
 

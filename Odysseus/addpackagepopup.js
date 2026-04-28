@@ -1,5 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
-
+function addpkgpopup() {
   const path = window.location.pathname.toLowerCase();
 
   // Run only on checkout.aspx OR booking_details.aspx
@@ -47,5 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
   }, 1500);
+}
 
-});
+// Run it when DOM is ready
+document.addEventListener("DOMContentLoaded", addpkgpopup);

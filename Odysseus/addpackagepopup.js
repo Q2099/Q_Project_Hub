@@ -38,14 +38,9 @@ function addpkgpopup() {
       overlay.remove();
     });
 
-      // Close when clicking a.nothanks anywhere on page
-    document.addEventListener("click", function (e) {
-      if (e.target.closest("a.nothanks")) {
-        const existingOverlay = document.getElementById("checkout-popup-overlay");
-        if (existingOverlay) {
-          existingOverlay.remove();
-        }
-      }
+    // Close via "No Thanks"
+    popup.querySelector("a.nothanks").addEventListener("click", () => {
+      overlay.remove();
     });
 
     // Block ESC key closing

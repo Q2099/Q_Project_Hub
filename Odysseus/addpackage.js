@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+/*document.addEventListener("DOMContentLoaded", function () {
   if (!window.location.pathname.toLowerCase().includes("checkout.aspx")) {
     return; // stop if not checkout page
   }
@@ -12,4 +12,4 @@ document.addEventListener("DOMContentLoaded", function () {
       </div>
     `);
   }
-});
+});*/

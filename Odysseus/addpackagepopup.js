@@ -20,9 +20,10 @@ function addpkgpopup() {
 
     popup.innerHTML = `
       <button id="checkout-popup-close-x" aria-label="Close popup">✖</button>
-      <h2>Want to Enhance your Cruise booking?</h2>
-      <p>Click below to add a flight or hotel to supplement your cruise. or close the pop up to continue with your cruise booking</p>
-      <a class="custom-link1 nav-links addprod-popup" target="_blank" href="https://www.jtaholidays.co.uk/enhance-your-cruise/?utm_source=cruise">Add a Package</a>
+      <h2>Want to Enhance your Cruise Booking?</h2>
+      <p class="display:none">Click below to add a flight or hotel to supplement your cruise. or close the pop up to continue with your cruise booking</p>
+      <p>Your cruise is being held for 15 minutes, if you would like to add a hotel or flight to your cruise, please proceed below, otherwise, click continue to proceed as Cruise Only.</p>
+      <div class="flexbox"><a class="custom-link1 nav-links addprod-popup" target="_blank" href="https://www.jtaholidays.co.uk/enhance-your-cruise/?utm_source=cruise">Add a Package</a></div>
     `;
 
     overlay.appendChild(popup);

@@ -26,7 +26,7 @@ function addpkgpopup() {
       <div style="justify-content:center; gap:10px; flex-wrap:wrap;" class="flexbox">
       <a class="custom-link1 nav-links addprod-popup" target="_blank" href="https://www.jtaholidays.co.uk/enhance-your-cruise/flight/?utm_source=cruise">Add a Flight</a>
       <a class="custom-link2 nav-links addprod-popup" target="_blank" href="https://www.jtaholidays.co.uk/enhance-your-cruise/hotel/?utm_source=cruise">Add a Hotel</a>
-      <a id="" class="custom-link3 nav-links addprod-popup" >No Thanks</a>
+      <a class="custom-link3 nav-links addprod-popup nothanks" id="" >No Thanks</a>
       </div>
     `;
 
@@ -36,6 +36,16 @@ function addpkgpopup() {
     // Only allow closing via X button
     document.getElementById("checkout-popup-close-x").addEventListener("click", function () {
       overlay.remove();
+    });
+
+      // Close when clicking a.nothanks anywhere on page
+    document.addEventListener("click", function (e) {
+      if (e.target.closest("a.nothanks")) {
+        const existingOverlay = document.getElementById("checkout-popup-overlay");
+        if (existingOverlay) {
+          existingOverlay.remove();
+        }
+      }
     });
 
     // Block ESC key closing

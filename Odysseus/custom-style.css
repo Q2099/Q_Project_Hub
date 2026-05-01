@@ -1,3 +1,8 @@
+/*hide rule number on promo icons*/
+guest-info-v2 cruise-promotions-component span.ml-1.ng-star-inserted {
+    display: none;
+}
+
 /*popup styles*/
 #checkout-popup-overlay {
   position: fixed;

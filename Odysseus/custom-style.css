@@ -723,11 +723,11 @@ a#_ctl0__ctl1_ItineraryDetails__ctl0_PostCruiseHotelLink:before{
     text-transform: uppercase;
 }*/
 
-.overflow-auto.mProItineraryContainer:before {
+/*.overflow-auto.mProItineraryContainer:before {
     content: "Choose your Pre and Post Cruise Extras or scroll down to complete your booking.";
     font-weight: bold;
     padding-left: 50px;
-}
+}*/
 
 
 

@@ -1,5 +1,5 @@
 /*hide addprod buttons on checkout page*/
-body.page_booking_checkout tr#ItineraryAddAirButton, body.page_booking_checkout td.package-itinerary-node:has(#PreCruiseHotelBookingButton), body.page_booking_checkout td.package-itinerary-node:has(#PostCruiseHotelButton), body. page_booking_checkout td.package-itinerary-node:has([data-ody-id="PreCruiseHotelBookingButton"), body. page_booking_checkout td.package-itinerary-node:has([data-ody-id="PostCruiseHotelButton"){
+body.page_booking_checkout tr[data-ody-id="ItineraryAddAirButton"], body.page_booking_checkout tr.package-itinerary-node:has(div.btn-add-hotel){
 display:none!important;}
 
 div.hotelform.vue_multiselect .od-input-wrapper.od-one-third-width.destination.location_select_v1 label:after {

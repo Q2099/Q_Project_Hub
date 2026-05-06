@@ -1,3 +1,7 @@
+/*hide addprod buttons on checkout page*/
+body. page_booking_checkout tr#ItineraryAddAirButton, body. page_booking_checkout td.package-itinerary-node:has(#PreCruiseHotelBookingButton), body. page_booking_checkout td.package-itinerary-node:has(#PostCruiseHotelButton){
+display:none!important;}
+
 div.hotelform.vue_multiselect .od-input-wrapper.od-one-third-width.destination.location_select_v1 label:after {
     content: "(Click to change default destination)";
 }

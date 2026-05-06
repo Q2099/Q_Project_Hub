@@ -1,6 +1,8 @@
 /*hide addprod buttons on checkout page*/
-body. page_booking_checkout tr#ItineraryAddAirButton, body. page_booking_checkout td.package-itinerary-node:has(#PreCruiseHotelBookingButton), body. page_booking_checkout td.package-itinerary-node:has(#PostCruiseHotelButton){
+body. page_booking_checkout tr#ItineraryAddAirButton, body. page_booking_checkout td.package-itinerary-node:has(#PreCruiseHotelBookingButton), body. page_booking_checkout td.package-itinerary-node:has(#PostCruiseHotelButton), body. page_booking_checkout td.package-itinerary-node:has([data-ody-id="PreCruiseHotelBookingButton"), body. page_booking_checkout td.package-itinerary-node:has([data-ody-id="PostCruiseHotelButton"){
 display:none!important;}
+
+
 
 /*hide rule number on promo icons*/
 guest-info-v2 cruise-promotions-component span.ml-1.ng-star-inserted {

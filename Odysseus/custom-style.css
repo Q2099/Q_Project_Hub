@@ -4,9 +4,9 @@ guest-info-v2 cruise-promotions-component span.ml-1.ng-star-inserted {
 }
 
 /*hide fare codes*/
-.category-price-table .category-farecode-list{
+/*.category-price-table .category-farecode-list{
 	display:none;
-}
+}*/
 
 /*popup styles*/
 #checkout-popup-overlay {

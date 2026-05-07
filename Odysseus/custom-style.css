@@ -102,20 +102,6 @@ div.marquee {
     align-items: center;
 }
 
-/*payment page notice*/
-/*body.page_booking_checkout .section-alert-message:before {
-    content: "Before proceeding please ensure you select a flight the day prior to the cruise departure";
-    width: 100%;
-    background: red;
-    display: block;
-    padding: 10px 5px;
-    margin-bottom: 10px;
-    text-align: center;
-    color: #fff;
-    font-weight: 700;
-    text-transform: uppercase;
-}*/
-
 /*fleximarkup text*/
 label.flex-grow-1.text-bold.markup-title:after {
     content: "Please Note: this will only affect the cruise element of the booking";

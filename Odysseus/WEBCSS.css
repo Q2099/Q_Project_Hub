@@ -1,6 +1,6 @@
 /*hide addprod buttons on checkout page*/
-body.page_booking_checkout tr[data-ody-id="ItineraryAddAirButton"], body.page_booking_checkout tr.package-itinerary-node:has(div.btn-add-hotel){
-display:none!important;}
+/*body.page_booking_checkout tr[data-ody-id="ItineraryAddAirButton"], body.page_booking_checkout tr.package-itinerary-node:has(div.btn-add-hotel){
+display:none!important;}*/
 
 div.hotelform.vue_multiselect .od-input-wrapper.od-one-third-width.destination.location_select_v1 label:after {
     content: "(Click to change default destination)";

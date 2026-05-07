@@ -247,7 +247,7 @@ a.btn.btn-invert.btn-sm.text-uppercase.text-primary.btn-outline-primary:hover, .
   
   #checkout-quicklinks{
     position: fixed!important;
-	z-index: 99;  
+	z-index: 999;  
     right: 0;
     top: 40%;
     bottom: 50%;

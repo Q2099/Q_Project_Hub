@@ -1,4 +1,4 @@
-function uncheckBaggageFalseIfNoBagsFilterExists() {
+/*function uncheckBaggageFalseIfNoBagsFilterExists() {
     const baggageDiv = document.querySelector(
         'div[title="Include flights with no bags"]'
     );
@@ -21,3 +21,4 @@ function uncheckBaggageFalseIfNoBagsFilterExists() {
 document.addEventListener("DOMContentLoaded", () => {
     setTimeout(uncheckBaggageFalseIfNoBagsFilterExists, 3000);
 });
+*/

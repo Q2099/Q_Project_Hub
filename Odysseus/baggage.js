@@ -13,7 +13,7 @@ function uncheckBaggageFalseIfNoBagsFilterExists() {
     }
 }
 
-document.addEventListener(
-    "DOMContentLoaded",
-    uncheckBaggageFalseIfNoBagsFilterExists
-);
+// Run 5 seconds after DOM is fully loaded
+document.addEventListener("DOMContentLoaded", () => {
+    setTimeout(uncheckBaggageFalseIfNoBagsFilterExists, 5000);
+});

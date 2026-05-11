@@ -9,6 +9,10 @@ function uncheckBaggageFalseIfNoBagsFilterExists() {
         if (checkbox) {
             checkbox.checked = false;
             checkbox.removeAttribute("checked");
+
+            // Remove disabled state if present
+            checkbox.disabled = false;
+            checkbox.removeAttribute("disabled");
         }
     }
 }

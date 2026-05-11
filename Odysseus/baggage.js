@@ -15,5 +15,5 @@ function uncheckBaggageFalseIfNoBagsFilterExists() {
 
 // Run 5 seconds after DOM is fully loaded
 document.addEventListener("DOMContentLoaded", () => {
-    setTimeout(uncheckBaggageFalseIfNoBagsFilterExists, 7000);
+    setTimeout(uncheckBaggageFalseIfNoBagsFilterExists, 3000);
 });

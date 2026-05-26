@@ -35,7 +35,7 @@
     justify-content: space-between;
 }
 
-.bf_addprod_resultitem_container .bf_addprod_bottomsection, .bf_addprod_resultitem_container .bf_carparkingtopsect, .bf_addprod_resultitem_container .bf_cheader{
+.bf_addprod_resultitem_container .bf_carparkingtopsect, .bf_addprod_resultitem_container .bf_cheader{
  padding:0px!important;
 }
 

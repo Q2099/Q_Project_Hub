@@ -1,4 +1,66 @@
 /*Font Queries*/
+/*Avenir Next*/
+ @font-face {
+    font-family: "Avenir Next";
+    src: url("https://q2099.github.io/Q_Project_Hub/fonts/AvenirNextCyr-UltraLight.ttf");
+    font-style: normal;
+    font-weight: 100;
+    }
+ @font-face {
+    font-family: "Avenir Next";
+    src: url("https://q2099.github.io/Q_Project_Hub/fonts/AvenirNextCyr-Thin.ttf");
+    font-style: normal;
+    font-weight: 200;
+    }
+ @font-face {
+    font-family: "Avenir Next";
+    src: url("https://q2099.github.io/Q_Project_Hub/fonts/AvenirNextCyr-Light.ttf");
+    font-style: normal;
+    font-weight: 300;
+    }
+ @font-face {
+    font-family: "Avenir Next";
+    src: url("https://q2099.github.io/Q_Project_Hub/fonts/AvenirNextCyr-Regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+    }
+ @font-face {
+    font-family: "Avenir Next";
+    src: url("https://q2099.github.io/Q_Project_Hub/fonts/AvenirNextCyr-Regular.ttf");
+    font-style: normal;
+    font-weight: normal;
+    }
+ @font-face {
+    font-family: "Avenir Next";
+    src: url("https://q2099.github.io/Q_Project_Hub/fonts/AvenirNextCyr-Medium.ttf");
+    font-style: normal;
+    font-weight: 500;
+    }
+ @font-face {
+    font-family: "Avenir Next";
+    src: url("https://q2099.github.io/Q_Project_Hub/fonts/AvenirNextCyr-Demi.ttf");
+    font-style: normal;
+    font-weight: 600;
+    }
+ @font-face {
+    font-family: "Avenir Next";
+    src: url("https://q2099.github.io/Q_Project_Hub/fonts/AvenirNextCyr-Bold.ttf");
+    font-style: normal;
+    font-weight: 700;
+    }
+ @font-face {
+    font-family: "Avenir Next";
+    src: url("https://q2099.github.io/Q_Project_Hub/fonts/AvenirNextCyr-Bold.ttf");
+    font-style: normal;
+    font-weight: bold;
+    }
+ @font-face {
+    font-family: "Avenir Next";
+    src: url("https://q2099.github.io/Q_Project_Hub/fonts/AvenirNextCyr-Heavy.ttf");
+    font-style: normal;
+    font-weight: 900;
+    }
+
 /*Noteworthy*/
  @font-face {
     font-family: "Noteworthy";
@@ -1171,6 +1233,10 @@
 }
 
 /*Font Classes*/
+.avenir-next{
+ font-family: "Avenir Next"!important;
+}
+
 .noteworthy{
  font-family: "Noteworthy"!important;
 }
